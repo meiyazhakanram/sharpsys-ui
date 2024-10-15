@@ -22,6 +22,7 @@ export default function Home() {
   return (
     <main>
       <Dashboard />
+      <Brands />
       {/* <Brands />
       <Feature />
       <About />
