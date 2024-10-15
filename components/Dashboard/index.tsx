@@ -24,8 +24,56 @@ const Hero = () => {
               </button>
             </div>
           </div>
+
+
+
+          <div className="mt-15 max-w-c-1280 px-4 md:px-8 xl:mt-20 xl:px-0">
+            <div className="inline-flex grid-cols-3 gap-7.5">
+
+              <div className="w-6/12 h-80 mt-5 rounded-lg bg-[#FFF2E2] border-[#FFF2E2]">
+                <a href="#">
+                  <img className="rounded-t-lg" src="/images/blog/blog-01.png" alt="" />
+                </a>
+                <div className="p-5">
+                  <a href="#">
+                    <h5 className="mb-1 text-2xl font-bold tracking-tight text-gray-500 dark:text-white">15+ years of <br />trusted expertise</h5>
+                  </a>
+                  <p className="mb-4 font-normal text-gray-300 dark:text-gray-200">Delivering excellence always</p>
+                </div>
+              </div>
+
+
+              <div className="w-[120%] h-90 bg-[#DBECFF] border border-[#DBECFF] rounded-lg shadow ">
+                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                  <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" src="/images/blog/blog-02.png" alt="" />
+                  <div className="flex flex-col justify-between p-4 leading-normal">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Technology Conglomerate</h5>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">We are a technology conglomerate delivering innovative, reliable solutions for lasting success.</p>
+                  </div>
+                </a>
+              </div>
+
+              <div className="w-6/12 h-80 mt-5 rounded-lg bg-[#FFF2E2] border-[#FFF2E2]">
+                <a href="#">
+                  <img className="rounded-t-lg" src="/images/blog/blog-01.png" alt="" />
+                </a>
+                <div className="p-5">
+                  <a href="#">
+                    <h5 className="mb-1 text-2xl font-bold tracking-tight text-gray-500 dark:text-white">45+ clients across the globe</h5>
+                  </a>
+                  <p className="mb-4 font-normal text-gray-300 dark:text-gray-200">Trusted by 45 clients worldwide for exceptional technology solutions</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+
         </div>
-      </section >
+      </section>
     </>
   );
 };
