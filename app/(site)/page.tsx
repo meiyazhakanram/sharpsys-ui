@@ -22,8 +22,8 @@ export default function Home() {
   return (
     <main>
       <Dashboard />
-      {/* <Brands />
-      <Feature />
+       <Brands />
+      {/*<Feature />
       <About />
       <FeaturesTab />
       <FunFact />
