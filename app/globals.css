@@ -144,3 +144,13 @@ pre {
 .button-border {
   border-color: #FF2E53 !important;
 }
+
+
+.dropdown {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.arrowLeft {
+  @apply border-solid border-r-black border-r-8 border-y-transparent border-y-8 border-l-0
+}

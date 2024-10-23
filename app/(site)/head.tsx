@@ -1,9 +1,9 @@
 export default function Head() {
   return (
     <>
-      <title>Sharpsys Software Solutions</title>
+      <title>Sharpsys</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="Built with Next.js and TypeScript" />
+      <meta name="description" content="Sharpsys - Elevate your Business Productivity" />
       <link rel="icon" href="/images/favicon.ico" />
     </>
   );

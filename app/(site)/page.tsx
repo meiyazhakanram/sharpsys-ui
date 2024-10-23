@@ -14,15 +14,14 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Sharpsys Software Solutions",
-  description: "Sharpsys Software Solutions",
+  title: "Sharpsys - Elevate your Business Productivity",
+  description: "This is the home for your entire business solutions",
 };
 
 export default function Home() {
   return (
     <main>
       <Dashboard />
-      <Brands />
       {/* <Brands />
       <Feature />
       <About />
