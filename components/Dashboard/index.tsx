@@ -3,7 +3,7 @@
 const Hero = () => {
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35">
+      <section className="overflow-hidden pb-20 pt-35 bg-gradient-to-tl from-orange-100 to-slate-50 bg-gradient-to-tr from-red-200 to-cyan-100">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="animate_top mx-auto text-center">
             <h2 className="mx-auto mb-4 text-3xl font-bold text-black dark:text-white md:w-4/5 xl:w-1/2 xl:text-sectiontitle3">
