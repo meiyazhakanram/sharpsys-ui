@@ -22,17 +22,17 @@ export default function Home() {
   return (
     <main>
       <Dashboard />
-       <Brands />
+      <Brands />
       {/*<Feature />
       <About />
       <FeaturesTab />
       <FunFact />
       <Integration />
       <CTA />
-      <FAQ />
       <Testimonial />
       <Pricing />
       <Blog /> */}
+      <FAQ />
       <Contact />
     </main>
   );
