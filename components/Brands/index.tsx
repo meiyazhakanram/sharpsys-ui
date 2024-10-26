@@ -179,7 +179,7 @@ const Brands = () => {
             <div className="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5">
               {/* <!-- Pricing Item --> */}
               <div className="w-full max-w-sm dark:bg-gray-800 dark:border-gray-700">
-                <img className="p-8 rounded-t-lg mb-4" src="/images/sharp/imple1.png" alt="product image" />
+                <img className="p-8 rounded-t-lg mb-4" src="/images/imple1.png" alt="product image" />
                 <div className="px-5 pb-5">
                   <h5 className="text-xl font-semibold text-white dark:text-white">Classic Implementation</h5>
                   <div className="flex justify-between">
@@ -189,7 +189,7 @@ const Brands = () => {
               </div>
 
               <div className="w-full max-w-sm shadow dark:bg-gray-800 dark:border-gray-700">
-                <img className="p-8 rounded-t-lg" src="/images/sharp/imple2.png" alt="product image" />
+                <img className="p-8 rounded-t-lg" src="/images/imple2.png" alt="product image" />
                 <div className="px-5 pb-5">
                   <h5 className="text-xl font-semibold text-white dark:text-white">Standard Methodology</h5>
                   <div className="flex justify-between">
@@ -199,7 +199,7 @@ const Brands = () => {
               </div>
 
               <div className="w-full max-w-sm">
-                <img className="p-8 rounded-t-lg mb-7" src="/images/sharp/imple3.png" alt="product image" />
+                <img className="p-8 rounded-t-lg mb-7" src="/images/imple3.png" alt="product image" />
                 <div className="px-5 pb-5">
                   <h5 className="text-xl font-semibold text-white dark:text-white">Modern Methodology</h5>
                   <div className="flex justify-between">
