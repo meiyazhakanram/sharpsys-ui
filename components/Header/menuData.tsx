@@ -12,15 +12,15 @@ const menuData: Menu[] = [
     title: "Our Services",
     newTab: false,
     path: "/#features",
-  submenu : [
-    {
-      id: 2.1,
-      title: "ServicesMenu",
-      newTab: false,
-      path: "/blog",
-    }
-]
-},
+    submenu: [
+      {
+        id: 2.1,
+        title: "ServicesMenu",
+        newTab: false,
+        path: "/blog",
+      }
+    ]
+  },
   {
     id: 3,
     title: "Our Products",
@@ -51,7 +51,7 @@ const menuData: Menu[] = [
         id: 4.2,
         title: "Contact Us",
         newTab: false,
-        path: "/error",
+        path: "/contactus",
       },
       {
         id: 4.3,
