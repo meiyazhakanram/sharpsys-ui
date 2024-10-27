@@ -154,3 +154,9 @@ pre {
 .arrowLeft {
   @apply border-solid border-r-black border-r-8 border-y-transparent border-y-8 border-l-0
 }
+
+.gradient-border {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #f00, #ff7f00, #a3d500, #67e8f9) 1;
+  border-radius: 1.5rem;
+}
