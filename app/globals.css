@@ -188,7 +188,6 @@ header {
   @apply !scale-90 !opacity-50
 }
 
-
 .gradient-border {
   border: 2px solid transparent;
   border-image: linear-gradient(to right, #f00, #ff7f00, #a3d500, #67e8f9) 1;
