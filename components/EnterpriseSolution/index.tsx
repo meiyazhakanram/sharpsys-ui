@@ -9,33 +9,36 @@ export default function enterpriseSolution() {
         <div className='grid grid-cols-3 gap-2'>
             <div className="col-span-2 border-r border-grey-600">
                 <div className="w-full p-1">
-                    <span className='pl-2 w-full flex'>
-                        <img alt="title" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="/images/menu/menu_icon-01.svg" />
-                        <h3 className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
-                            Microsoft Dynamics 365 Finance &amp; Operations
-                        </h3>
-                    </span>
-                    <p className='ml-12 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
+                    <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <img alt="title" width="36" height="36" src="/images/menu/menu_icon-01.svg" className="bg-primary ml-5 mr-2" />
+                <div className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
+                Microsoft Dynamics 365 Finance &amp; Operations
+                  <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>
+                </div>
+                
+              </a>
                 </div>
                 <div className="w-full p-1">
-                    <span className='pl-2 w-full flex'>
-                        <img alt="title" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="/images/menu/menu_icon-01.svg" />
-                        <h3 className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
-                            Microsoft Dynamics 365 Business Central
-                        </h3>
-                    </span>
-                    <p className='ml-12 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
+                    <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <img alt="title" width="36" height="36" src="/images/menu/menu_icon-01.svg" className="bg-primary ml-5 mr-2" />
+                <div className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
+                Microsoft Dynamics 365 Business Central
+                  <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>
+                </div>
+                
+              </a>
                 </div>
                 <div className="w-full p-1">
-                    <span className='pl-2 w-full flex'>
-                        <img alt="title" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="/images/menu/menu_icon-01.svg" />
-                        <h3 className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
-                            Microsoft Power platform
-                        </h3>
-                    </span>
-                    <p className='ml-12 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
+                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <img alt="title" width="36" height="36" src="/images/menu/menu_icon-01.svg" className="bg-primary ml-5 mr-2" />
+                <div className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
+                Microsoft Power Platform
+                  <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>
                 </div>
-                <div className='w-11/12 border-b border-grey-600 mt-4 ml-4'></div>
+                
+              </a>
+                </div>
+                {/* <div className='w-11/12 border-b border-grey-600 mt-4 ml-4'></div>
                 <div className='w-11/12 p-1 mt-2 relative'>
                     <span className='pl-2 w-full flex'>
                         <h3 className="ml-2 mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
@@ -49,9 +52,9 @@ export default function enterpriseSolution() {
                         </button>
                     </span>
                     <p className='ml-4 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
-                </div>
+                </div> */}
             </div>
-            <div className='flex flex-col relative top-0 w-full'>
+            <div className='flex flex-col relative mt-0 w-full'>
             <div className='absolute w-4/5'>
                 <video className="h-42 w-42 rounded-lg" controls>
                     <source
@@ -61,7 +64,7 @@ export default function enterpriseSolution() {
                     Your browser does not support the video tag.
                 </video>
                 </div>
-                <div className='absolute top-36'>
+                <div className='absolute mt-24'>
                 <p className='font-bold text-sm text-black'>Learn more about features</p>
                 <ul className='list-disc ml-6'>
                     <li className='text-xs text-black'>Feature  1</li>
