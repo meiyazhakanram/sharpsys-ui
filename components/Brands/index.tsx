@@ -2,6 +2,7 @@
 import React from "react";
 import SingleBrand from "./SingleBrand";
 import brandData from "./brandData";
+import Image from "next/image";
 
 const Brands = () => {
   return (
@@ -155,7 +156,65 @@ const Brands = () => {
       </section>
 
 
+      {/* Our Implementation */}
+      <section className="py-11 mt-4 bg-[#0B0A0A] mb-15">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+          <div className="flex items-center gap-1 lg:gap-32.5">
+            <div className="animate_left relative mx-auto md:block md:w-1/2">
+              <h4 className="relative mb-3 text-lg font-bold text-white dark:text-white lg:text-4xl">
+                Our <span className="textStartGradient">Imp</span><span className="textLastGradient">lementation</span> Strategy
+              </h4>
+            </div>
+            <div className="animate_right relative mx-auto md:block md:w-1/2">
+              <p className="relative mb-3 text-sm p-0 text-white dark:text-white sm:text-sm">
+                Our approach blendsOur approach blendsOur approach blendsOur approach blendsOur approach blendsOur approach blendsOur approach blends
+              </p>
+            </div>
+          </div>
 
+
+
+
+          <div className="relative mx-auto bg-[#0B0A0A] mt-5 max-w-[1207px] px-4 md:px-5 xl:mt-5 xl:px-0">
+            <div className="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5">
+              {/* <!-- Pricing Item --> */}
+              <div className="w-full max-w-sm dark:bg-gray-800 dark:border-gray-700">
+                <img className="p-8 rounded-t-lg mb-4" src="/images/imple1.png" alt="product image" />
+                <div className="px-5 pb-5">
+                  <h5 className="text-xl font-semibold text-white dark:text-white">Classic Implementation</h5>
+                  <div className="flex justify-between">
+                    Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-full max-w-sm shadow dark:bg-gray-800 dark:border-gray-700">
+                <img className="p-8 rounded-t-lg" src="/images/imple2.png" alt="product image" />
+                <div className="px-5 pb-5">
+                  <h5 className="text-xl font-semibold text-white dark:text-white">Standard Methodology</h5>
+                  <div className="flex justify-between">
+                    Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-full max-w-sm">
+                <img className="p-8 rounded-t-lg mb-7" src="/images/imple3.png" alt="product image" />
+                <div className="px-5 pb-5">
+                  <h5 className="text-xl font-semibold text-white dark:text-white">Modern Methodology</h5>
+                  <div className="flex justify-between">
+                    Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+        </div>
+      </section >
 
 
       {/* <!-- ===== Clients End ===== --> */}
