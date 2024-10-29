@@ -3,6 +3,7 @@ import React from "react";
 import SingleBrand from "./SingleBrand";
 import brandData from "./brandData";
 import Image from "next/image";
+import Services from "../Services";
 
 const Brands = () => {
   return (
@@ -32,7 +33,7 @@ const Brands = () => {
           </h4>
 
           <div className="mt-5 grid grid-cols-2 gap-7.5 md:grid-cols-2 lg:mt-5 lg:grid-cols-2 xl:mt-7 xl:gap-12.5">
-            <div className="animate_top z-40 rounded-lg border border-stroke bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+            <div className="animate_top z-40 rounded-lg gradient-border bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
               <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -42,7 +43,7 @@ const Brands = () => {
               </a>
             </div>
 
-            <div className="animate_top z-40 rounded-lg border border-stroke bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+            <div className="animate_top z-40 rounded-lg gradient-border bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
               <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -52,7 +53,7 @@ const Brands = () => {
               </a>
             </div>
 
-            <div className="animate_top z-40 rounded-lg border border-stroke bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+            <div className="animate_top z-40 rounded-lg gradient-border bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
               <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -62,7 +63,7 @@ const Brands = () => {
               </a>
             </div>
 
-            <div className="animate_top z-40 rounded-lg border border-stroke bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+            <div className="animate_top z-40 rounded-lg gradient-border bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
               <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -111,9 +112,10 @@ const Brands = () => {
 
             <div className="row-span-4 col-span-2 bg-white rounded-lg border-[#1F0A3C]">
               <img className="ml-25 mt-14 mr-2 mb-2" src="/images/blog/blog-01.png" alt="" />
-              <h5 className="ml-7 mb-3 mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft dynamics 365 F&O:Comprehensive Finacial Management</h5>
+              <h5 className="ml-7 mb-3 mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 Business Central: Your All-in-One Cloud Solution</h5>
               <p className="ml-7 mb-4 font-normal text-gray-500 dark:text-gray-200">
-                Optimze budgeting, project management and finacial operations with Microsoft Dynamics 365 Finance & Operations,tailored for large international companies.
+                Empower your small to medium-sized business with Microsoft Dynamics 365 Business
+                Central, a comprehensive cloud-based platform for seamless management and growth.
               </p>
               <p>
                 <a className="ml-7 mb-4 font-normal underline text-gray-500 dark:text-gray-200">Know More</a>
@@ -126,11 +128,12 @@ const Brands = () => {
               <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
-                  <h5 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft dynamics 365 F&O:Comprehensive Finacial Management</h5>
+                  <h5 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 F&O: Comprehensive Financial Management</h5>
                 </div>
               </a>
               <p className="ml-7 mb-3 font-normal text-gray-500 dark:text-gray-200">
-                Optimze budgeting, project management and finacial operations with Microsoft Dynamics 365 Finance & Operations,tailored for large international companies.
+                Optimize budgeting, project management, and financial operations with Microsoft
+                Dynamics 365 Finance & Operations, tailored for large international companies.
               </p>
               <p>
                 <a className="ml-7 mb-1 font-normal underline text-gray-500 dark:text-gray-200">Know More</a>
@@ -141,11 +144,12 @@ const Brands = () => {
               <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
-                  <h5 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft dynamics 365 F&O:Comprehensive Finacial Management</h5>
+                  <h5 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Power Platform: Unlock Data-Driven Insights</h5>
                 </div>
               </a>
               <p className="ml-7 mb-3 font-normal text-gray-500 dark:text-gray-200">
-                Optimze budgeting, project management and finacial operations with Microsoft Dynamics 365 Finance & Operations,tailored for large international companies.
+                Harness the power of data with Microsoft Power Platform. Build apps, automate
+                workflows, and gain insights to drive smarter, faster business decisions.
               </p>
               <p>
                 <a className="ml-7 mb-1 font-normal underline text-gray-500 dark:text-gray-200">Know More</a>
@@ -155,6 +159,7 @@ const Brands = () => {
         </div>
       </section>
 
+      <Services />
 
       {/* Our Implementation */}
       <section className="py-11 mt-4 bg-[#0B0A0A] mb-15">
@@ -167,7 +172,8 @@ const Brands = () => {
             </div>
             <div className="animate_right relative mx-auto md:block md:w-1/2">
               <p className="relative mb-3 text-sm p-0 text-white dark:text-white sm:text-sm">
-                Our approach blendsOur approach blendsOur approach blendsOur approach blendsOur approach blendsOur approach blendsOur approach blends
+                Our approach blends traditional waterfall, Microsoft's Sure Step, and agile methods to ensure
+                precise, timely, and flexible project delivery.
               </p>
             </div>
           </div>
@@ -183,7 +189,8 @@ const Brands = () => {
                 <div className="px-5 pb-5">
                   <h5 className="text-xl font-semibold text-white dark:text-white">Classic Implementation</h5>
                   <div className="flex justify-between">
-                    Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation
+                    A structured, step-by-step approach using the traditional waterfall model, ensuring thorough,
+                    sequential project completion.
                   </div>
                 </div>
               </div>
@@ -193,7 +200,8 @@ const Brands = () => {
                 <div className="px-5 pb-5">
                   <h5 className="text-xl font-semibold text-white dark:text-white">Standard Methodology</h5>
                   <div className="flex justify-between">
-                    Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation
+                    Microsoft's Sure Step Methodology guarantees precise scoping and timelines, offering clarity at
+                    every stage of implementation.
                   </div>
                 </div>
               </div>
@@ -203,7 +211,8 @@ const Brands = () => {
                 <div className="px-5 pb-5">
                   <h5 className="text-xl font-semibold text-white dark:text-white">Modern Methodology</h5>
                   <div className="flex justify-between">
-                    Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation
+                    Agile/Rapid Implementation enables faster go-live with iterative development, enhancing
+                    flexibility and quicker business outcomes.
                   </div>
                 </div>
               </div>
