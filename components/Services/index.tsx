@@ -34,12 +34,12 @@ const Services = () => {
                         {servicesDataMap[activeTab].map((item) => (
                             <div
                                 key={item.id}
-                                className={`p-3 w-96 border-b cursor-pointer hover:bg-gray-200 text-left`}
+                                className={`p-2 w-96 border-b cursor-pointer hover:bg-gray-200 text-left`}
                                 onClick={() => setSelectedItem(item)}
                             >
-                                <h4 className="text-xs">{item.order}</h4>
-                                <h2 className={`${selectedItem?.id === item.id ? "text-lg text-black" : ""}`}>{item.name}</h2>
-                                {item.description && <p className="text-sm">{item.description}</p>}
+                                <h4 className="text-xs text-gray-500">{item.order}</h4>
+                                <h2 className={`${selectedItem?.id === item.id ? "text-base text-black" : "text-gray-500"}`}>{item.name}</h2>
+                                {item.description && <p className="text-xs text-gray-500">{item.description}</p>}
                             </div>
                         ))}
                     </div>

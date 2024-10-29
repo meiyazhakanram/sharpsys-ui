@@ -25,8 +25,8 @@ export default function Home() {
     <main>
       <Dashboard />
       <Brands />
-      <Services />
-      {/* <HomeMap /> */}
+      {/* <Services /> */}
+      <HomeMap />
       {/*<Feature />
       <About />
       <FeaturesTab />
