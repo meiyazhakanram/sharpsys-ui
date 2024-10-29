@@ -14,14 +14,10 @@ export default function ContactUsPage() {
     <>
       <section className="pb-16 pt-30 bg-[#0B0A0A] rounded-3xl md:pb-40 md:pt-28 lg:pb-30 lg:pt-32">
         <div className="container mx-auto">
-          <h1 className="mx-auto mb-6 text-4xl font-bold text-white text-center xl:text-sectiontitle3">
-            Let us know if we can help you
+          <h1 className="mx-auto mb-2 text-4xl font-bold text-white text-center xl:text-sectiontitle3">
+            Let's connect!
           </h1>
-          <div className="mt-5 text-center">
-            <button type="button" className="text-black bg-white rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
-              Contact Us
-            </button>
-          </div>
+          <p className="text-white text-center">Share your story with us, and let's explore the possibilities together.</p>
         </div>
       </section>
 
@@ -38,11 +34,11 @@ export default function ContactUsPage() {
                 </span>
               </span>
               <h2 className="relative mb-3 text-2xl font-bold text-black dark:text-white xl:text-hero">
-                I Need to know what I can get from sharpsys
+                Partner with Us for Tailored Tech Solutions Today
               </h2>
               <p className="mb-25">
-                Porta in ullamcorpor lorem.sed Nullam Lorem tincidut urna Porta in ullamcorpor lorem
-                .sed Nullam Lorem tincidut urna Porta in ullamcorpor lorem.sed Nullam Lorem tincidut urna
+                Looking for solutions to transform your business digitally? Reach out to us, and let’s customize
+                the perfect solution for your business.
               </p>
               <button type="button" className="focus:outline-none text-white buttoncolor-bg font-small rounded-lg text-sm px-5 py-2">
                 Get In Touch
@@ -55,17 +51,17 @@ export default function ContactUsPage() {
 
       <section className="bg-[#0B0A0A] py-11 mt-4 -mb-5 text-white">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex items-center gap-8 lg:gap-32.5">
+          <div className="flex items-center text-white gap-8 lg:gap-32.5">
             <div className="animate_right md:w-1/2">
               <span className="font-medium text-white underline dark:text-white md:mt-5">
-                Our Support
+                For Support
               </span>
               <h2 className="relative mb-3 text-2xl font-bold xl:text-hero">
-                Reach us out based on your requirements
+                Need Assistance? We're Here for Your Tech Support
               </h2>
-              <p className="mb-25">
-                Porta in ullamcorpor lorem.sed Nullam Lorem tincidut urna Porta in ullamcorpor lorem
-                .sed Nullam Lorem tincidut urna Porta in ullamcorpor lorem.sed Nullam Lorem tincidut urna
+              <p className="mb-25 text-white">
+                If you are already using our solutions, discuss your technical setbacks with us. Connect with our
+                support team for quick solutions to your technical challenges.
               </p>
             </div>
             <div className="animate_left relative mx-auto aspect-[588/526.5] md:block md:w-1/2">
@@ -80,16 +76,17 @@ export default function ContactUsPage() {
               <div className="flex mt-2 ml-2 h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle2 font-semibold text-black dark:text-white">01</p></div>
               <div className="px-5 pb-5">
-                <h5 className="text-lg font-semibold"><span className="underline">Looking for</span> General equiries</h5>
+                <h5 className="text-lg font-semibold"><span className="underline">For General equiries</span></h5>
                 <div className="flex justify-between">
-                  Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation.
+                  We’re here to sort your queries about the digital evolution of your business. Reach out, and we’ll
+                  provide the details you need.
                 </div>
               </div>
               <div className="ml-3 mb-2 flex items-center gap-5">
                 <div className="w-1/3">
                   <p><svg className="h-4 w-4 text-gray-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" />  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                  </svg>+91 8181881818</p>
+                  </svg>+91 8220933382</p>
                 </div>
                 <div className="w-2/3 mr-1">
                   <svg className="h-4 w-4 text-gray-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -104,23 +101,23 @@ export default function ContactUsPage() {
               <div className="flex mt-2 ml-2 h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle2 font-semibold text-black dark:text-white">02</p></div>
               <div className="px-5 pb-5">
-                <h5 className="text-lg font-semibold"><span className="underline">For Demo</span> Requests</h5>
-                <div className="flex justify-between">
-                  Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation.
+                <h5 className="text-lg font-semibold"><span className="underline">For Demo Requests</span></h5>
+                <div className="flex justify-between mb-6">
+                  Explore our solutions in action. Contact our team and we'll schedule a personalized walkthrough
+                  for you.
                 </div>
               </div>
               <div className="ml-3 mb-2 flex items-center gap-5">
                 <div className="w-1/3">
                   <p><svg className="h-4 w-4 text-gray-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" />  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                  </svg>+91 8181881818</p>
+                  </svg>+91 8220933384</p>
                 </div>
                 <div className="w-2/3 mr-1">
                   <svg className="h-4 w-4 text-gray-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" />
                     <rect x="3" y="5" width="18" height="14" rx="2" />  <polyline points="3 7 12 13 21 7" /></svg>
-                  <p>
-                    contactus@sharpsyssoft.com</p></div>
+                  <p>jay.p@sharpsyssoft.com</p></div>
               </div>
             </div>
 
@@ -128,30 +125,30 @@ export default function ContactUsPage() {
               <div className="flex mt-2 ml-2 h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle2 font-semibold text-black dark:text-white">03</p></div>
               <div className="px-5 pb-5">
-                <h5 className="text-lg font-semibold"><span className="underline">For Sales</span> Inquiry</h5>
+                <h5 className="text-lg font-semibold"><span className="underline">For Sales Inquiry</span></h5>
                 <div className="flex justify-between">
-                  Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation.
+                  We will help you choose the right solution and pricing for your business. Connect with us for
+                  your automation requirements.
                 </div>
               </div>
               <div className="ml-3 mb-2 flex items-center gap-5">
                 <div className="w-1/3">
                   <p><svg className="h-4 w-4 text-gray-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" />  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                  </svg>+91 8181881818</p>
+                  </svg>+91 8220933384</p>
                 </div>
                 <div className="w-2/3 mr-1">
                   <svg className="h-4 w-4 text-gray-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" />
                     <rect x="3" y="5" width="18" height="14" rx="2" />  <polyline points="3 7 12 13 21 7" /></svg>
-                  <p>
-                    contactus@sharpsyssoft.com</p></div>
+                  <p>jay.p@sharpsyssoft.com</p></div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      
+
 
 
       <section className="pb-16 pt-24 md:pb-20 md:pt-28 lg:pb-24 lg:pt-32">
