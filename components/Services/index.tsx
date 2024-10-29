@@ -15,7 +15,7 @@ const Services = () => {
                     Our Services
                 </h3>
                 <h4 className="mx-auto mb-4 text-3xl text-center font-bold text-black dark:text-white">
-                    We deliver <span className="textStartGradient">exceptionally in the below</span> services too
+                    We deliver <span className="textStartGradient">exceptionally</span><span className="textLastGradient"> in the below</span> services too
                 </h4>
                 {/* Navbar */}
                 <nav className="flex flex-wrap bg-green-50 rounded space-x-4 mb-8 justify-center">
