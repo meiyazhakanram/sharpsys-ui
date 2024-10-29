@@ -24,5 +24,4 @@ export const servicesDataMap = {
         { id: 501, order:"01", name: "Industry Verticals", description:"", img: "/images/erp.png" },
         { id: 502, order:"02", name: "Resource Capabilities", description:"", img: "/images/bpm.png" },
     ],
-
 };
