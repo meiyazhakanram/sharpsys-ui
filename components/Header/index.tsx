@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 
 import menuData from "./menuData";
 import Servicesmenu from "../ServicesMenu";
+import ProductsMenu from "../ProductsMenu";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -30,17 +31,17 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-1 bg-white ${
+      className={`fixed left-0 top-0 z-99999 w-full py-1 bg-gradient-to-r from-stone-50 to-cyan-50 ${
         stickyMenu
-          ? "bg-white !py-1 shadow transition duration-100 dark:bg-black"
+          ? "bg-gradient-to-r from-stone-50 to-cyan-50 !py-1 shadow transition duration-100 dark:bg-black"
           : ""
       }`}
     >
-      <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0 gap-10">
+      <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 py-2 md:px-8 xl:flex 2xl:px-0 gap-10">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/logo.svg"
+              src="/images/logo/logo_main.png"
               alt="logo"
               width={119.03}
               height={30}
@@ -96,8 +97,8 @@ const Header = () => {
             "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
           }`}
         >
-          <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
+        <nav>
+            <ul className="menuList flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (
@@ -111,7 +112,7 @@ const Header = () => {
                       </button>
                      { menuItem.title === 'Company' ?
                       <ul
-                        className={`dropdown bg-slate-100 ${dropdownToggler ? "flex" : ""}`}
+                        className={`dropdown subDropdown bg-slate-100 ${dropdownToggler ? "flex" : ""}`}
                       >
                         
                         {menuItem.submenu.map((item, key) => (
@@ -127,9 +128,14 @@ const Header = () => {
                       
                       {menuItem.submenu.map((item, key) => (
                         <li key={key} >
-                          {item.title === 'ServicesMenu' ?                
+                          {/* {item.title === 'ServicesMenu' ?                
                                <Servicesmenu dropDownState={navigationOpen} />
-                          : item.title }
+                          : item.title } */}
+                          {
+                            item.title === 'ServicesMenu' ?                
+                            <Servicesmenu dropDownState={navigationOpen} />
+                       : (item.title === 'ProductsMenu'? <ProductsMenu/> : item.title)}
+                          
                         </li>
                       ))}
                       </ul>
@@ -140,7 +146,7 @@ const Header = () => {
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
-                          ? "text-primary hover:text-primary text-lg"
+                          ? "hover:text-primary text-lg"
                           : "hover:text-primary"
                       }
                     >

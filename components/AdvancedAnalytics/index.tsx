@@ -2,71 +2,77 @@ import React, { useState, useEffect } from 'react'
 
 import Image from "next/image";
 
-export default function enterpriseSolution() {
+export default function advancedAnalytics() {
     return (
         <>
         <header><h4 className='text-metatitle2 px-4 py-2 h-10 text-black dark:text-white font-bold'>Data Related</h4></header>
         <div className='grid grid-cols-4 gap-2'>
             <div className="col-span-2 p-1">
                 <div className="w-full p-1">
-                    <span className='pl-2 w-full flex'>
-                        <img alt="title" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="/images/menu/menu_icon-01.svg" />
-                        <h3 className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
-                            Consulting
-                        </h3>
-                    </span>
-                    <p className='ml-12 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
+                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <img alt="title" width="36" height="36" src="/images/menu/menu_icon-01.svg" className="bg-primary ml-5 mr-2" />
+                <div className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
+                 Consulting
+                  <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>
+                </div>
+                
+              </a>
                 </div>
                 <div className="w-full p-1">
-                    <span className='pl-2 w-full flex'>
-                        <img alt="title" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="/images/menu/menu_icon-01.svg" />
-                        <h3 className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
-                            Data Analytics
-                        </h3>
-                    </span>
-                    <p className='ml-12 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
+                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <img alt="title" width="36" height="36" src="/images/menu/menu_icon-01.svg" className="bg-primary ml-5 mr-2" />
+                <div className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
+                 Data Analytics
+                  <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>
+                </div>
+                
+              </a>
                 </div>
                 <div className="w-full p-1">
-                    <span className='pl-2 w-full flex'>
-                        <img alt="title" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="/images/menu/menu_icon-01.svg" />
-                        <h3 className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
-                            ETL Migration
-                        </h3>
-                    </span>
-                    <p className='ml-12 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
+                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <img alt="title" width="36" height="36" src="/images/menu/menu_icon-01.svg" className="bg-primary ml-5 mr-2" />
+                <div className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
+                 ETL Migration
+                  <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>
+                </div>
+                
+              </a>
                 </div>
             </div>
             <div className="col-span-2">
                 <div className="w-full p-1">
-                    <span className='pl-2 w-full flex'>
-                        <img alt="title" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="/images/menu/menu_icon-01.svg" />
-                        <h3 className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
-                            Data Migration
-                        </h3>
-                    </span>
-                    <p className='ml-12 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
+                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <img alt="title" width="36" height="36" src="/images/menu/menu_icon-01.svg" className="bg-primary ml-5 mr-2" />
+                <div className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
+                 Data Migration
+                  <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>
+                </div>
+                
+              </a>
                 </div>
                 <div className="w-full p-1">
-                    <span className='pl-2 w-full flex'>
-                        <img alt="title" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="/images/menu/menu_icon-01.svg" />
-                        <h3 className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
-                            Data Warehousing
-                        </h3>
-                    </span>
-                    <p className='ml-12 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
+                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <img alt="title" width="36" height="36" src="/images/menu/menu_icon-01.svg" className="bg-primary ml-5 mr-2" />
+                <div className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
+                 Data Warehousing
+                  <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>
+                </div>
+                
+              </a>
                 </div>
                 <div className="w-full p-1">
-                    <span className='pl-2 w-full flex'>
-                        <img alt="title" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="/images/menu/menu_icon-01.svg" />
-                        <h3 className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
-                            Machine Learning
-                        </h3>
-                    </span>
-                    <p className='ml-12 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
+                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <img alt="title" width="36" height="36" src="/images/menu/menu_icon-01.svg" className="bg-primary ml-5 mr-2" />
+                <div className="mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
+                 Machine Learning
+                  <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>
+                </div>
+                
+              </a>
                 </div>
             </div>          
         </div>
-        <div className='w-auto border-b border-grey-600 ml-4 mr-4'></div>
+        {/* <div className='w-auto border-b border-grey-600 ml-4 mr-4'></div>
         <section className='w-11/12 p-2 mt-2 relative'>
                     <span className='pl-2 w-full flex'>
                         <h3 className="ml-2 mb-0.5 text-segmenttitle text-black dark:text-white font-semibold">
@@ -80,7 +86,7 @@ export default function enterpriseSolution() {
                         </button>
                     </span>
                     <p className='ml-4 text-metatitle'>Ut ultricies lacus non fermentum ultrices.</p>
-                </section>
+                </section> */}
         </>
 
     )
