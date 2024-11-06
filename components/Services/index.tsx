@@ -10,31 +10,32 @@ const Services = () => {
 
     return (
         <section>
-            <div className="min-h-screen bg-gray-50 flex flex-col items-center p-6">
+            <div className="min-h-screen bg-gray-50 flex flex-col items-center lg:mx-auto px-2">
                 <h3 className="mx-auto mb-4 text-xl text-gray-300 text-center">
                     Our Services
                 </h3>
-                <h4 className="mx-auto mb-4 text-3xl text-center font-bold text-black dark:text-white">
+                <h4 className="mx-auto mb-12 text-3xl text-center font-bold text-black dark:text-white">
                     We deliver <span className="textStartGradient">exceptionally</span><span className="textLastGradient"> in the below</span> services too
                 </h4>
+                <div className="w-full mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                 {/* Navbar */}
-                <nav className="flex flex-wrap bg-green-50 rounded space-x-4 mb-8 justify-center">
+                <nav className="flex flex-wrap rounded mb-14 justify-center">
                     {Object.keys(servicesDataMap).map((tab) => (
                         <button
                             key={tab}
-                            className={`px-4 py-2 rounded ${activeTab === tab ? "bg-green-700 text-white transition rounded" : "bg-green-50"}`}
+                            className={`px-6 py-2 rounded ${activeTab === tab ? "bg-[#3a7f26] text-white transition rounded" : "bg-[#f4f9f3]"}`}
                             onClick={() => setActiveTab(tab)} > {tab}
                         </button>
                     ))}
                 </nav>
 
                 {/* Content */}
-                <div className="flex flex-col md:flex-row gap-8 ">
+                <div className="flex flex-col md:flex-row gap-8">
                     <div className="flex-1 border-t-2">
                         {servicesDataMap[activeTab].map((item) => (
                             <div
                                 key={item.id}
-                                className={`p-2 w-96 border-b cursor-pointer hover:bg-gray-200 text-left`}
+                                className={`p-2 border-b cursor-pointer hover:bg-gray-200 text-left`}
                                 onClick={() => setSelectedItem(item)}
                             >
                                 <h4 className="text-xs text-gray-500">{item.order}</h4>
@@ -43,7 +44,7 @@ const Services = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="flex-none gradient-border rounded w-full md:w-96 h-96 md:h-96">
+                    <div className="border-2 rounded-2 rounded-2xl w-full md:w-96 h-96 md:h-96 border-l-red-500 border-t-yellow-500 border-r-teal-500 border-b-lime-500">
                         {selectedItem ? (
                             <img
                                 src={selectedItem.img}
@@ -51,11 +52,11 @@ const Services = () => {
                                 className="w-full h-full object-cover shadow-lg border-2"
                             />
                         ) : (
-                            <p className="text-gray-500">Select an item to view details</p>
+                            <p className="text-gray-500 text-center ">Select an item to view details</p>
                         )}
                     </div>
                 </div>
-
+                </div>              
             </div>
         </section>
     );
