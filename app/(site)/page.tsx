@@ -24,7 +24,6 @@ export default function Home() {
     <main>
       <Dashboard />
       <Brands />
-      <Services />
       {/*<Feature />
       <About />
       <FeaturesTab />

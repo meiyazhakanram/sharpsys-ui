@@ -3,12 +3,14 @@ import React from "react";
 import SingleBrand from "./SingleBrand";
 import brandData from "./brandData";
 import Image from "next/image";
+import Services from "../Services";
+import UserStories from "../UserStories";
 
 const Brands = () => {
   return (
     <>
       {/* <!-- ===== Clients Start ===== --> */}
-      <section className="bg-white py-11 mb-8">
+      <section className="bg-white py-11 mb-8 mt-8">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <h3 className="mx-auto mb-6 text-xl text-gray-300 text-center">
             Trusted by the world's leading organizations
@@ -22,19 +24,19 @@ const Brands = () => {
       </section>
 
 
-      <section className="bg-white py-11 mb-4">
+      <section className="bg-gradient-to-r from-stone-50 to-cyan-50 py-11 md:px-24">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <h3 className="mx-auto mb-4 text-xl text-gray-300 text-center">
+          <h3 className="mx-auto mb-4 text-xl text-grey-400 text-center">
             Why Sharpsys?
           </h3>
           <h4 className="mx-auto mb-4 text-3xl text-center font-bold text-black dark:text-white">
-            We <span className="textStartGradient">seamlessly unify systems</span> into one
+            We <span className="textStartGradient">seamlessly</span><span className="textLastGradient"> unify systems</span> into one
           </h4>
 
           <div className="mt-5 grid grid-cols-2 gap-7.5 md:grid-cols-2 lg:mt-5 lg:grid-cols-2 xl:mt-7 xl:gap-12.5">
-            <div className="animate_top z-40 rounded-lg border border-stroke bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
-              <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
+            <div className="animate_top z-40 rounded-lg border gradient-border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+              <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
+                <img alt="title" width="48" height="48" src="/images/why/why_01.png" className="md:ml-5 md:mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
                   <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Focused Roadmap</h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">We deliver tailored, tech-driven solutions</p>
@@ -42,9 +44,9 @@ const Brands = () => {
               </a>
             </div>
 
-            <div className="animate_top z-40 rounded-lg border border-stroke bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
-              <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
+            <div className="animate_top z-40 rounded-lg border gradient-border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+              <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
+                <img alt="title" width="48" height="48" src="/images/why/why_02.png" className="md:ml-5 md:mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
                   <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Reliable Predictability</h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Managing scope, time and budget with precision</p>
@@ -52,21 +54,21 @@ const Brands = () => {
               </a>
             </div>
 
-            <div className="animate_top z-40 rounded-lg border border-stroke bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
-              <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
+            <div className="animate_top z-40 !rounded-lg border gradient-border bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+              <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
+                <img alt="title" width="48" height="48" src="/images/why/why_03.png" className="md:ml-5 md:mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
-                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Stedy Performance</h5>
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Steady Performance</h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">We meet client demands using proven methods</p>
                 </div>
               </a>
             </div>
 
-            <div className="animate_top z-40 rounded-lg border border-stroke bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
-              <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
+            <div className="animate_top z-40 !rounded-lg border gradient-border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+              <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
+                <img alt="title" width="48" height="48" src="/images/why/why_04.png" className="md:ml-5 md:mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
-                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Aglie Engagement</h5>
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Agile Engagement</h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Ensuring transparency at every development</p>
                 </div>
               </a>
@@ -76,21 +78,21 @@ const Brands = () => {
       </section>
 
 
-      <section className="bg-white py-1 mb-8">
+      <section className="bg-gradient-to-r from-stone-50 to-cyan-50 py-1 mb-8">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex flex-wrap justify-center gap-8 lg:gap-42.5">
+          <div className="flex md:flex-wrap xl:flex-row justify-center gap-8 lg:gap-42.5">
             <div className="animate_top text-center">
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">100M</h3>
-              <p className="text-lg lg:text-para2">Client Satisfaction</p></div>
+              <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">100M</h3>
+              <p className="text-xs">Client Satisfaction</p></div>
             <div className="animate_top text-center">
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">24Hrs</h3>
-              <p className="text-lg lg:text-para2">Expert Support Team</p></div>
+              <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">24Hrs</h3>
+              <p className="text-xs">Expert Support Team</p></div>
             <div className="animate_top text-center">
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">98K+</h3>
-              <p className="text-lg lg:text-para2">Sales Count</p></div>
+              <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">98K+</h3>
+              <p className="text-xs">Sales Count</p></div>
             <div className="animate_top text-center">
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">208+</h3>
-              <p className="text-lg lg:text-para2">Client Worldwide</p></div>
+              <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">208+</h3>
+              <p className="text-xs">Client Worldwide</p></div>
           </div>
         </div>
       </section>
@@ -106,55 +108,47 @@ const Brands = () => {
           <h4 className="mx-auto mb-4 text-3xl text-center text-white font-bold dark:text-white">
             Microsoft Dynamics & it's services
           </h4>
+        </div>
+       
 
-          <div className="flex grid grid-cols-3 justify-center gap-7.5 md:grid-cols-3 lg:grid-cols-4 xl:gap-10">
-
-            <div className="row-span-4 col-span-2 bg-white rounded-lg border-[#1F0A3C]">
-              <img className="ml-25 mt-14 mr-2 mb-2" src="/images/blog/blog-01.png" alt="" />
-              <h5 className="ml-7 mb-3 mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft dynamics 365 F&O:Comprehensive Finacial Management</h5>
-              <p className="ml-7 mb-4 font-normal text-gray-500 dark:text-gray-200">
-                Optimze budgeting, project management and finacial operations with Microsoft Dynamics 365 Finance & Operations,tailored for large international companies.
-              </p>
-              <p>
-                <a className="ml-7 mb-4 font-normal underline text-gray-500 dark:text-gray-200">Know More</a>
-              </p>
-              <p className="mb-1"></p>
-
-            </div>
-
-            <div className="row-span-2 col-span-2 bg-white rounded-lg border-[#1F0A3C]">
-              <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
+         <div className="flex flex-col md:flex-row gap-1">
+         <div className="px-6 mx-12 rounded-lg border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+            <div className="flex justify-center pt-2"><img width={128} height={128} src="/images/services/Dynamics365_scalable.svg" alt="product image" /></div>
+              <div className="flex flex-col items-center md:flex-row md:max-w-xl">
+              
                 <div className="flex flex-col justify-between p-4 leading-normal">
-                  <h5 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft dynamics 365 F&O:Comprehensive Finacial Management</h5>
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 Business Central: Your All-in-One Cloud Solution</h5>
+                  <p className="mb-3 font-normal text-slate-400 dark:text-gray-400">Empower your small to medium-sized business with Microsoft Dynamics 365 Business Central, a comprehensive cloud-based platform for seamless management and growth.</p>
+                <a href="#" className="underline text-black">Know More</a>
                 </div>
-              </a>
-              <p className="ml-7 mb-3 font-normal text-gray-500 dark:text-gray-200">
-                Optimze budgeting, project management and finacial operations with Microsoft Dynamics 365 Finance & Operations,tailored for large international companies.
-              </p>
-              <p>
-                <a className="ml-7 mb-1 font-normal underline text-gray-500 dark:text-gray-200">Know More</a>
-              </p>
-
+              </div>
             </div>
-            <div className="row-span-2 col-span-2 bg-white rounded-lg border-[#1F0A3C]">
-              <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
-                <div className="flex flex-col justify-between p-4 leading-normal">
-                  <h5 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft dynamics 365 F&O:Comprehensive Finacial Management</h5>
-                </div>
-              </a>
-              <p className="ml-7 mb-3 font-normal text-gray-500 dark:text-gray-200">
-                Optimze budgeting, project management and finacial operations with Microsoft Dynamics 365 Finance & Operations,tailored for large international companies.
-              </p>
-              <p>
-                <a className="ml-7 mb-1 font-normal underline text-gray-500 dark:text-gray-200">Know More</a>
-              </p>
-            </div>
+          <div className="xl:w-6/12 px-6 mx-6 xl:pr-8">
+              <div className="mb-8 rounded-lg border border-stroke bg-slate-50 p-1 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">         
+                  <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
+                  <img alt="title" width="92" height="92" src="/images/services/business_central.svg" className="pl-4" />
+                    <h5 className="mb-2 px-6 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 F&O: Comprehensive Financial Management
+                    </h5>
+                  </div>
+                <p className="mb-3 ml-6 xl:text-sm text-slate-400 dark:text-gray-400">Optimize budgeting, project management, and financial operations with Microsoft Dynamics 365 Finance & Operations, tailored for large international companies.
+                </p>
+                  <a href="#" className="ml-6 underline text-black">Know More</a>
+              </div>
+              <div className="rounded-lg border border-stroke bg-slate-50 p-1 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">         
+                  <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
+                  <img alt="title" width="96" height="96" src="/images/services/microsoft_power_platform.svg" className="pl-4" />
+                    <h5 className="mb-2 px-6 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Power Platform: Unlock Data-Driven Insights</h5>
+                  </div>
+                <p className="mb-3 ml-6 xl:text-sm text-slate-400 dark:text-gray-400">Harness the power of data with Microsoft Power Platform. Build apps, automate workflows, and gain insights to drive smarter, faster business decisions.
+                </p>
+                  <a href="#" className="ml-6 underline text-black">Know More</a>
+              </div>
+            
           </div>
+          
         </div>
       </section>
-
+      <Services/>
 
       {/* Our Implementation */}
       <section className="py-11 mt-4 bg-[#0B0A0A] mb-15">
@@ -215,6 +209,9 @@ const Brands = () => {
 
         </div>
       </section >
+
+      {/* User Stories */}
+      <UserStories/>
 
 
       {/* <!-- ===== Clients End ===== --> */}
