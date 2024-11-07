@@ -10,12 +10,12 @@ const Services = () => {
 
     return (
         <section>
-            <div className="min-h-screen bg-gray-50 flex flex-col items-center lg:mx-auto px-2">
-                <h3 className="mx-auto mb-4 text-xl text-gray-300 text-center">
+            <div className="min-h-screen w-full bg-gray-50 flex flex-col items-center p-6">
+                <h3 className="mx-auto mb-4 text-xl text-gray-400  text-center">
                     Our Services
                 </h3>
-                <h4 className="mx-auto mb-12 text-3xl text-center font-bold text-black dark:text-white">
-                    We deliver <span className="textStartGradient">exceptionally</span><span className="textLastGradient"> in the below</span> services too
+                <h4 className="mx-auto mb-4 text-3xl text-center font-bold text-black dark:text-white">
+                    We deliver <span className="textStartGradient">exceptionally</span> <span className="textLastGradient"> in the below</span> services too
                 </h4>
                 <div className="w-full mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                 {/* Navbar */}
@@ -38,9 +38,9 @@ const Services = () => {
                                 className={`p-2 border-b cursor-pointer hover:bg-gray-200 text-left`}
                                 onClick={() => setSelectedItem(item)}
                             >
-                                <h4 className="text-xs text-gray-500">{item.order}</h4>
-                                <h2 className={`${selectedItem?.id === item.id ? "text-base text-black" : "text-gray-500"}`}>{item.name}</h2>
-                                {item.description && <p className="text-xs text-gray-500">{item.description}</p>}
+                                <h4 className="text-xs">{item.order}</h4>
+                                <h2 className={`${selectedItem?.id === item.id ? "text-lg font-bold text-black" : ""}`}>{item.name}</h2>
+                                {item.description && selectedItem?.id === item.id && <p className="text-sm">{item.description}</p>}
                             </div>
                         ))}
                     </div>
