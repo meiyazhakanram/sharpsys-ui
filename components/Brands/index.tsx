@@ -33,7 +33,7 @@ const Brands = () => {
           </h4>
 
           <div className="mt-5 grid grid-cols-2 gap-7.5 md:grid-cols-2 lg:mt-5 lg:grid-cols-2 xl:mt-7 xl:gap-12.5">
-            <div className="animate_top z-40 rounded-lg gradient-border bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+            <div className="animate_top z-40 border-2 rounded-2 rounded-lg w-full border-l-red-500 border-t-yellow-500 border-r-teal-500 border-b-lime-500 bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
               <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -43,7 +43,7 @@ const Brands = () => {
               </a>
             </div>
 
-            <div className="animate_top z-40 rounded-lg gradient-border bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+            <div className="animate_top z-40 border-2 rounded-2 rounded-lg w-full border-l-red-500 border-t-yellow-500 border-r-teal-500 border-b-lime-500 bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
               <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -53,7 +53,7 @@ const Brands = () => {
               </a>
             </div>
 
-            <div className="animate_top z-40 rounded-lg gradient-border bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+            <div className="animate_top z-40 border-2 rounded-2 rounded-lg w-full border-l-red-500 border-t-yellow-500 border-r-teal-500 border-b-lime-500 bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
               <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -63,7 +63,7 @@ const Brands = () => {
               </a>
             </div>
 
-            <div className="animate_top z-40 rounded-lg gradient-border bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+            <div className="animate_top z-40 border-2 rounded-2 rounded-lg w-full border-l-red-500 border-t-yellow-500 border-r-teal-500 border-b-lime-500 bg-white p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
               <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/icon/icon-01.svg" className="bg-primary ml-5 mr-2" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
