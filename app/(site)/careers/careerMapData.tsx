@@ -40,7 +40,37 @@ const CareerData: Career[] = [
             jobtypetitle: "Type"
         },
         job: {
-            position: "Customer onboarding manager",
+            position: "UX/UI Designer",
+            location: "Chennai",
+            noofopenings: "02",
+            jobtype: "Full Time"
+        }
+    },
+    {
+        title: "Engineering",
+        heading: {
+            positiontitle: "Position",
+            locationtitle: "Locations",
+            noofopeningstitle: "No.Of.Openings",
+            jobtypetitle: "Type"
+        },
+        job: {
+            position: "Java Developer",
+            location: "Chennai",
+            noofopenings: "02",
+            jobtype: "Full Time"
+        }
+    },
+    {
+        title: "",
+        heading: {
+            positiontitle: "Position",
+            locationtitle: "Locations",
+            noofopeningstitle: "No.Of.Openings",
+            jobtypetitle: "Type"
+        },
+        job: {
+            position: "Senior Data Scientist",
             location: "Chennai",
             noofopenings: "02",
             jobtype: "Full Time"
