@@ -13,6 +13,7 @@ import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import Services from "@/components/Services";
+import HomeMap from "@/components/HomeMap";
 
 export const metadata: Metadata = {
   title: "Sharpsys - Elevate your Business Productivity",
@@ -24,6 +25,8 @@ export default function Home() {
     <main>
       <Dashboard />
       <Brands />
+      {/* <Services /> */}
+      <HomeMap />
       {/*<Feature />
       <About />
       <FeaturesTab />

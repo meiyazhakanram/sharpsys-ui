@@ -161,7 +161,8 @@ const Brands = () => {
             </div>
             <div className="animate_right relative mx-auto md:block md:w-1/2">
               <p className="relative mb-3 text-sm p-0 text-white dark:text-white sm:text-sm">
-                Our approach blendsOur approach blendsOur approach blendsOur approach blendsOur approach blendsOur approach blendsOur approach blends
+                Our approach blends traditional waterfall, Microsoft's Sure Step, and agile methods to ensure
+                precise, timely, and flexible project delivery.
               </p>
             </div>
           </div>
@@ -177,7 +178,8 @@ const Brands = () => {
                 <div className="px-5 pb-5">
                   <h5 className="text-xl font-semibold text-white dark:text-white">Classic Implementation</h5>
                   <div className="flex justify-between">
-                    Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation
+                    A structured, step-by-step approach using the traditional waterfall model, ensuring thorough,
+                    sequential project completion.
                   </div>
                 </div>
               </div>
@@ -187,7 +189,8 @@ const Brands = () => {
                 <div className="px-5 pb-5">
                   <h5 className="text-xl font-semibold text-white dark:text-white">Standard Methodology</h5>
                   <div className="flex justify-between">
-                    Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation
+                    Microsoft's Sure Step Methodology guarantees precise scoping and timelines, offering clarity at
+                    every stage of implementation.
                   </div>
                 </div>
               </div>
@@ -197,7 +200,8 @@ const Brands = () => {
                 <div className="px-5 pb-5">
                   <h5 className="text-xl font-semibold text-white dark:text-white">Modern Methodology</h5>
                   <div className="flex justify-between">
-                    Microsoft's Sure step methodology guarantees precies scoping and timelines, offering clarity at every stage of implementation
+                    Agile/Rapid Implementation enables faster go-live with iterative development, enhancing
+                    flexibility and quicker business outcomes.
                   </div>
                 </div>
               </div>

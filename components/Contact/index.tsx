@@ -17,13 +17,14 @@ const Contact = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex items-center gap-1 lg:gap-32.5">
             <div className="animate_left relative mx-auto hidden md:block md:w-1/2">
-              <h4 className="relative mb-6 text-lg font-bold text-black dark:text-white lg:text-4xl">
-                Don't misss the chance to <span className="textStartGradient">get a</span><span className="textLastGradient"> demo from our team</span>
+              <h4 className="relative mb-6 text-lg font-bold text-black dark:text-white lg:text-2xl">
+              Get expert advice—fill out the <span className="textStartGradient"> form for your</span><span className="textLastGradient"> free consultation.</span>
               </h4>
             </div>
             <div className="animate_right relative mx-auto hidden md:block md:w-1/2">
               <p className="relative mb-6 text-sm p-0 dark:text-white sm:text-sm">
-                porta in ullamcorper Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sequi molestias nulla dicta? Numquam accusantium nihil earum, nostrum impedit placeat assumenda, dolores velit doloribus eaque, maxime odit? Nostrum, hic fugit?
+                Fill out the form below to schedule a free consultation and receive personalized advice tailored
+                to your specific needs. Take your business to the next level with our expertise.
               </p>
             </div>
           </div>
