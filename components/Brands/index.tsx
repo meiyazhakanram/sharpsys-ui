@@ -113,7 +113,7 @@ const Brands = () => {
 
          <div className="flex flex-col md:flex-row gap-1">
          <div className="px-6 mx-12 rounded-lg border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
-            <div className="flex justify-center pt-2"><img width={128} height={128} src="/images/services/Dynamics365_scalable.svg" alt="product image" /></div>
+            <div className="flex justify-center pt-2"><img width={128} height={128} src="/images/services/business-central-logo-3.png" alt="product image" /></div>
               <div className="flex flex-col items-center md:flex-row md:max-w-xl">
               
                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -126,8 +126,8 @@ const Brands = () => {
           <div className="xl:w-6/12 px-6 mx-6 xl:pr-8">
               <div className="mb-8 rounded-lg border border-stroke bg-slate-50 p-1 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">         
                   <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
-                  <img alt="title" width="92" height="92" src="/images/services/business_central.svg" className="pl-4" />
-                    <h5 className="mb-2 px-6 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 F&O: Comprehensive Financial Management
+                  <img alt="title" width="128" height="128" src="/images/services/finance-operations-logo.png" className="" />
+                    <h5 className="mb-2 px-2 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 F&O: Comprehensive Financial Management
                     </h5>
                   </div>
                 <p className="mb-3 ml-6 xl:text-sm text-slate-400 dark:text-gray-400">Optimize budgeting, project management, and financial operations with Microsoft Dynamics 365 Finance & Operations, tailored for large international companies.
@@ -136,7 +136,7 @@ const Brands = () => {
               </div>
               <div className="rounded-lg border border-stroke bg-slate-50 p-1 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">         
                   <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
-                  <img alt="title" width="96" height="96" src="/images/services/microsoft_power_platform.svg" className="pl-4" />
+                  <img alt="title" width="102" height="102" src="/images/services/Dynamics365_scalable.svg" className="pl-6 md:w-128 md:h-128" />
                     <h5 className="mb-2 px-6 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Power Platform: Unlock Data-Driven Insights</h5>
                   </div>
                 <p className="mb-3 ml-6 xl:text-sm text-slate-400 dark:text-gray-400">Harness the power of data with Microsoft Power Platform. Build apps, automate workflows, and gain insights to drive smarter, faster business decisions.
