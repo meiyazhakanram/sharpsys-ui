@@ -148,10 +148,35 @@ export default function ContactUsPage() {
         </div>
       </section>
 
+      <section className="pb-1 pt-4 bg-white md:pb-2 md:pt-4 lg:pb-4 lg:pt-2">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
+          <div className="mt-12.5 grid grid-cols-1 gap-0.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-3 xl:mt-20 xl:gap-0.5">
+            <div className="animate_top z-40">
+              <span className="font-medium underline dark:text-white md:mt-5">
+                Our Locations
+              </span>
+              <h3 className="text-xl font-semibold text-black dark:text-white xl:text-itemtitle">We Work Here</h3>
+            </div>
+
+            <div className="animate_top">
+              <img alt="title" loading="lazy" width="36" height="36" src="/images/icon/indiaflag.png" />
+              <h3 className="text-sm font-semibold text-black">Sharpsys Software Solutions [l] Pvt. Ltd.,</h3>
+              <p className="text-sm font-medium text-black text-gray-500">No.14,Venu's Building,
+                Mahalakshmi Nagar Ext III,<br />
+                Mahalakshmi Nagar Main Road, Nandivaram,<br />
+                Guduvanchery-603 202.<br />Tamil Nadu, India</p>
+            </div>
+
+            <div className="animate_top z-40">
+              <img alt="title" loading="lazy" width="36" height="36" src="/images/icon/usaflag.png" />
+              <h3 className="text-sm font-semibold text-black">Sharpsys Software Solutions [l] Pvt. Ltd.,</h3>
+              <p className="text-sm font-medium text-black text-gray-500">66 West Flagler Street,<br /> Suite 900 Miami, FL 33130</p></div>
+          </div>
+        </div>
+      </section>
 
 
-
-      <section className="pb-16 pt-24 md:pb-20 md:pt-28 lg:pb-24 lg:pt-32">
+      <section className="pb-5 pt-10 md:pb-10 md:pt-18 lg:pb-14 lg:pt-12">
         <div className="container mx-auto">
           <Contact />
         </div>

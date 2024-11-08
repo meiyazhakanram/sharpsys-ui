@@ -310,9 +310,9 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>
+              <span>
                 &copy; - 2022 Sharpsys Software Solutions [l] Pvt. Ltd., | All rights reserved
-              </p>
+              </span>
             </motion.div>
           </div>
           {/* <!-- Footer Bottom --> */}
