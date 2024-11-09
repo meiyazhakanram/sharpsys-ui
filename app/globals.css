@@ -193,3 +193,19 @@ header {
   border-image: linear-gradient(to right, #f00, #ff7f00, #a3d500, #67e8f9) 1;
   border-radius: 1.5rem;
 }
+
+.heroBackground {
+ @apply bg-[url(/images/hero/hero-rings.png)] bg-contain bg-no-repeat bg-center;
+}
+
+/* .heroBackground {
+  width: 100%;
+     height: 50%;
+ background-image: url(/images/hero/hero-gradient-1.png) ;
+ background-repeat: no-repeat;
+  background-position:
+    top;
+    background-size: 25px, 25px;
+    
+ } */
+

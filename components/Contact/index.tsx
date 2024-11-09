@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <>
       {/* <!-- ===== Contact Start ===== --> */}
-      <section className="py-11 mt-4 mb-15">
+      <section className="py-6 px-8 mt-4 mb-15 bg-gradient-to-r from-stone-50 to-cyan-50">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex items-center gap-1 lg:gap-32.5">
             <div className="animate_left relative mx-auto hidden md:block md:w-1/2">
@@ -21,8 +21,8 @@ const Contact = () => {
               Get expert advice—fill out the <span className="textStartGradient"> form for your</span><span className="textLastGradient"> free consultation.</span>
               </h4>
             </div>
-            <div className="animate_right relative mx-auto hidden md:block md:w-1/2">
-              <p className="relative mb-6 text-sm p-0 dark:text-white sm:text-sm">
+            <div className="animate_right relative mx-auto hidden md:block md:w-1/2 w-1/4">
+              <p className="relative mb-6 text-slate-400 text-sm p-0 dark:text-white sm:text-sm">
                 Fill out the form below to schedule a free consultation and receive personalized advice tailored
                 to your specific needs. Take your business to the next level with our expertise.
               </p>
