@@ -1,15 +1,23 @@
 "use client";
 import React from "react";
 import { useState } from 'react';
+import { useEffect } from "react";
 import { servicesDataMap } from "./serviceDataMap";
 
 
 const Services = () => {
-    const [activeTab, setActiveTab] = useState("Enterprise Solution");
+    const [activeTab, setActiveTab] = useState(Object.keys(servicesDataMap)[0]);
     const [selectedItem, setSelectedItem] = useState(null);
 
+    useEffect(() => {
+        const firstItem = servicesDataMap[activeTab]?.[0];
+        if (firstItem) {
+            setSelectedItem(firstItem); 
+        }
+    }, [activeTab]);
+
     return (
-        <section className="bg-gradient-to-r from-stone-50 to-cyan-50">
+        <section>
             <div className="min-h-screen w-full bg-gray-50 flex flex-col items-center p-6">
                 <h3 className="mx-auto mb-4 text-xl text-gray-400  text-center">
                     Our Services
