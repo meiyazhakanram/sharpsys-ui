@@ -24,7 +24,7 @@ const DashboardCarousel = () => {
             Hear <span className="textStartGradient">about us</span> from <span className="textLastGradient"> our happy clients</span>
           </h4>
     </section>
-      <section>
+      <section className="userStoriesBackground">
         <motion.div
           variants={{
             hidden: {
@@ -43,26 +43,21 @@ const DashboardCarousel = () => {
           viewport={{ once: true }}
           className="animate_top mx-auto mt-8 max-w-c-1235 px-4 md:px-8 xl:mt-16 xl:px-0"
         >
-          {/* <!-- Slider main container --> */}
           <div className="swiper testimonial-01 mb-20 pb-22.5">
-            {/* <!-- Additional required wrapper --> */}
-            {/* <Swiper modules={[Thumbs]} thumbs={{ swiper: thumbsSwiper }}>
-          
-        </Swiper> */}
             
             <Swiper
               spaceBetween={0}
               slidesPerView={3}
               centeredSlides={true}
+              centeredSlidesBounds={true}
               
           watchSlidesProgress
-          // onSwiper={setThumbsSwiper}
               
               
               loop={true}
               autoplay={{
                 delay: 3000,
-                disableOnInteraction: false,
+                disableOnInteraction: true,
                 reverseDirection:true,
                 pauseOnMouseEnter:true
               }}
@@ -83,7 +78,7 @@ const DashboardCarousel = () => {
                 },
                 // when window width is >= 988px
                 988: {
-                  slidesPerView: 3,
+                  slidesPerView: 2,
                 },
               }}
             >

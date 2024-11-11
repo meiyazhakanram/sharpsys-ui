@@ -5,6 +5,8 @@ import brandData from "./brandData";
 import Image from "next/image";
 import Services from "../Services";
 import UserStories from "../UserStories";
+import HomeMap from "../HomeMap";
+import Blog from "../Blog";
 
 const Brands = () => {
   return (
@@ -24,8 +26,8 @@ const Brands = () => {
       </section>
 
 
-      <section className="bg-gradient-to-r from-stone-50 to-cyan-50 py-11 md:px-24">
-        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+      <section className="commonBackground py-11 md:px-24">
+        <div className="mx-auto max-w-c-1390 px-4 mb-8 md:px-8 2xl:px-0">
           <h3 className="mx-auto mb-4 text-xl text-grey-400 text-center">
             Why Sharpsys?
           </h3>
@@ -75,30 +77,25 @@ const Brands = () => {
             </div>
           </div>
         </div>
-      </section>
-
-
-      <section className="bg-gradient-to-r from-stone-50 to-cyan-50 py-1 mb-8">
-        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex md:flex-wrap xl:flex-row justify-center gap-8 lg:gap-42.5">
-            <div className="animate_top text-center">
-              <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">100M</h3>
-              <p className="text-xs">Client Satisfaction</p></div>
-            <div className="animate_top text-center">
-              <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">24Hrs</h3>
-              <p className="text-xs">Expert Support Team</p></div>
-            <div className="animate_top text-center">
-              <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">98K+</h3>
-              <p className="text-xs">Sales Count</p></div>
-            <div className="animate_top text-center">
-              <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">208+</h3>
-              <p className="text-xs">Client Worldwide</p></div>
+        <section className="py-4">
+          <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+            <div className="flex md:flex-wrap xl:flex-row justify-center gap-8 lg:gap-42.5">
+              <div className="animate_top text-center">
+                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">100M</h3>
+                <p className="text-xs">Client Satisfaction</p></div>
+              <div className="animate_top text-center">
+                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">24Hrs</h3>
+                <p className="text-xs">Expert Support Team</p></div>
+              <div className="animate_top text-center">
+                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">98K+</h3>
+                <p className="text-xs">Sales Count</p></div>
+              <div className="animate_top text-center">
+                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">208+</h3>
+                <p className="text-xs">Client Worldwide</p></div>
+            </div>
           </div>
-        </div>
+        </section>
       </section>
-
-
-
 
       <section className="py-11 mt-4 bg-[#1F0A3C] mb-15">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
@@ -109,46 +106,46 @@ const Brands = () => {
             Microsoft Dynamics & it's services
           </h4>
         </div>
-       
 
-         <div className="flex flex-col md:flex-row gap-1">
-         <div className="px-6 mx-12 rounded-lg border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
-            <div className="flex justify-center pt-2"><img width={128} height={128} src="/images/services/business-central-logo-3.png" alt="product image" /></div>
-              <div className="flex flex-col items-center md:flex-row md:max-w-xl">
-              
-                <div className="flex flex-col justify-between p-4 leading-normal">
-                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 Business Central: Your All-in-One Cloud Solution</h5>
-                  <p className="mb-3 font-normal text-slate-400 dark:text-gray-400">Empower your small to medium-sized business with Microsoft Dynamics 365 Business Central, a comprehensive cloud-based platform for seamless management and growth.</p>
+
+        <div className="flex flex-col md:flex-row gap-1">
+          <div className="px-6 mx-12 rounded-lg border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+            <div className="flex justify-center pt-2"><img width={256} height={256} src="/images/services/servicestab/F&O.png" alt="product image" /></div>
+            <div className="flex flex-col items-center md:flex-row md:max-w-xl">
+
+              <div className="flex flex-col justify-between p-4 leading-normal">
+                <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 F&O: Comprehensive Financial Management</h5>
+                <p className="mb-3 font-normal text-slate-400 dark:text-gray-400 text-justify">Optimize budgeting, project management, and financial operations with Microsoft Dynamics 365 Finance & Operations, tailored for large international companies.</p>
                 <a href="#" className="underline text-black">Know More</a>
-                </div>
               </div>
             </div>
-          <div className="xl:w-6/12 px-6 mx-6 xl:pr-8">
-              <div className="mb-8 rounded-lg border border-stroke bg-slate-50 p-1 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">         
-                  <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
-                  <img alt="title" width="128" height="128" src="/images/services/finance-operations-logo.png" className="" />
-                    <h5 className="mb-2 px-2 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 F&O: Comprehensive Financial Management
-                    </h5>
-                  </div>
-                <p className="mb-3 ml-6 xl:text-sm text-slate-400 dark:text-gray-400">Optimize budgeting, project management, and financial operations with Microsoft Dynamics 365 Finance & Operations, tailored for large international companies.
-                </p>
-                  <a href="#" className="ml-6 underline text-black">Know More</a>
-              </div>
-              <div className="rounded-lg border border-stroke bg-slate-50 p-1 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">         
-                  <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
-                  <img alt="title" width="102" height="102" src="/images/services/Dynamics365_scalable.svg" className="pl-6 md:w-128 md:h-128" />
-                    <h5 className="mb-2 px-6 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Power Platform: Unlock Data-Driven Insights</h5>
-                  </div>
-                <p className="mb-3 ml-6 xl:text-sm text-slate-400 dark:text-gray-400">Harness the power of data with Microsoft Power Platform. Build apps, automate workflows, and gain insights to drive smarter, faster business decisions.
-                </p>
-                  <a href="#" className="ml-6 underline text-black">Know More</a>
-              </div>
-            
           </div>
-          
+          <div className="xl:w-6/12 px-6 mx-6 xl:pr-8">
+            <div className="mb-8 rounded-lg border border-stroke bg-slate-50 px-2 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+              <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
+                <img alt="title" width="128" height="128" src="/images/services/servicestab/Business Central.png" className="pl-2" />
+                <h5 className="mb-2 px-2 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 Business Central: Your All-in-One Cloud Solution
+                </h5>
+              </div>
+              <p className="mb-3 mx-6 xl:text-sm text-slate-400 dark:text-gray-400 text-justify">Empower your small to medium-sized business with Microsoft Dynamics 365 Business Central, a comprehensive cloud-based platform for seamless management and growth.
+              </p>
+              <a href="#" className="ml-6 underline text-black">Know More</a>
+            </div>
+            <div className="rounded-lg border border-stroke bg-slate-50 p-1 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+              <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
+                <img alt="title" width="128" height="128" src="/images/services/servicestab/Dynamics 365.png" className="pl-6 md:w-128 md:h-128" />
+                <h5 className="mb-2 px-4 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900">Microsoft Power Platform: Unlock Data-Driven Insights</h5>
+              </div>
+              <p className="mb-3 mx-6 xl:text-sm text-slate-400 dark:text-gray-400 text-justify">Harness the power of data with Microsoft Power Platform. Build apps, automate workflows, and gain insights to drive smarter, faster business decisions.
+              </p>
+              <a href="#" className="ml-6 underline text-black">Know More</a>
+            </div>
+
+          </div>
+
         </div>
       </section>
-      <Services/>
+      <Services />
 
       {/* Our Implementation */}
       <section className="py-11 mt-4 bg-[#0B0A0A] mb-15">
@@ -172,7 +169,6 @@ const Brands = () => {
 
           <div className="relative mx-auto bg-[#0B0A0A] mt-5 max-w-[1207px] px-4 md:px-5 xl:mt-5 xl:px-0">
             <div className="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5">
-              {/* <!-- Pricing Item --> */}
               <div className="w-full max-w-sm dark:bg-gray-800 dark:border-gray-700">
                 <img className="p-8 rounded-t-lg mb-4" src="/images/imple1.png" alt="product image" />
                 <div className="px-5 pb-5">
@@ -215,7 +211,39 @@ const Brands = () => {
       </section >
 
       {/* User Stories */}
-      <UserStories/>
+      <UserStories />
+
+      {/* Geo Location */}
+      <HomeMap />
+
+      {/* Homescreen career */}
+
+      <section className="commonBackground p-12">
+        <div className="flex flex-wrap xl:px-12 xl:mx-24">
+          <div className="xl:w-1/2">
+            <img className="w-80 h-80" src={"/images/career/career.png"} alt={""} />
+
+          </div>
+          <div className="xl:w-1/2 xl:my-12">
+            <section>
+              <header>Life at Sharpsys</header>
+              <h4 className="mb-4 text-2xl font-bold text-black dark:text-white">
+                Grow your<span className="textLastGradient"> career with us</span>
+              </h4>
+              <p className="font-normal text-sm text-slate-700 text-justify mb-12">
+                Join Sharpsys and thrive in a dynamic, collaborative environment where innovation and growth are at the forefront. Build your career with us, embrace new challenges, and be part of a team that values creativity, dedication, and success.
+              </p>
+              <button type="button" className="focus:outline-none text-white buttoncolor-bg font-small rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
+                Career at Sharpsys
+              </button>
+            </section>
+          </div>
+        </div>
+
+      </section>
+
+      {/* Blog */}
+      <Blog/>
 
 
       {/* <!-- ===== Clients End ===== --> */}

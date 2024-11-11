@@ -17,7 +17,7 @@ const Services = () => {
     }, [activeTab]);
 
     return (
-        <section className="bg-gradient-to-r from-stone-50 to-cyan-50">
+        <section className="commonBackground">
             <div className="min-h-screen w-full bg-gray-50 flex flex-col items-center p-6">
                 <h3 className="mx-auto mb-4 text-xl text-gray-400  text-center">
                     Our Services
@@ -57,7 +57,7 @@ const Services = () => {
                             <img
                                 src={selectedItem.img}
                                 alt={selectedItem.name}
-                                className="w-full h-full object-cover shadow-lg border-2"
+                                className="w-full h-full rounded-xl p-1"
                             />
                         ) : (
                             <p className="text-gray-500 text-center ">Select an item to view details</p>
