@@ -49,7 +49,7 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
           )}
         </button>
         <p
-          className={`border-b border-stroke px-2 py-2 dark:border-strokedark lg:px-2 lg:py-2 ${activeFaq === id ? "block" : "hidden"
+          className={`border-b border-stroke px-2 py-2 text-white dark:border-strokedark lg:px-2 lg:py-2 ${activeFaq === id ? "block" : "hidden"
             }`}
         >
           {ans}
