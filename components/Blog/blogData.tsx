@@ -6,7 +6,7 @@ const BlogData: Blog[] = [
     mainImage: "/images/blog/blog-01.png",
     title: "How Will AI and Cloud Computing Transform ERP Systems in India by 2025?",
     metadata:
-      "As we look ahead to 2025 and beyond, Enterprise Resource Planning (ERP) systems are set to transform business operations globally, including in India, where digital adoption is growing rapidly across industries. With advancements in technology such as AI, machine learning, and cloud computing, ERP solutions are becoming smarter, more agile, and increasingly vital for businesses looking to stay competitive. Here are the key ERP trends shaping the future:"+
+      "<p> As we look ahead to 2025 and beyond, <b>Enterprise Resource Planning (ERP)</b> systems are set to transform business operations globally, including in India, where digital adoption is growing rapidly across industries. With advancements in technology such as AI, machine learning, and cloud computing, ERP solutions are becoming smarter, more agile, and increasingly vital for businesses looking to stay competitive. Here are the key ERP trends shaping the future:<p>"+
 "1. AI and Machine Learning Integration"+
 "The integration of artificial intelligence (AI) and machine learning (ML) is revolutionizing ERP systems worldwide, and India is no exception. In 2025, AI-powered ERP systems will allow businesses to predict trends, automate workflows, and make faster, data-driven decisions. This will be particularly useful for India's fast-growing manufacturing and retail sectors, where AI can optimize production and inventory management."+
 "2. Cloud-First ERP Solutions"+
@@ -29,35 +29,35 @@ const BlogData: Blog[] = [
     mainImage: "/images/blog/blog-02.png",
     title: "9 simple ways to improve your design skills",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Id 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
   },
   {
     _id: 3,
     mainImage: "/images/blog/blog-03.png",
     title: "Tips to quickly improve your coding speed.",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Id 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
   },
   {
     _id: 4,
     mainImage: "/images/blog/blog-03.png",
     title: "Free advertising for your online business",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "ID 4 Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
   },
   {
     _id: 5,
     mainImage: "/images/blog/blog-04.png",
     title: "9 simple ways to improve your design skills",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "ID 5 Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
   },
   {
     _id: 6,
     mainImage: "/images/blog/blog-01.png",
     title: "Tips to quickly improve your coding speed.",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "ID 6 Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
   },
 ];
 
