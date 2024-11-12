@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Blog = () => {
   return (
     <>
-    <section className="py-20 lg:py-25 xl:py-30">
+    <section className="">
       <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
         <div className="animate_top mx-auto text-center">
         <header>Blogs & Posts</header>
