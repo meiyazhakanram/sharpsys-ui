@@ -1,3 +1,4 @@
+import Brands from "@/components/Brands";
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
 import { Metadata } from "next";
@@ -28,7 +29,7 @@ export default function OurServicePage() {
               </div>
               <div className="animate-right md:w-1/4 lg:w-2/5">
                 <div className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black">
-                  <h2 className="mb-7 text-2xl font-semibold text-black dark:text-white xl:text-3xl">Our esteemed partners and stakeholders</h2>
+                  <h2 className="mb-7 text-2xl font-semibold text-black dark:text-white xl:text-3xl">Get Started with us</h2>
                   <form action="https://formbold.com/s/unique_form_id" method="POST">
                     <div className="mb-4 flex">
                       <input placeholder="Full name" className="w-full pb-2 pl-1  pt-2 rounded-lg border bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white" type="text" />
@@ -55,6 +56,8 @@ export default function OurServicePage() {
 
         </div>
       </section><br />
+
+      <Brands />
 
       <section className="pb-20 pt-3 bg-[#1A0C2F] md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
         <div className="container mx-auto">
