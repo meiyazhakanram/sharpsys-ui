@@ -1,14 +1,11 @@
+"use client"
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
 import UserStories from "@/components/UserStories";
-import { Metadata } from "next";
 import Image from "next/image";
+import milestones from "./milestoneData";
+import { Chrono } from 'react-chrono';
 
-
-export const metadata: Metadata = {
-  title: "Sharpsys",
-  description: "Sharpsys - Elevate your Business Productivity"
-};
 
 export default function AboutUsPage() {
   return (
@@ -207,9 +204,28 @@ export default function AboutUsPage() {
             </div>
           </div>
         </div>
+        <div className="sm:px-4 md:px-16 xl:px-28 py-8">
+          <Chrono items={milestones}
+            mode="HORIZONTAL"
+            showAllCardsHorizontal="true"
+            toolbarPosition="bottom"
+            slideShow
+            scrollable={{ scrollable: true }}
+            cardWidth={170}
+            cardHeight={200}
+            highlightCardsOnHover="true"
+            theme={{
+              primary: "#4d2d79",
+              secondary: "#f9f3ff",
+              cardBgColor: "#f9f3ff",
+              iconBackgroundColor: "#4d2d79",
+              titleColor: "#4d2d79",
+              cardTitleColor: "#000000",
+              cardDetailsColor: "#817b87",
+            }}
+          />
+        </div>
       </section>
-
-
 
       <section className="bg-[#0A0A0A] py-11 mt-4 mb-5 text-white">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
