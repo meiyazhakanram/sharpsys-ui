@@ -60,9 +60,9 @@ export default function AboutUsPage() {
               <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center">
                 <div className="animate-left md:w-1/4 lg:w-2/5 mt-0">
                   <img
-                    src="/path/to/your-image.jpg"
+                    src="/images/employees/JAVAGAL SRINATH NARAYANAN.jpeg"
                     alt="Team working"
-                    className="w-full h-auto object-cover"
+                    className="w-full h-auto object-cover p-4"
                   />
                 </div>
                 <div className="animate-right md:w-3/4 lg:w-3/5">
@@ -161,31 +161,31 @@ export default function AboutUsPage() {
           <div className="mt-4 grid grid-cols-1 gap-5.5 md:grid-cols-4 lg:mt-15 lg:grid-cols-4 xl:mt-10 xl:gap-10">
             <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
               <img
-                src="/path/to/your-image.jpg"
+                src=""
                 alt="Team working"
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
             <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
               <img
-                src="/path/to/your-image.jpg"
+                src=""
                 alt="Team working"
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
               <img
-                src="/path/to/your-image.jpg"
+                src=""
                 alt="Team working"
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
               <img
-                src="/path/to/your-image.jpg"
+                src=""
                 alt="Team working"
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
@@ -220,6 +220,38 @@ export default function AboutUsPage() {
             <p className="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%] text-center text-gray-500">
               The team of experts who go the extra mile for every client.
             </p>
+
+          </div>
+          <div className="mt-4 grid grid-cols-1 gap-5.5 md:grid-cols-4 lg:mt-15 lg:grid-cols-4 xl:mt-10 xl:gap-10">
+            <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
+              <img
+                src="/images/employees/JAVAGAL SRINATH NARAYANAN.jpeg"
+                alt="Team working"
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
+              <img
+                src="/images/employees/HARIKRISHNAN INDRABABU.png"
+                alt="Team working"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
+              <img
+                src="/images/employees/HEMALATHA NARAYANAN.png"
+                alt="Team working"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
+              <img
+                src="/images/employees/JAY PRASAAND.jpg"
+                alt="Team working"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>

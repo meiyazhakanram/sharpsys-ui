@@ -19,7 +19,7 @@ const HomeDashboard = () => {
                     </h4>
 
                     <div className="mt-5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-5 lg:grid-cols-2 xl:mt-7 xl:gap-12.5">
-                        <div className="animate_top z-40 rounded-lg border gradient-border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+                        <div className="animate_top z-40 rounded-lg border multiBorder border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
                             <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
                                 <img alt="title" width="48" height="48" src="/images/why/why_01.png" className="md:ml-5 md:mr-2" />
                                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -29,7 +29,7 @@ const HomeDashboard = () => {
                             </a>
                         </div>
 
-                        <div className="animate_top z-40 rounded-lg border gradient-border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+                        <div className="animate_top z-40 rounded-lg border multiBorder border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
                             <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
                                 <img alt="title" width="48" height="48" src="/images/why/why_02.png" className="md:ml-5 md:mr-2" />
                                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -39,7 +39,7 @@ const HomeDashboard = () => {
                             </a>
                         </div>
 
-                        <div className="animate_top z-40 !rounded-lg border gradient-border bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+                        <div className="animate_top z-40 !rounded-lg border multiBorder bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
                             <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
                                 <img alt="title" width="48" height="48" src="/images/why/why_03.png" className="md:ml-5 md:mr-2" />
                                 <div className="flex flex-col justify-between p-4 leading-normal">
@@ -49,7 +49,7 @@ const HomeDashboard = () => {
                             </a>
                         </div>
 
-                        <div className="animate_top z-40 !rounded-lg border gradient-border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
+                        <div className="animate_top z-40 !rounded-lg border multiBorder border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
                             <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
                                 <img alt="title" width="48" height="48" src="/images/why/why_04.png" className="md:ml-5 md:mr-2" />
                                 <div className="flex flex-col justify-between p-4 leading-normal">
