@@ -227,3 +227,16 @@ header {
 
 
 
+ /* milestones */
+ [aria-label="timeline_popover"] {
+  display: none;
+}
+
+.ibpOxS.active {
+  background: #4d2d79 !important;
+  color: #FFFFFF !important;
+}
+
+.hxLLRt{
+  background-color:#f9f3ff !important; 
+}
