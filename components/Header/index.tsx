@@ -12,6 +12,7 @@ const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [dropdownToggler, setDropdownToggler] = useState(false);
   const [stickyMenu, setStickyMenu] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
 
   const pathUrl = usePathname();
@@ -29,11 +30,12 @@ const Header = () => {
     window.addEventListener("scroll", handleStickyMenu);
   });
 
+
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-1 bg-gradient-to-r from-stone-50 to-cyan-50 ${
+      className={`fixed left-0 top-0 z-99999 w-full py-1 bg-gradient-to-r from-stone-50 to-cyan-50${
         stickyMenu
-          ? "bg-gradient-to-r from-stone-50 to-cyan-50 !py-1 shadow transition duration-100 dark:bg-black"
+          ? "bg-gradient-to-r from-stone-50 to-cyan-50 !py-1 shadow transition duration-100"
           : ""
       }`}
     >
@@ -43,8 +45,8 @@ const Header = () => {
             <Image
               src="/images/logo/logo_main.png"
               alt="logo"
-              width={119.03}
-              height={30}
+              width={130}
+              height={42}
               className="w-full dark:hidden"
             />
           </a>
@@ -98,25 +100,26 @@ const Header = () => {
           }`}
         >
         <nav>
-            <ul className="menuList flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
+            <ul className="menuList flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-12">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (
                     <>
                       <button
-                        onClick={() => setDropdownToggler(!dropdownToggler)}
-                        className="flex cursor-pointer items-center justify-between gap-3 hover:text-primary"
+                        onClick={() => setDropdownToggler(!dropdownToggler)} onMouseEnter={() => setDropdownToggler(!dropdownToggler)} onMouseLeave={() => setDropdownToggler(!dropdownToggler)}
+                        className="flex cursor-pointer items-center justify-between gap-3 hover:font-bold"
                       >
                         {menuItem.title}
-                        
+                        {/* {dropdownToggler ? <img src="/images/menu/menuIcons/Arrow - Up.svg"/> : <img src="/images/menu/menuIcons/Arrow - Down.svg"/>} */}
                       </button>
+                      
                      { menuItem.title === 'Company' ?
                       <ul
                         className={`dropdown subDropdown bg-slate-100 ${dropdownToggler ? "flex" : ""}`}
                       >
                         
                         {menuItem.submenu.map((item, key) => (
-                          <li key={key} className="hover:text-primary">
+                          <li key={key} className="px-2 rounded-lg hover:text-white hover:bg-headerbg">
                             <Link href={item.path || "#"}>{item.title}</Link>
                           </li>
                         ))} 
@@ -128,15 +131,13 @@ const Header = () => {
                       
                       {menuItem.submenu.map((item, key) => (
                         <li key={key} >
-                          {/* {item.title === 'ServicesMenu' ?                
-                               <Servicesmenu dropDownState={navigationOpen} />
-                          : item.title } */}
                           {
                             item.title === 'ServicesMenu' ?                
                             <Servicesmenu dropDownState={navigationOpen} />
                        : (item.title === 'ProductsMenu'? <ProductsMenu/> : item.title)}
                           
                         </li>
+                        
                       ))}
                       </ul>
                       }
@@ -146,8 +147,8 @@ const Header = () => {
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
-                          ? "hover:text-primary text-lg"
-                          : "hover:text-primary"
+                          ? "hover:font-bold text-base"
+                          : "font-bold"
                       }
                     >
                       {menuItem.title}

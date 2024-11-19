@@ -10,7 +10,7 @@ const DetailsData = ({ review }: { review: Details }) => {
       {id == 2 ? <Image width={100} height={90} className="" src={image} alt={header} /> : ""}
         <div className="p-2">
           {id == 2 ? <p>#We are</p> : ""}
-          <h3 className="text-metatitle3 text-black dark:text-white">
+          <h3 className="text-metatitle3 font-semibold text-black dark:text-white">
             {header}
           </h3>
           <p className="text-xs">{content}</p>

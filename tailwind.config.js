@@ -13,6 +13,7 @@ module.exports = {
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
+      poppins: ["Poppins"],
     },
     extend: {
       colors: {
@@ -37,6 +38,9 @@ module.exports = {
         alabaster: "#FBFBFB",
         zumthor: "#EDF5FF",
         socialicon: "#D1D8E0",
+        headertext: "#383434",
+        headerbg:"#1F004F",
+        secondaryTextColor:'#C2C7CD',
       },
       fontSize: {
         metatitle: ["12px", "20px"],
@@ -106,6 +110,9 @@ module.exports = {
         "c-1154": "72.125rem",
         "c-1016": "63.5rem",
       },
+      minWidth: {
+        "64": "16rem",
+      },
       zIndex: {
         99999: "99999",
         999: "999",
@@ -140,6 +147,10 @@ module.exports = {
         line1: "line 3s linear infinite",
         line2: "line 6s linear infinite",
         line3: "line 9s linear infinite",
+      },
+      inset: {
+        '33' : '134px',
+        '82' : '330px',
       },
     },
   },

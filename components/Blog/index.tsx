@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Blog = () => {
   return (
     <>
-    <section className="">
+    <section>
       <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
         <div className="animate_top mx-auto text-center">
         <header>Blogs & Posts</header>
@@ -81,7 +81,7 @@ const Blog = () => {
             >
               {BlogData.map((review) => (
                 <SwiperSlide key={review?._id}>
-                  <BlogItem blog={review} />
+                  {/* <BlogItem blog={review} /> */}
                 </SwiperSlide>
               ))}
             </Swiper>
