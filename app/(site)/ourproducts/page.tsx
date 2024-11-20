@@ -52,7 +52,7 @@ export default function OurProdcutsPage() {
                     </div>
 
                 </div>
-            </section><br />
+            </section>
 
             <Brands />
 
@@ -88,14 +88,8 @@ export default function OurProdcutsPage() {
                 </div>
             </section>
 
-            <section className="pb-10 pt-3 md:pb-10 md:pt-2 lg:pb-10 lg:pt-20">
+            <section className="pb-10 pt-2 md:pb-10 lg:pb-5 lg:pt-5">
                 <div className="container mx-auto">
-                    <div className="animate_top mx-auto text-center">
-                        <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-black dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
-                            <span className="textStartGradient">Microsoft </span><span className="textLastGradient">Dynamics 365</span>  for Finance and operations
-                        </h2>
-                    </div>
-
                     <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
                         <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
                             <img
@@ -160,6 +154,37 @@ export default function OurProdcutsPage() {
                                 alt="Team working"
                                 className="w-full h-auto object-cover"
                             />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section >
+                <div className="min-h-64 w-full flex items-center justify-center bg-[url('/images/ourProducts/ourProducts_bg_4.jpg')] bg-cover bg-center">
+                    <div className="max-w-6xl mx-auto py-8 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 space-x-16">
+                        <div className=" w-full md:w-1/2">
+                            <div>
+                                <img
+                                    src="/images/ourProducts/email.jpg"
+                                    alt="Email"
+                                    className="rounded-lg"
+                                />
+                            </div>
+                        </div>
+                        <div className="text-white md:w-1/2">
+                            <h2 className="text-3xl font-bold mb-6">
+                                Interested in Enterprise solution for your company?
+                            </h2>
+                            <div className="flex items-center border rounded">
+                                <input
+                                    type="email"
+                                    placeholder="Enter your work email id"
+                                    className="flex-1 px-4 py-2 text-black"
+                                />
+                                <button className=" flex-2 bg-[#FF2E53] text-white rounded border px-6 py-2">
+                                    Submit
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
