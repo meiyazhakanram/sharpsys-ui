@@ -10,7 +10,7 @@ export default function advancedAnalytics() {
             <div className=" p-2">
                 <div className="p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/consulting.png" className="ml-5 mr-2" />
                 <div className="mb-0.5 text-base text-white">
                  Consulting
                   <p className="menuSubContent !w-72">Expert advice to harness the full potential of your data</p>
@@ -20,7 +20,7 @@ export default function advancedAnalytics() {
                 </div>
                 <div className="w-9/12 p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/data analytics.png" className="ml-5 mr-2" />
                 <div className="mb-0.5 text-base text-white">
                  Data Analytics
                   <p className="menuSubContent !w-72">Meaningful insights for data-driven decision making</p>
@@ -42,7 +42,7 @@ export default function advancedAnalytics() {
             <div className="p-2">
                 <div className="w-full p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/migration.png" className="ml-5 mr-2" />
                 <div className="mb-0.5 text-base text-white">
                  Data Migration
                   <p className="menuSubContent !w-72">Risk-free migration strategies for your archiving and migration needs</p>

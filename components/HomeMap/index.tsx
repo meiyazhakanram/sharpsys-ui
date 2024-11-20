@@ -68,18 +68,18 @@ return (
             
           </g>
           
-         {/* <text
+         <text
          textAnchor="middle"
          y={markerOffset}
          style={{ fontFamily: "system-ui", fill: "#5D5A6D" }}
        >
          {name}
-       </text> */}
+       </text>
       {/* <div className={`w-1/2 h-1/2 translate-y-${markerOffset+1}`}>
         <p>{name}</p>
       </div>  */}
 
-  <Tooltip anchorSelect=".locationPointer">{name}</Tooltip>
+  <Tooltip anchorSelect=".locationPointer" position={{x:15, y:15}}>{name}</Tooltip>
            
           
         </Marker>

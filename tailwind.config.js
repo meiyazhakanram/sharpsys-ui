@@ -38,9 +38,11 @@ module.exports = {
         alabaster: "#FBFBFB",
         zumthor: "#EDF5FF",
         socialicon: "#D1D8E0",
-        headertext: "#383434",
+        blacktext: "#383434",
         headerbg:"#1F004F",
         secondaryTextColor:'#C2C7CD',
+        purple:'#2C1A46',
+        normalGray:'#747474',
       },
       fontSize: {
         metatitle: ["12px", "20px"],
