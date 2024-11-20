@@ -12,14 +12,14 @@ const menuData: Menu[] = [
     id: 2,
     title: "Our Services",
     newTab: false,
-    path: "/#features",
+    path: "/ourservices",
     image:"",
     submenu: [
       {
         id: 2.1,
         title: "ServicesMenu",
         newTab: false,
-        path: "/blog",
+        path: "/ourservices",
         image:"",
       }
     ]
@@ -33,10 +33,11 @@ const menuData: Menu[] = [
         id: 3.1,
         title: "ProductsMenu",
         newTab: false,
-        path: "/blog",
+        path: "/ourproducts",
         image:"",
       }
     ],
+    path: "/ourproducts",
     image:"",
   },
 
@@ -44,7 +45,7 @@ const menuData: Menu[] = [
     id: 4,
     title: "Company",
     newTab: false,
-    path: "/support",
+    path: "/aboutus",
     image:"",
     submenu: [
       {

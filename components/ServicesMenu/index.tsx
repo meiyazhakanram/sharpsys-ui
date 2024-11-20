@@ -63,13 +63,15 @@ const ServicesMenu = (props) => {
                     <ul className='group'>
                         {serviceMenuData.map((menuItem, key) => (
                             <div key={key} className='relative group/menu'>
-                            <li key={key} data-key={key} className={`px-2.5 py-4 menu cursor-pointer flex gap-2 hover:bg-headerbg hover:text-white rounded-lg ${active === menuItem.title ? 'bg-headerbg text-white' : ''}`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+                                <Link href={`${menuItem.path}`}>
+                            <li key={key} data-key={key} className={`px-2.5 py-4 menu cursor-pointer flex gap-2 hover:bg-headerbg hover:text-white rounded-lg`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
                                 
                                 <img src={menuItem.image} width={32} height={32}/>
                                 {menuItem.title}
-                                <div key={key} className={`vertical-center w-4 h-4 right-0 group-hover/menu:bg-headerbg `}></div> 
+                                <div key={key} className={`vertical-center w-4 h-4 right-0 group-hover/menu:bg-headerbg `}></div>
+                                
                             </li>
-                            
+                            </Link>
                             </div>
                         ))}
                     </ul>
