@@ -233,7 +233,6 @@ export default function AboutUsPage() {
             scrollable={{ scrollable: true }}
             cardWidth={170}
             cardHeight={200}
-            highlightCardsOnHover="true"
             theme={{
               primary: "#4d2d79",
               secondary: "#f9f3ff",
