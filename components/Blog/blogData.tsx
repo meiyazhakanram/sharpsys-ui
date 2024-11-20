@@ -3,7 +3,7 @@ import { Blog } from "@/types/blog";
 const BlogData: Blog[] = [
   {
     _id: 1,
-    mainImage: "/images/blog/blog-01.png",
+    mainImage: "/images/blog-1.png",
     title: "How Will AI and Cloud Computing Transform ERP Systems in India by 2025?",
     metadata:
       "<div><div>As we look ahead to 2025 and beyond, <b>Enterprise Resource Planning (ERP)</b> systems are set to transform business operations globally, including in India, where digital adoption is growing rapidly across industries. With advancements in technology such as AI, machine learning, and cloud computing, ERP solutions are becoming smarter, more agile, and increasingly vital for businesses looking to stay competitive. Here are the key ERP trends shaping the future:<p></div>" +
@@ -26,7 +26,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 2,
-    mainImage: "/images/blog/blog-02.png",
+    mainImage: "/images/blog/blog-2.png",
     title: "How to Choose the Right Microsoft Dynamics Modules for Your Business",
     metadata:
       "<div><div>Choosing the right technology to support your business is critical, especially when it comes to enterprise solutions like <b>Microsoft Dynamics 365</b>. With a wide range of modules covering everything from sales to finance, it can be overwhelming to decide which ones best fit your business needs. In this blog, we’ll break down how to select the right Microsoft Dynamics 365 modules to drive success for your company.<p></div>" +
@@ -65,7 +65,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 3,
-    mainImage: "/images/blog/blog-03.png",
+    mainImage: "/images/blog/blog-3.png",
     title: "The Importance of Training: Maximising Your ERP Investment",
     metadata:
       "<div>Implementing an <b>Enterprise Resource Planning (ERP)</b> system like <b>Microsoft Dynamics 365</b> is a significant investment for any business. It streamlines operations, enhances data management, and drives better decision-making. But to truly maximize the return on investment (ROI) of your ERP system, one critical element cannot be overlooked—<b>training</b>.</div>" +
@@ -88,7 +88,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 4,
-    mainImage: "/images/blog/blog-03.png",
+    mainImage: "/images/blog/blog-4.png",
     title: "How to Calculate ROI on Your ERP Investment",
     metadata:
       "<div>Enterprise Resource Planning (ERP) systems are integral tools for businesses aiming to streamline their operations and enhance productivity. By integrating various functions such as finance, HR, supply chain, and customer relations into a single system, ERP helps organizations make informed decisions, improve efficiency, and ultimately drive growth. However, before investing in an ERP system, it’s essential to understand how to measure its effectiveness—specifically, its Return on Investment (ROI).</div>" +
@@ -151,14 +151,28 @@ const BlogData: Blog[] = [
   },
   {
     _id: 5,
-    mainImage: "/images/blog/blog-04.png",
+    mainImage: "/images/blog/blog-5.png",
     title: "How to Ensure Your Microsoft Dynamics ERP System Stays Up-to-Date",
     metadata:
       "<div>In today’s fast-paced business environment, keeping your ERP (Enterprise Resource Planning) system updated is crucial for maintaining operational efficiency and competitiveness. Microsoft Dynamics ERP systems are designed to adapt and evolve, offering new features, enhancements, and security updates. However, ensuring your system stays up-to-date requires a proactive approach. In this blog, we’ll discuss practical strategies to keep your Microsoft Dynamics ERP system current and fully optimized.</div>",
   },
   {
     _id: 6,
-    mainImage: "/images/blog/blog-01.png",
+    mainImage: "/images/blog/blog-6.png",
+    title: "Microsoft Dynamics vs. Other ERP Solutions: A Comparative Analysis",
+    metadata:
+      "<div>Choosing the right ERP (Enterprise Resource Planning) system is a critical decision for any business. With numerous solutions on the market, finding the best fit can be challenging. Microsoft Dynamics 365 is one of the leading ERP systems, but how does it stack up against other popular ERP solutions? In this blog, we’ll conduct a simple and clear comparative analysis of Microsoft Dynamics 365 versus other ERP systems to help you make an informed decision for your business.</div>",
+  },
+  {
+    _id: 7,
+    mainImage: "/images/blog/blog-7.png",
+    title: "Microsoft Dynamics vs. Other ERP Solutions: A Comparative Analysis",
+    metadata:
+      "<div>Choosing the right ERP (Enterprise Resource Planning) system is a critical decision for any business. With numerous solutions on the market, finding the best fit can be challenging. Microsoft Dynamics 365 is one of the leading ERP systems, but how does it stack up against other popular ERP solutions? In this blog, we’ll conduct a simple and clear comparative analysis of Microsoft Dynamics 365 versus other ERP systems to help you make an informed decision for your business.</div>",
+  },
+  {
+    _id: 8,
+    mainImage: "/images/blog/blog-8.png",
     title: "Microsoft Dynamics vs. Other ERP Solutions: A Comparative Analysis",
     metadata:
       "<div>Choosing the right ERP (Enterprise Resource Planning) system is a critical decision for any business. With numerous solutions on the market, finding the best fit can be challenging. Microsoft Dynamics 365 is one of the leading ERP systems, but how does it stack up against other popular ERP solutions? In this blog, we’ll conduct a simple and clear comparative analysis of Microsoft Dynamics 365 versus other ERP systems to help you make an informed decision for your business.</div>",

@@ -31,7 +31,7 @@ export default function enterpriseSolution() {
                 </div>
                 <div className="w-full p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/services/Dynamics365_scalable.svg" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/Dynamics 365.png" className="ml-5 mr-2" />
                 <div className="mb-0.5 text-base text-white">
                 Microsoft Power Platform
                   <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>

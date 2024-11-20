@@ -155,7 +155,7 @@ header {
 }
 
 .menuList {
- @apply xl:!px-32 text-headertext;
+ @apply xl:!px-32 text-blacktext;
 }
 
 .menuSubContent {
@@ -199,7 +199,7 @@ header {
 }
 
 .menuBackground {
-  @apply !bg-[url(/images/menu/menu_bg)] bg-cover bg-no-repeat text-headertext;
+  @apply !bg-[url(/images/menu/menu_bg)] bg-cover bg-no-repeat text-blacktext;
  }
 
 .heroBackground {
@@ -239,4 +239,8 @@ header {
 
 .hxLLRt{
   background-color:#f9f3ff !important; 
+}
+
+.contactDialogue {
+  @apply  bg-[url(/images/about/contact_us_dialogue_bg.png)] bg-cover bg-no-repeat bg-right;
 }

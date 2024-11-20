@@ -32,7 +32,7 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/Sharpsys - Logo - Footer.png"
                     alt="Logo"
                     className="dark:block"
                   />

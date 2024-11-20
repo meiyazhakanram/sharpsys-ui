@@ -140,7 +140,7 @@ const HomeDashboard = () => {
                             </h4>
                         </div>
                         <div className="animate_right relative mx-auto md:block md:w-1/2">
-                            <p className="relative mb-3 text-sm p-0 text-white dark:text-white sm:text-sm">
+                            <p className="relative mb-3 text-sm p-0 text-white dark:text-white sm:text-sm text-justify">
                                 Our approach blends traditional waterfall, Microsoft's Sure Step, and agile methods to ensure
                                 precise, timely, and flexible project delivery.
                             </p>
@@ -156,7 +156,7 @@ const HomeDashboard = () => {
                                 <img className="p-8 rounded-t-lg mb-4" src="/images/imple1.png" alt="product image" />
                                 <div className="px-5 pb-5">
                                     <h5 className="text-xl font-semibold text-white dark:text-white">Classic Implementation</h5>
-                                    <div className="flex justify-between">
+                                    <div className="flex justify-between text-justify">
                                         A structured, step-by-step approach using the traditional waterfall model, ensuring thorough,
                                         sequential project completion.
                                     </div>
@@ -167,7 +167,7 @@ const HomeDashboard = () => {
                                 <img className="p-8 rounded-t-lg" src="/images/imple2.png" alt="product image" />
                                 <div className="px-5 pb-5">
                                     <h5 className="text-xl font-semibold text-white dark:text-white">Standard Methodology</h5>
-                                    <div className="flex justify-between">
+                                    <div className="flex justify-between text-justify">
                                         Microsoft's Sure Step Methodology guarantees precise scoping and timelines, offering clarity at
                                         every stage of implementation.
                                     </div>
@@ -178,7 +178,7 @@ const HomeDashboard = () => {
                                 <img className="p-8 rounded-t-lg mb-7" src="/images/imple3.png" alt="product image" />
                                 <div className="px-5 pb-5">
                                     <h5 className="text-xl font-semibold text-white dark:text-white">Modern Methodology</h5>
-                                    <div className="flex justify-between">
+                                    <div className="flex justify-between text-justify">
                                         Agile/Rapid Implementation enables faster go-live with iterative development, enhancing
                                         flexibility and quicker business outcomes.
                                     </div>
