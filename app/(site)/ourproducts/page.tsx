@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function OurProdcutsPage() {
     return (
         <>
-            <section className="pb-20 pt-3 bg-[#2B1A46] md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
+            <section className="pb-20 pt-3 bg-[url('/images/ourProducts/ourProducts_bg.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
                 <div className="container mx-auto">
                     <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
                         <div className="flex flex-wrap gap-1 md:flex-nowrap md:gap-10 md:items-center mt-20">
@@ -56,7 +56,7 @@ export default function OurProdcutsPage() {
 
             <Brands />
 
-            <section className="pb-20 pt-3 bg-[#1A0C2F] md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
+            <section className="pb-20 pt-3 bg-[url('/images/ourProducts/ourProducts_bg_2.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
                 <div className="container mx-auto">
                     <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
                         <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-20">
@@ -138,7 +138,7 @@ export default function OurProdcutsPage() {
 
 
                     <div className="mt-4 grid grid-cols-1 gap-5.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-2 xl:mt-10 xl:gap-10">
-                        <div className="ml-0 border bg-[#2A1A46] rounded-lg p-5 pt-5">
+                        <div className="ml-0 border bg-[url('/images/ourProducts/ourProducts_bg_3.jpg')] bg-cover bg-center rounded-lg p-5 pt-5">
                             <h2 className="text-2xl font-semibold text-white">E-Invoicing</h2>
                             <p className="text-white">Our E-Invoicing solution simplifies your invoicing process, ensuring accuracy and compliance
                                 while saving you time.
@@ -150,7 +150,7 @@ export default function OurProdcutsPage() {
                             />
                         </div>
 
-                        <div className="ml-0 border bg-[#2A1A46] rounded-lg p-5 pt-5">
+                        <div className="ml-0 border bg-[url('/images/ourProducts/ourProducts_bg_2.jpg')] bg-cover bg-center rounded-lg p-5 pt-5">
                             <h2 className="text-2xl font-semibold text-white">Quote Engine</h2>
                             <p className="text-white">Generate professional quotes in seconds with our Quote Engine. Customize templates,
                                 calculate pricing, and send quotes effortlessly
@@ -161,11 +161,7 @@ export default function OurProdcutsPage() {
                                 className="w-full h-auto object-cover"
                             />
                         </div>
-
-
                     </div>
-
-
                 </div>
             </section>
             <FAQ />
