@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function OurServicePage() {
   return (
     <>
-      <section className="pb-20 pt-3 bg-[#2B1A46] md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
+      <section className="pb-20 pt-3 bg-[url('/images/ourservices/services_bg1.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
         <div className="container mx-auto">
           <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
             <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-20">
@@ -101,9 +101,9 @@ export default function OurServicePage() {
           <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
             <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
               <img
-                src="/path/to/your-image.jpg"
-                alt="Team working"
-                className="w-full h-auto object-cover"
+                src="/images/services/servicestab/Microsoft Dynamics Business Central_Manufacturing.jpg"
+                alt="Microsoft Dynamics Business"
+                className="w-full h-auto pl-6 object-cover"
               />
             </div>
             <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
@@ -135,9 +135,9 @@ export default function OurServicePage() {
             </div>
             <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
               <img
-                src="/path/to/your-image.jpg"
-                alt="Team working"
-                className="w-full h-auto object-cover"
+                src="/images/ourservices/business_central.jpg"
+                alt="Business Central"
+                className="w-full h-auto object-cover pr-4"
               />
             </div>
           </div>
@@ -165,9 +165,9 @@ export default function OurServicePage() {
                 Insights, Service, Field, and Project Operations solutions.
               </p>
               <img
-                src="/path/to/your-image.jpg"
-                alt="Team working"
-                className="w-full h-auto object-cover"
+                src="/images/services/servicestab/CRM.jpg"
+                alt="CRM"
+                className="h-[85%] w-[100%] p-4 object-cover"
               />
             </div>
 
@@ -178,9 +178,9 @@ export default function OurServicePage() {
 
               </p>
               <img
-                src="/path/to/your-image.jpg"
-                alt="Team working"
-                className="w-full h-auto object-cover"
+                src="/images/services/servicestab/Advanced Analytics.jpg"
+                alt="Advanced Analytics"
+                className="h-[85%] w-[100%] p-4 object-cover"
               />
             </div>
             <div className="ml-0 border bg-[#2A1A46] rounded-lg p-5 pt-5">
@@ -189,9 +189,9 @@ export default function OurServicePage() {
                 self-service BI for smarter, data-driven decisions.
               </p>
               <img
-                src="/path/to/your-image.jpg"
-                alt="Team working"
-                className="w-full h-auto object-cover"
+                src="/images/ourservices/business_intelligence.jpg"
+                alt="Business Intelligence"
+                className="h-[85%] w-[100%] p-4 object-cover"
               />
             </div>
 
@@ -201,9 +201,9 @@ export default function OurServicePage() {
                 ensuring your projects stay on track and succeed.
               </p>
               <img
-                src="/path/to/your-image.jpg"
-                alt="Team working"
-                className="w-full h-auto object-cover"
+                src="/images/services/servicestab/Staff Augmentation.jpg"
+                alt="Staff Augmentation"
+                className="h-[85%] w-[100%] p-4 object-cover"
               />
             </div>
 

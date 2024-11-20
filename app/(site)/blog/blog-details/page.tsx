@@ -27,9 +27,8 @@ const SingleBlogPage = () => {
                   </div><h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
                       {blog.title}
                     </h2><div className="blog-details">
-                      <div className="text-justify">
+                      <div className="text-black text-justify">
                         {parse(blog.metadata || '')}
-                        {/* {<div dangerouslySetInnerHTML={{__html : blog.metadata || ''}}></div>} */}
                       </div>
                     </div></>
                   : "")

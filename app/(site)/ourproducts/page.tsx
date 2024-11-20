@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function OurProdcutsPage() {
     return (
         <>
-            <section className="pb-20 pt-3 bg-[#2B1A46] md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
+            <section className="pb-20 pt-3 bg-[url('/images/ourProducts/ourProducts_bg.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
                 <div className="container mx-auto">
                     <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
                         <div className="flex flex-wrap gap-1 md:flex-nowrap md:gap-10 md:items-center mt-20">
@@ -52,11 +52,11 @@ export default function OurProdcutsPage() {
                     </div>
 
                 </div>
-            </section><br />
+            </section>
 
             <Brands />
 
-            <section className="pb-20 pt-3 bg-[#1A0C2F] md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
+            <section className="pb-20 pt-3 bg-[url('/images/ourProducts/ourProducts_bg_2.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
                 <div className="container mx-auto">
                     <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
                         <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-20">
@@ -88,14 +88,8 @@ export default function OurProdcutsPage() {
                 </div>
             </section>
 
-            <section className="pb-10 pt-3 md:pb-10 md:pt-2 lg:pb-10 lg:pt-20">
+            <section className="pb-10 pt-2 md:pb-10 lg:pb-5 lg:pt-5">
                 <div className="container mx-auto">
-                    <div className="animate_top mx-auto text-center">
-                        <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-black dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
-                            <span className="textStartGradient">Microsoft </span><span className="textLastGradient">Dynamics 365</span>  for Finance and operations
-                        </h2>
-                    </div>
-
                     <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
                         <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
                             <img
@@ -138,7 +132,7 @@ export default function OurProdcutsPage() {
 
 
                     <div className="mt-4 grid grid-cols-1 gap-5.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-2 xl:mt-10 xl:gap-10">
-                        <div className="ml-0 border bg-[#2A1A46] rounded-lg p-5 pt-5">
+                        <div className="ml-0 border bg-[url('/images/ourProducts/ourProducts_bg_3.jpg')] bg-cover bg-center rounded-lg p-5 pt-5">
                             <h2 className="text-2xl font-semibold text-white">E-Invoicing</h2>
                             <p className="text-white">Our E-Invoicing solution simplifies your invoicing process, ensuring accuracy and compliance
                                 while saving you time.
@@ -150,7 +144,7 @@ export default function OurProdcutsPage() {
                             />
                         </div>
 
-                        <div className="ml-0 border bg-[#2A1A46] rounded-lg p-5 pt-5">
+                        <div className="ml-0 border bg-[url('/images/ourProducts/ourProducts_bg_2.jpg')] bg-cover bg-center rounded-lg p-5 pt-5">
                             <h2 className="text-2xl font-semibold text-white">Quote Engine</h2>
                             <p className="text-white">Generate professional quotes in seconds with our Quote Engine. Customize templates,
                                 calculate pricing, and send quotes effortlessly
@@ -161,11 +155,38 @@ export default function OurProdcutsPage() {
                                 className="w-full h-auto object-cover"
                             />
                         </div>
-
-
                     </div>
+                </div>
+            </section>
 
-
+            <section >
+                <div className="min-h-64 w-full flex items-center justify-center bg-[url('/images/ourProducts/ourProducts_bg_4.jpg')] bg-cover bg-center">
+                    <div className="max-w-6xl mx-auto py-8 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 space-x-16">
+                        <div className=" w-full md:w-1/2">
+                            <div>
+                                <img
+                                    src="/images/ourProducts/email.jpg"
+                                    alt="Email"
+                                    className="rounded-lg"
+                                />
+                            </div>
+                        </div>
+                        <div className="text-white md:w-1/2">
+                            <h2 className="text-3xl font-bold mb-6">
+                                Interested in Enterprise solution for your company?
+                            </h2>
+                            <div className="flex items-center border rounded">
+                                <input
+                                    type="email"
+                                    placeholder="Enter your work email id"
+                                    className="flex-1 px-4 py-2 text-black"
+                                />
+                                <button className=" flex-2 bg-[#FF2E53] text-white rounded border px-6 py-2">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <FAQ />
