@@ -21,13 +21,11 @@ export default function AboutUsPage() {
               achieve sustainable growth.
             </p>
           </div>
-          <div className="container mx-auto mb-4">
+          <div className="container mb-4">
             <img
               src="/images/about/team.jpg"
               alt="Team working"
-              className="object-cover rounded-xl"
-              width={1198}
-              height={434}
+              className="object-cover rounded-xl w-full h-full"
             />
           </div>
 

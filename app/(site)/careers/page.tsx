@@ -30,11 +30,18 @@ export default function CareersPage() {
 
     return (
         <>
-            <section className="pb-10 pt-24 md:pb-20 md:pt-28 lg:pb-14 lg:pt-32">
+            <section className="pb-10 pt-24 md:pt-28 lg:pt-32">
                 <div className="container mx-auto">
                     <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-black dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle3">
                         Be a <span className='bg-gradient-to-r from-green-400 via-emarald-500 via-red-500 via-orange-500 via-yellow-500 to-green-500 text-transparent bg-clip-text'>part of our proficient team</span>
                     </h2>
+                </div>
+                <div className="container px-12 py-4">
+                    <img
+                        src="/images/about/team.jpg"
+                        alt="Team working"
+                        className="object-cover rounded-xl w-full h-full"
+                    />
                 </div>
             </section>
 
@@ -104,7 +111,7 @@ export default function CareersPage() {
                 </div>
             </section>                   
                     
-            <section className="bg-gradient-to-r from-red-500 via-orange-500 via-yellow-500 via-lime-500 via-emarald-500 to-teal-500  min-h-screen flex flex-col items-center justify-center">
+            <section className="min-h-screen w-full flex flex-col items-center justify-center bg-[url('/images/about/perks.png')] bg-cover bg-contain bg-no-repeat">
                 <h2 className="text-center text-white text-2xl font-bold mb-8">Perks & Benefits at Sharpsys</h2>
                 <div className="bg-white rounded-lg shadow-lg p-4 grid md:grid-cols-2 gap-6 w-3/5 justify-items-center">
                     <div className='p-4 border-b-2 border-dashed'>
