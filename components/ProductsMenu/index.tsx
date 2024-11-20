@@ -50,7 +50,7 @@ const ProductsMenu = (props) => {
             <div className='grid grid-cols-4 gap-2 bg-white rounded-lg'>
             <div className="col-span-2 p-1">
                 <div className="w-full p-2 rounded-lg hover:bg-headerbg group/menu">
-                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <a href="/ourproducts" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/menu/menuIcons/drag-and-drop.png" className="ml-5 mr-2" />
                 <div className="mb-0.5 text-segmenttitle text-black mt-3 group-hover/menu:text-white">
                   Drag and Drop
@@ -59,7 +59,7 @@ const ProductsMenu = (props) => {
               </a>
                 </div>
                 <div className="w-full p-2 rounded-lg hover:bg-headerbg group/menu">
-                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <a href="/ourproducts" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/menu/menuIcons/e-invoice.png" className="ml-5 mr-2" />
                 <div className="mb-0.5 text-segmenttitle text-black mt-3 group-hover/menu:text-white">
                  E-Invoice Integration
@@ -72,7 +72,7 @@ const ProductsMenu = (props) => {
             </div>
             <div className="col-span-2">
                 <div className="w-full p-2 rounded-lg hover:bg-headerbg group/menu">
-                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
+                <a href="/ourproducts" className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <img alt="title" width="36" height="36" src="/images/menu/menuIcons/quotation.png" className="ml-5 mr-2" />
                 <div className="mb-0.5 text-segmenttitle text-black mt-3 group-hover/menu:text-white">
                   Quote Engine

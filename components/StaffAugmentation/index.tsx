@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import Image from "next/image";
 
-export default function enterpriseSolution() {
+export default function StaffAugmentation() {
     return (
         <>
         <header><h4 className='text-metatitle2 px-4 py-2 h-10 text-white dark:text-white font-bold'>Staff Augmentation</h4></header>

@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import menuData from "./menuData";
 import Servicesmenu from "../ServicesMenu";
 import ProductsMenu from "../ProductsMenu";
+import { pathToFileURL } from "url";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -106,11 +107,19 @@ const Header = () => {
                   {menuItem.submenu ? (
                     <>
                       <button
-                        onClick={() => setDropdownToggler(!dropdownToggler)} onMouseEnter={() => setDropdownToggler(!dropdownToggler)} onMouseLeave={() => setDropdownToggler(!dropdownToggler)}
+                        onClick={() => setDropdownToggler(!dropdownToggler)} 
                         className="flex cursor-pointer items-center justify-between gap-3 hover:font-bold"
                       >
-                        {menuItem.title}
-                        {/* {dropdownToggler ? <img src="/images/menu/menuIcons/Arrow - Up.svg"/> : <img src="/images/menu/menuIcons/Arrow - Down.svg"/>} */}
+                        <Link href={`${menuItem.path}`} className={`
+                            ${pathUrl === menuItem.path
+                              ? "font-bold text-base"
+                              : "font-normal"} flex flex-col items-center`}
+                          
+                        >
+                          {menuItem.title}
+                        {pathUrl === menuItem.path ? <img src="/images/menu/menuIcons/Menu_dash.svg" width={16} height={16} className=""/> : ""}
+                        </Link>
+                        {dropdownToggler ? <img src="/images/menu/menuIcons/Arrow - Up.svg"/> : <img src="/images/menu/menuIcons/Arrow - Down.svg"/>}
                       </button>
                       
                      { menuItem.title === 'Company' ?
@@ -132,8 +141,8 @@ const Header = () => {
                       {menuItem.submenu.map((item, key) => (
                         <li key={key} >
                           {
-                            item.title === 'ServicesMenu' ?                
-                            <Servicesmenu dropDownState={navigationOpen} />
+                            item.title === 'ServicesMenu' ? <Servicesmenu dropDownState={navigationOpen} />               
+                           
                        : (item.title === 'ProductsMenu'? <ProductsMenu/> : item.title)}
                           
                         </li>
@@ -145,13 +154,14 @@ const Header = () => {
                   ) : (
                     <Link
                       href={`${menuItem.path}`}
-                      className={
-                        pathUrl === menuItem.path
-                          ? "hover:font-bold text-base"
-                          : "font-bold"
-                      }
+                      className={`
+                        ${pathUrl === menuItem.path
+                          ? "font-bold text-base"
+                          : "font-normal"} flex flex-col items-center`}
+                      
                     >
                       {menuItem.title}
+                      {pathUrl === menuItem.path ? <img src="/images/menu/menuIcons/Menu_dash.svg" width={16} height={16} className=""/> : ""}
                     </Link>
                   )}
                 </li>
