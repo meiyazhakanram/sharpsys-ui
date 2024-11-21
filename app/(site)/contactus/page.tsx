@@ -1,5 +1,6 @@
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
+import HomeMap from "@/components/HomeMap";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -174,6 +175,8 @@ export default function ContactUsPage() {
           </div>
         </div>
       </section>
+      {/* Geo Location */}
+      <HomeMap />
 
 
       <section className="pb-5 pt-10 md:pb-10 md:pt-18 lg:pb-14 lg:pt-12">
