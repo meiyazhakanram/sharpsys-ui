@@ -15,18 +15,18 @@ export default function CareersPage() {
 
     const [activeSection, setActiveSection] = useState(null);
 
-    
 
-  // Toggle the active section
-  const toggleSection = (section) => {
-    setActiveSection(activeSection === section ? null : section);
-  };
 
-  const getSectionClassName = (section) => {
-    return activeSection === section
-      ? 'font-bold border-l-4 border-black shadow-lg ml-2' 
-      : 'font-semibold text-gray-800'; 
-  };
+    // Toggle the active section
+    const toggleSection = (section) => {
+        setActiveSection(activeSection === section ? null : section);
+    };
+
+    const getSectionClassName = (section) => {
+        return activeSection === section
+            ? 'font-bold border-l-4 border-black shadow-lg ml-2'
+            : 'font-semibold text-gray-800';
+    };
 
     return (
         <>
@@ -70,13 +70,13 @@ export default function CareersPage() {
                 </div>
             </section>
 
-            <section>
-                <div className="min-h-screen  flex justify-center items-center">
-                    <div className="w-full max-w-6xl bg-white rounded-lg shadow-lg p-4 flex">
+            <section className="bg-white py-1 mb-8">
+                <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+                    <div className="max-w-c-1390 max-w-6xl bg-white rounded-lg shadow-lg p-4 flex">
                         <div className="w-1/2 pr-2">
-                            <h2 className="text-3xl font-bold text-black mb-4">Why <span  className="bg-gradient-to-r from-orange-400 via-lime-500 via-green-500 to-teal-500 text-transparent bg-clip-text">Join Us</span></h2>
+                            <h2 className="text-3xl font-bold text-black mb-4">Why <span className="bg-gradient-to-r from-orange-400 via-lime-500 via-green-500 to-teal-500 text-transparent bg-clip-text">Join Us</span></h2>
                             <p className="text-gray-600 mb-6">
-                            We are committed to delivering exceptional results. We value actions and our prime focus is on quality work. Join us and be part of a team that prioritizes results and makes an impact.
+                                We are committed to delivering exceptional results. We value actions and our prime focus is on quality work. Join us and be part of a team that prioritizes results and makes an impact.
                             </p>
                             <button className="bg-[#fe2f53] text-white py-2 px-8 rounded-2xl mt-4">
                                 View Open Roles
@@ -109,8 +109,8 @@ export default function CareersPage() {
                         </div>
                     </div>
                 </div>
-            </section>                   
-                    
+            </section>
+
             <section className="min-h-screen w-full flex flex-col items-center justify-center bg-[url('/images/about/perks.png')] bg-cover bg-contain bg-no-repeat">
                 <h2 className="text-center text-white text-2xl font-bold mb-8">Perks & Benefits at Sharpsys</h2>
                 <div className="bg-white rounded-lg shadow-lg p-4 grid md:grid-cols-2 gap-6 w-3/5 justify-items-center">
@@ -135,7 +135,7 @@ export default function CareersPage() {
                         <p className="text-gray-600">Take advantage of paid maternity benefits to support your family.</p>
                     </div>
                 </div>
-            </section>                   
+            </section>
 
             <section className="bg-white mt-24 mb-4">
                 <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-3">
