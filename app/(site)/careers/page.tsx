@@ -111,7 +111,7 @@ export default function CareersPage() {
                 </div>
             </section>
 
-            <section className="min-h-screen w-full flex flex-col items-center justify-center bg-[url('/images/about/perks.png')] bg-cover bg-contain bg-no-repeat">
+            <section className="min-h-screen w-full flex flex-col items-center justify-center bg-[url('/images/about/perks.png')] bg-contain bg-no-repeat">
                 <h2 className="text-center text-white text-2xl font-bold mb-8">Perks & Benefits at Sharpsys</h2>
                 <div className="bg-white rounded-lg shadow-lg p-4 grid md:grid-cols-2 gap-6 w-3/5 justify-items-center">
                     <div className='p-4 border-b-2 border-dashed'>

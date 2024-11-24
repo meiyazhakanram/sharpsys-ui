@@ -3,6 +3,10 @@ import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
 import { Metadata } from "next";
 import Image from "next/image";
+import ServicesCRM from "@/components/OurServices/CRM";
+import ServicesAnalytics from "@/components/OurServices/AdvancedAnalytics";
+import ServicesBusinessIntelligence from "@/components/OurServices/BusinessIntelligence";
+import ServicesStaffAugmentation from "@/components/OurServices/StaffAugmentation";
 
 
 export const metadata: Metadata = {
@@ -141,10 +145,8 @@ export default function OurServicePage() {
               />
             </div>
           </div>
-
         </div>
       </section>
-
 
       <section className="pb-20 pt-3 md:pb-10 md:pt-2 lg:pb-20 lg:pt-20">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
@@ -167,7 +169,7 @@ export default function OurServicePage() {
               <img
                 src="/images/services/servicestab/CRM.jpg"
                 alt="CRM"
-                className="h-[85%] w-[100%] p-4 object-cover"
+                className="h-auto w-[100%] p-4 object-cover"
               />
             </div>
 
@@ -180,7 +182,7 @@ export default function OurServicePage() {
               <img
                 src="/images/services/servicestab/Advanced Analytics.jpg"
                 alt="Advanced Analytics"
-                className="h-[85%] w-[100%] p-4 object-cover"
+                className="h-auto w-[100%] p-4 object-cover"
               />
             </div>
             <div className="ml-0 border bg-[#2A1A46] rounded-lg p-5 pt-5">
@@ -191,7 +193,7 @@ export default function OurServicePage() {
               <img
                 src="/images/ourservices/business_intelligence.jpg"
                 alt="Business Intelligence"
-                className="h-[85%] w-[100%] p-4 object-cover"
+                className="h-auto w-[100%] p-4 object-cover"
               />
             </div>
 
@@ -203,13 +205,46 @@ export default function OurServicePage() {
               <img
                 src="/images/services/servicestab/Staff Augmentation.jpg"
                 alt="Staff Augmentation"
-                className="h-[85%] w-[100%] p-4 object-cover"
+                className="h-auto w-[100%] p-4 object-cover"
               />
             </div>
-
           </div>
+        </div>
+      </section>
+  
+      <ServicesCRM />
+      <ServicesAnalytics />
+      <ServicesBusinessIntelligence />
+      <ServicesStaffAugmentation />
 
-
+      <section >
+        <div className="min-h-64 w-full flex items-center justify-center bg-[url('/images/ourservices/email_bg.jpg')] bg-cover bg-center">
+          <div className="max-w-6xl mx-auto py-8 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 space-x-16">
+            <div className=" w-full md:w-1/2">
+              <div>
+                <img
+                  src="/images/ourProducts/email.jpg"
+                  alt="Email"
+                  className="rounded-lg"
+                />
+              </div>
+            </div>
+            <div className="text-white md:w-1/2">
+              <h2 className="text-3xl font-bold mb-6">
+                Interested in Enterprise solution for your company?
+              </h2>
+              <div className="relative mb-5">
+                <input
+                  type="email"
+                  placeholder="Enter your work email id"
+                  className="w-full rounded-lg border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
+                />
+                <button type="button" className="absolute right-0 p-2 mt-1 mr-1 text-white buttoncolor-bg rounded-lg w-32">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <FAQ />

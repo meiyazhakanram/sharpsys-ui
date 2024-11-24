@@ -229,7 +229,6 @@ export default function AboutUsPage() {
             mode="HORIZONTAL"
             showAllCardsHorizontal="true"
             toolbarPosition="bottom"
-            slideShow
             scrollable={{ scrollable: true }}
             cardWidth={170}
             cardHeight={200}
