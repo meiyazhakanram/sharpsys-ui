@@ -175,13 +175,13 @@ export default function OurProdcutsPage() {
                             <h2 className="text-3xl font-bold mb-6">
                                 Interested in Enterprise solution for your company?
                             </h2>
-                            <div className="flex items-center border rounded">
+                            <div className="relative mb-5">
                                 <input
                                     type="email"
                                     placeholder="Enter your work email id"
-                                    className="flex-1 px-4 py-2 text-black"
+                                    className="w-full rounded-lg border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                                 />
-                                <button className=" flex-2 bg-[#FF2E53] text-white rounded border px-6 py-2">
+                                <button type="button" className="absolute right-0 p-2 mt-1 mr-1 text-white buttoncolor-bg rounded-lg w-32">
                                     Submit
                                 </button>
                             </div>

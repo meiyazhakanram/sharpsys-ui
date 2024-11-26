@@ -21,13 +21,11 @@ export default function AboutUsPage() {
               achieve sustainable growth.
             </p>
           </div>
-          <div className="container mx-auto mb-4">
+          <div className="container mb-4">
             <img
               src="/images/about/team.jpg"
               alt="Team working"
-              className="object-cover rounded-xl"
-              width={1198}
-              height={434}
+              className="object-cover rounded-xl w-full h-full"
             />
           </div>
 
@@ -231,11 +229,9 @@ export default function AboutUsPage() {
             mode="HORIZONTAL"
             showAllCardsHorizontal="true"
             toolbarPosition="bottom"
-            slideShow
             scrollable={{ scrollable: true }}
             cardWidth={170}
             cardHeight={200}
-            highlightCardsOnHover="true"
             theme={{
               primary: "#4d2d79",
               secondary: "#f9f3ff",

@@ -1,5 +1,6 @@
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
+import HomeMap from "@/components/HomeMap";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -34,7 +35,7 @@ export default function ContactUsPage() {
                 </span>
               </span>
               <h2 className="relative mb-3 text-2xl font-bold text-black dark:text-white xl:text-hero">
-                Partner with Us for Tailored Tech Solutions Today
+                Partner with Us for <span className="textStartGradient">Tailored</span><span className="textLastGradient"> Tech Solutions Today</span>
               </h2>
               <p className="mb-25">
                 Looking for solutions to transform your business digitally? Reach out to us, and let’s customize
@@ -49,17 +50,17 @@ export default function ContactUsPage() {
       </section>
 
 
-      <section className="bg-[#0B0A0A] py-11 mt-4 -mb-5 text-white">
+      <section className="bg-[#E6BD00] py-11 mt-4 -mb-5 text-black">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex items-center text-white gap-8 lg:gap-32.5">
+          <div className="flex items-center text-black gap-8 lg:gap-32.5">
             <div className="animate_right md:w-1/2">
-              <span className="font-medium text-white underline dark:text-white md:mt-5">
+              <span className="font-medium text-black underline dark:text-black md:mt-5">
                 For Support
               </span>
               <h2 className="relative mb-3 text-2xl font-bold xl:text-hero">
                 Need Assistance? We're Here for Your Tech Support
               </h2>
-              <p className="mb-25 text-white">
+              <p className="mb-25 text-black">
                 If you are already using our solutions, discuss your technical setbacks with us. Connect with our
                 support team for quick solutions to your technical challenges.
               </p>
@@ -155,7 +156,7 @@ export default function ContactUsPage() {
               <span className="font-medium underline dark:text-white md:mt-5">
                 Our Locations
               </span>
-              <h3 className="text-xl font-semibold text-black dark:text-white xl:text-itemtitle">We Work Here</h3>
+              <h3 className="text-xl font-semibold text-black dark:text-white xl:text-itemtitle">We <span className="textStartGradient">Work</span><span className="textLastGradient"> Here</span></h3>
             </div>
 
             <div className="animate_top">
@@ -174,6 +175,8 @@ export default function ContactUsPage() {
           </div>
         </div>
       </section>
+      {/* Geo Location */}
+      <HomeMap />
 
 
       <section className="pb-5 pt-10 md:pb-10 md:pt-18 lg:pb-14 lg:pt-12">
