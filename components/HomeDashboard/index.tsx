@@ -1,11 +1,14 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Services from "../Services";
 import UserStories from "../UserStories";
 import HomeMap from "../HomeMap";
 import Blog from "../Blog";
+import Tooltip from "react-tooltip";
+import 'react-tooltip/dist/react-tooltip.css';
 
 const HomeDashboard = () => {
+    const [content, setContent] = useState("");
     return (
         <>
 
@@ -197,7 +200,8 @@ const HomeDashboard = () => {
             <UserStories />
 
             {/* Geo Location */}
-            <HomeMap />
+            <HomeMap setTooltipContent={setContent}/>
+            {/* <Tooltip>{content}</Tooltip> */}
 
             {/* Homescreen career */}
 

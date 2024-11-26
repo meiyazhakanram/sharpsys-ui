@@ -1,5 +1,7 @@
 export type Career = {
+    id: number;
     title: string;
+    description: string;
     heading: Heading;
     job: Job;
 };

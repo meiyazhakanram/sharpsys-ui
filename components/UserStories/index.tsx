@@ -43,7 +43,7 @@ const DashboardCarousel = () => {
           viewport={{ once: true }}
           className="animate_top mx-auto mt-8 max-w-c-1235 px-4 md:px-8 xl:mt-16 xl:px-0"
         >
-          <div className="swiper testimonial-01 mb-20 pb-22.5">
+          <div id="userStories" className="swiper testimonial-02 h-full mb-20 pb-22.5">
             
             <Swiper
               spaceBetween={0}
@@ -58,7 +58,7 @@ const DashboardCarousel = () => {
               autoplay={{
                 delay: 3000,
                 disableOnInteraction: true,
-                reverseDirection:true,
+                // reverseDirection:true,
                 pauseOnMouseEnter:true
               }}
 

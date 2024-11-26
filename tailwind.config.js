@@ -43,6 +43,7 @@ module.exports = {
         secondaryTextColor:'#C2C7CD',
         purple:'#2C1A46',
         normalGray:'#747474',
+        darkBlack:'#000000',
       },
       fontSize: {
         metatitle: ["12px", "20px"],

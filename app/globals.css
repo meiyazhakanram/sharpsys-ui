@@ -4,16 +4,16 @@
 
 /* third-party libraries CSS */
 
-.testimonial-01 .swiper-pagination-bullet {
+.testimonial-02 .swiper-pagination-bullet {
   @apply h-2.5 w-2.5 bg-stroke opacity-100;
 }
 
-.testimonial-01 .swiper-pagination-bullet-active {
-  @apply w-5 rounded-full bg-primary;
+.testimonial-02 .swiper-pagination-bullet-active {
+  @apply w-5 rounded-full bg-[#4A9A2B];
 }
 
 .testimonial-01 .swiper-pagination {
-  @apply relative pt-[50px];
+  @apply relative pt-2;
 }
 
 #supportCheckbox:checked~div span {
@@ -170,23 +170,32 @@ header {
  @apply after:content-[''] after:absolute after:w-0 after:h-0 after:border-4 after:border-gray-700 after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:rotate-45
 }
 
-.swiper-slide-active {
+.testimonial-01 .swiper-slide-active {
   @apply !scale-100
 }
 
-.swiper-slide-active h3 {
+.testimonial-01 .swiper-slide-active h3 {
   @apply font-bold 
 } p {
   @apply text-black
 }
 
-.swiper-slide-prev {
+.testimonial-01 .swiper-slide-prev {
   @apply !scale-90 !opacity-50
 }
 
-.swiper-slide-next {
+.testimonial-01 .swiper-slide-next {
   @apply !scale-90 !opacity-50
 }
+
+.testimonial-02 .swiper-slide-prev {
+  @apply !scale-90 !opacity-50
+}
+
+.testimonial-02 .swiper-slide-next {
+  @apply !scale-90 !opacity-50
+}
+
 
 .gradient-border {
   border: 2px solid transparent;
@@ -243,4 +252,18 @@ header {
 
 .contactDialogue {
   @apply  bg-[url(/images/about/contact_us_dialogue_bg.png)] bg-cover bg-no-repeat bg-right;
+}
+
+.textJustify{
+  /* line-break: anywhere; */
+  word-spacing:-2px;
+}
+
+.tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  opacity: 0;
+  will-change: opacity;
 }

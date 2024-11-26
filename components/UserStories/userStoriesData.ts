@@ -1,6 +1,7 @@
-import image1 from "@/public/images/userstories/studio-close-portrait-handsome-young.png";
-import image2 from "@/public/images/userstories/portrait-young-investor-banker-workplace.png";
-import image3 from "@/public/images/userstories/testimonial-portrait-beautiful-businesswoman.png";
+import image1 from "@/public/images/userstories/man_avatar.png";
+import image2 from "@/public/images/userstories/woman_avatar.png";
+
+
 import { Stories } from "@/types/stories";
 
 export const userStoriesData: Stories[] = [
@@ -19,7 +20,7 @@ export const userStoriesData: Stories[] = [
     id: 2,
     header: "Mr. Subramanian S",
     designation: "General Manager (IT Applications), Lifecell International Pvt Ltd.",
-    image: image2,
+    image: image1,
     rating: 4,
     content:
       "This is to put in record that we have been associated with Sharpsys from 10-03-2014 to 06-10-2016. Sharpsys provided an excellent support during our migration of AX application from Dynamics AX 2009 to AX 2012. Sharpsys has provided excellent post implementation support in Dynamics AX 2012 R2 and the turn-around time for any query / issue was highly appreciable." +
@@ -31,7 +32,7 @@ export const userStoriesData: Stories[] = [
     id: 3,
     header: "Mr. Manikandan T.",
     designation: "IT Manager, Union Insurance Company in UAE",
-    image: image3,
+    image: image1,
     rating: 5,
     content:
       "It gives me a great pleasure to know that we are live on Microsoft Dynamics AX 2012 R2 implementation." +
@@ -43,7 +44,7 @@ export const userStoriesData: Stories[] = [
     id: 4,
     header: "Managing Director",
     designation: "Brilliant Tutorials Private Limited",
-    image: image3,
+    image: image1,
     rating: 5,
     content:
       "Sharpsys Software Solutions has been providing us with Microsoft Dynamics NAV technical and functional consulting services since August 2013. In addition, they have developed an interface using ASP.NET to enable extension of our ERP functionality through a web-based portal." +
@@ -54,7 +55,7 @@ export const userStoriesData: Stories[] = [
     id: 5,
     header: "Jayagovind Harigopal",
     designation: "Agarwal Agarson College",
-    image: image2,
+    image: image1,
     rating:4,
     content:
       "This letter is to certify that Sharpsys Software Solutions India Pvt. Ltd., a software implementation company in Chennai, had implemented the solution “MS Dynamics NAV” for our business process requirement. Currently they are giving us support through AMC. Their responses to our requirements have been good and they have delivered us a good solution for us." +
@@ -64,7 +65,7 @@ export const userStoriesData: Stories[] = [
     id: 6,
     header: "Correspondent",
     designation: "Saraswathi Matric School",
-    image: image1,
+    image: image2,
     rating:2,
     content:
       ".This is to express our satisfaction with the implementation services provided by Sharpsys Software Solutions India Private Limited. As part of implementation, they did a detailed system study, understood the process and implemented the School management software in the collaboration of Microsoft Dynamics NAV and .NET web technology within the stipulated timeline." +
@@ -76,7 +77,7 @@ export const userStoriesData: Stories[] = [
     id: 7,
     header: "Ms. Anita Susanti",
     designation: "Director, PT Business Intelligence Technologies",
-    image: image3,
+    image: image2,
     rating:1,
     content:
       "This is to confirm that your organization have developed a Weighbridge Management System for our client in Jakarta, Indonesia that will interface with the installation of Microsoft Dynamics Axapta ERP system. We are happy with the solution that has just concluded as far as the development phase and their User Acceptance Testing is underway after which it will be Going Live soon." +
