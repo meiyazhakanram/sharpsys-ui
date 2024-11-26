@@ -1,6 +1,6 @@
 import { Career } from "@/types/careers";
 
-const CareerElements: CareerElement[] = [
+const CareerElements: Career[] = [
     { 
       id: 'careerGrowth',
       title: 'Career Growth & Development',

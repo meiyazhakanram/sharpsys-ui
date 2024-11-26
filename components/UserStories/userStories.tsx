@@ -4,8 +4,8 @@ import Image from "next/image";
 const UserStories = ({ review }: { review: Stories }) => {
   const { id, header, designation, image, content } = review;
   return (
-    <div className={`rounded-3xl w-full p-9 pt-7.5 shadow-solid-9 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none`}>
-      <div className="flex justify-center items-center"><Image className="rounded-full w-60 h-60" src={image} alt={header} /> </div>
+    <div className={`rounded-3xl h-full w-full p-9 pt-7.5 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none`}>
+      <div className="flex justify-center items-center"><Image className="rounded-full w-48 h-48" src={image} alt={header} /> </div>
       <div className={`flex justify-between dark:border-strokedark`}>
         <div className="p-2">
           <h2 className="text-metatitle2 text-bold text-black text-center dark:text-white">

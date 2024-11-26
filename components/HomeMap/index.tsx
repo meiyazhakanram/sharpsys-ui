@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
+import { ZoomableGroup, ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
 import { useState } from 'react';
 import {Tooltip} from "react-tooltip";
 import 'react-tooltip/dist/react-tooltip.css';
@@ -18,7 +18,7 @@ const markers = [
 
 
 
-const HomeMap = () => {
+const HomeMap = ({ setTooltipContent }) => {
   const [showPopOver, setShowPopOver] = useState(false);
 
 const toggleState = (state : boolean) => {
@@ -36,12 +36,18 @@ return (
     </h4>
     {/* <img src="/images/worldMap.svg" alt="world map" className="w-auto h-auto" /> */}
     <Tooltip id="locationPointer1" place="top">Sample Tool Tip</Tooltip>
-   <div className="w-10/12">
+   <div className="w-10/12" data-tip="">
     <ComposableMap>
       <Geographies geography="/features.json">
         {({ geographies }) =>
           geographies.map((geo) => (
             <Geography key={geo.rsmKey} geography={geo} fill="#E4E4E4"  stroke="#E4E4E4"
+            onMouseEnter={() => {
+              setTooltipContent(`${geo.properties.name}`);
+            }}
+            onMouseLeave={() => {
+              setTooltipContent("");
+            }}
             style={{
               default: { outline: "none" },
               hover: { outline: "none" },
@@ -52,8 +58,7 @@ return (
         }
       </Geographies>
       {markers.map(({ name, coordinates, markerOffset, flagImg }) => (
-        <Marker key={name} coordinates={coordinates}>
-          
+        <Marker key={name} coordinates={coordinates}>          
           <g
             fill="none"
             stroke="#FF5533"
@@ -64,7 +69,7 @@ return (
           >
             
             
-            <image href={flagImg} height={32} width={32} data-tooltip-offset={markerOffset} data-tooltip-id="locationPointer" className="locationPointer"/>
+            <image href={flagImg} height={32} width={32} data-tooltip-id="locationPointer" className="locationPointer"/>
             
           </g>
           
@@ -79,7 +84,7 @@ return (
         <p>{name}</p>
       </div>  */}
 
-  <Tooltip anchorSelect=".locationPointer" position={{x:15, y:15}}>{name}</Tooltip>
+  <Tooltip anchorSelect=".locationPointer" >{name}</Tooltip>
            
           
         </Marker>

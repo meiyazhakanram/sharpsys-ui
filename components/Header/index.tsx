@@ -113,7 +113,7 @@ const Header = () => {
                         <Link href={`${menuItem.path}`} className={`
                             ${pathUrl === menuItem.path
                               ? "font-bold text-base"
-                              : "font-normal"} flex flex-col items-center`}
+                              : "hover:font-bold font-normal"} flex flex-col items-center`}
                           
                         >
                           {menuItem.title}
@@ -157,7 +157,7 @@ const Header = () => {
                       className={`
                         ${pathUrl === menuItem.path
                           ? "font-bold text-base"
-                          : "font-normal"} flex flex-col items-center`}
+                          : "hover:font-bold font-normal"} flex flex-col items-center`}
                       
                     >
                       {menuItem.title}
