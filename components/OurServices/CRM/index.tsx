@@ -22,7 +22,7 @@ const ServicesCRM = () => {
             </div>
           </div>
         </div>
-        <div className="pb-20 pt-3 bg-[#1A0C2F] md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
+        <div className="pb-10 pt-3">
           <div className="container mx-auto">
             <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
               <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-20">
@@ -59,10 +59,10 @@ const ServicesCRM = () => {
               </h2>
             </div>
 
-            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
-              <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
+            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-10">
+              <div className="animate-left md:w-1/4 lg:w-2/5  rounded-lg mt-0">
                 <img
-                  src="/images/services/servicestab/Microsoft Dynamics Business Central_Manufacturing.jpg"
+                  src="images/ourservices/crm/CRM.jfif"
                   alt="Microsoft Dynamics Business"
                   className="w-full h-auto pl-6 object-cover"
                 />
@@ -78,7 +78,7 @@ const ServicesCRM = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
+            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-10">
               <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
                 <h2 className="relative text-black mb-3 text-xl font-bold text-black dark:text-black xl:text-hero">
                   Empower Your Business with Expert Salesforce Solutions
@@ -91,9 +91,9 @@ const ServicesCRM = () => {
                   through innovative Salesforce implementations.
                 </p>
               </div>
-              <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
+              <div className="animate-left md:w-1/4 lg:w-2/5 rounded-lg mt-0">
                 <img
-                  src="/images/ourservices/business_central.jpg"
+                  src="images/ourservices/crm/D365_CRM.jfif"
                   alt="Business Central"
                   className="w-full h-auto object-cover pr-4"
                 />
