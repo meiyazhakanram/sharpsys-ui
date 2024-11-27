@@ -31,143 +31,95 @@ const ServicesStaffAugmentation = () => {
               </h2>
             </div>
 
-            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
-              <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
-                <img
-                  src="/images/services/servicestab/Microsoft Dynamics Business Central_Manufacturing.jpg"
-                  alt="Microsoft Dynamics Business"
-                  className="w-full h-auto pl-6 object-cover"
-                />
-              </div>
-              <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
-                <h2 className="relative text-black mb-3 text-xl font-bold text-black dark:text-black xl:text-hero">
-                  Flexible Staff Augmentation for Your Project Demands
-                </h2>
-                <p className="text-black mb-4">
-                  Our Staff Augmentation services offer the agility to expand your team as your project demands
-                  evolve. Whether you require dedicated experts for long-term support or ad-hoc resources for
-                  specific tasks, we provide the right talent to seamlessly integrate with your team and drive
-                  success.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
-              <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
-                <h2 className="relative text-black mb-3 text-xl font-bold text-black dark:text-black xl:text-hero">
-                  Versatile Engagement Models for Microsoft Dynamics Support
-                </h2>
-                <p className="text-black mb-4">
-                  Choose the engagement model that fits your business needs. Our options include dedicated
-                  resources for ongoing projects, flexible time & material models for evolving scopes, and cost-
-                  effective package models for ad-hoc support or AMCs. Tailored SLAs and ticketing integration
-                  ensure seamless support.
-                </p>
-              </div>
-              <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
-                <img
-                  src="/images/ourservices/business_central.jpg"
-                  alt="Business Central"
-                  className="w-full h-auto object-cover pr-4"
-                />
-              </div>
-            </div>
+              <section className=" py-1 mb-8">
+                <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+                  <div className="max-w-c-1390 max-w-6xl p-4 flex flex-col md:flex-row">
+                    <div className="w-full md:w-2/5 pr-2 flex items-center justify-center">
+                      <div >
+                        <img
+                          src="images/ourservices/staff_augmentation/Staff_Augmentation.jfif"
+                          alt="Staff Augmentation"
+                          className="w-full h-auto pl-6 object-cover"
+                        />
+                      </div>
+                    </div>
 
-            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
-              <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
-                <img
-                  src="/images/services/servicestab/Microsoft Dynamics Business Central_Manufacturing.jpg"
-                  alt="Microsoft Dynamics Business"
-                  className="w-full h-auto pl-6 object-cover"
-                />
-              </div>
-              <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
-                <h2 className="relative text-black mb-3 text-xl font-bold text-black dark:text-black xl:text-hero">
-                  Dedicated Resource Model
-                </h2>
-                <p className="text-black mb-4">
-                  Fixed Cost Model Secure long-term, full-time Microsoft Dynamics professionals at a fixed cost.
-                  Ideal for businesses requiring consistent, dedicated expertise to manage ongoing projects with
-                  full-time support and predictability.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
-              <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
-                <h2 className="relative text-black mb-3 text-xl font-bold text-black dark:text-black xl:text-hero">
-                  Time & Material Model
-                </h2>
-                <p className="text-black mb-4">
-                  Flexible and adaptable, this model allows you to pay for services based on actual hours worked.
-                  It’s perfect for dynamic projects with evolving requirements, ensuring efficient use of resources
-                  and budget control.
-                </p>
-              </div>
-              <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
-                <img
-                  src="/images/ourservices/business_central.jpg"
-                  alt="Business Central"
-                  className="w-full h-auto object-cover pr-4"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
-              <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
-                <img
-                  src="/images/services/servicestab/Microsoft Dynamics Business Central_Manufacturing.jpg"
-                  alt="Microsoft Dynamics Business"
-                  className="w-full h-auto pl-6 object-cover"
-                />
-              </div>
-              <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
-                <h2 className="relative text-black mb-3 text-xl font-bold text-black dark:text-black xl:text-hero">
-                  Package Models for Ad-Hoc and AMC Support
-                </h2>
-                <p className="text-black mb-4">
-                  Tailored for businesses with irregular support needs or Annual Maintenance Contracts (AMCs),
-                  our package models provide a cost-effective approach, delivering expert support as and when
-                  required.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
-              <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
-                <h2 className="relative text-black mb-3 text-xl font-bold text-black dark:text-black xl:text-hero">
-                  Flexible SLAs & Integrated Ticketing System
-                </h2>
-                <p className="text-black mb-4">
-                  We offer customizable Service Level Agreements (SLAs) and seamless integration with your
-                  existing ticketing systems, ensuring personalized, transparent, and efficient issue resolution for
-                  every business requirement.
-                </p>
-              </div>
-              <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
-                <img
-                  src="/images/ourservices/business_central.jpg"
-                  alt="Business Central"
-                  className="w-full h-auto object-cover pr-4"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
-              <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
-                <img
-                  src="/images/services/servicestab/Microsoft Dynamics Business Central_Manufacturing.jpg"
-                  alt="Microsoft Dynamics Business"
-                  className="w-full h-auto pl-6 object-cover"
-                />
-              </div>
-              <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
-                <h2 className="relative text-black mb-3 text-xl font-bold text-black dark:text-black xl:text-hero">
-                  Ultimate Solutions For All Your Dynamic Business Needs
-                </h2>
-                <p className="text-black mb-4">
-                  Scale your business with data-driven insights to optimize workflows, boost productivity, and
-                  achieve sustainable growth.
-                </p>
-              </div>
-            </div>
+                    <div className="w-3/5 pl-8 space-y-4">
+                      <div className="border-l-4 pl-4 border-[#4d2d79]">
+                        <h2 className="relative text-black font-bold">
+                          Flexible Staff Augmentation for Your Project Demands
+                        </h2>
+                        <p className="text-black text-sm">
+                          Our Staff Augmentation services offer the agility to expand your team as your project demands
+                          evolve. Whether you require dedicated experts for long-term support or ad-hoc resources for
+                          specific tasks, we provide the right talent to seamlessly integrate with your team and drive
+                          success.
+                        </p>
+                      </div>
+                      <div className="border-l-4 pl-4 border-[#4d2d79]">
+                        <h2 className="relative text-black font-bold">
+                          Versatile Engagement Models for Microsoft Dynamics Support
+                        </h2>
+                        <p className="text-black text-sm">
+                          Choose the engagement model that fits your business needs. Our options include dedicated
+                          resources for ongoing projects, flexible time & material models for evolving scopes, and cost-
+                          effective package models for ad-hoc support or AMCs. Tailored SLAs and ticketing integration
+                          ensure seamless support.
+                        </p>
+                      </div>
+                      <div className="border-l-4 pl-4 border-[#4d2d79]">
+                        <h2 className="relative text-black font-bold">
+                          Dedicated Resource Model
+                        </h2>
+                        <p className="text-black text-sm">
+                          Fixed Cost Model Secure long-term, full-time Microsoft Dynamics professionals at a fixed cost.
+                          Ideal for businesses requiring consistent, dedicated expertise to manage ongoing projects with
+                          full-time support and predictability.
+                        </p>
+                      </div>
+                      <div className="border-l-4 pl-4 border-[#4d2d79]">
+                        <h2 className="relative text-black font-bold">
+                          Time & Material Model
+                        </h2>
+                        <p className="text-black text-sm">
+                          Flexible and adaptable, this model allows you to pay for services based on actual hours worked.
+                          It’s perfect for dynamic projects with evolving requirements, ensuring efficient use of resources
+                          and budget control.
+                        </p>
+                      </div>
+                      <div className="border-l-4 pl-4 border-[#4d2d79]">
+                        <h2 className="relative text-black font-bold">
+                          Package Models for Ad-Hoc and AMC Support
+                        </h2>
+                        <p className="text-black text-sm">
+                          Tailored for businesses with irregular support needs or Annual Maintenance Contracts (AMCs),
+                          our package models provide a cost-effective approach, delivering expert support as and when
+                          required.
+                        </p>
+                      </div>
+                      <div className="border-l-4 pl-4 border-[#4d2d79]">
+                        <h2 className="relative text-black font-bold">
+                          Flexible SLAs & Integrated Ticketing System
+                        </h2>
+                        <p className="text-black text-sm">
+                          We offer customizable Service Level Agreements (SLAs) and seamless integration with your
+                          existing ticketing systems, ensuring personalized, transparent, and efficient issue resolution for
+                          every business requirement.
+                        </p>
+                      </div>
+                      <div className="border-l-4 pl-4 border-[#4d2d79]">
+                        <h2 className="relative text-black font-bold">
+                          Ultimate Solutions For All Your Dynamic Business Needs
+                        </h2>
+                        <p className="text-black text-sm">
+                          Scale your business with data-driven insights to optimize workflows, boost productivity, and
+                          achieve sustainable growth.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>  
 
           </div>
         </div>
