@@ -1,6 +1,6 @@
-import { Career } from "@/types/careers";
+import { CareerJoinInfo } from "@/types/careers";
 
-const CareerElements: Career[] = [
+const CareerElements: CareerJoinInfo[] = [
     { 
       id: 'careerGrowth',
       title: 'Career Growth & Development',
