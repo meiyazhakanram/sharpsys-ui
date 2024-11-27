@@ -1,7 +1,5 @@
 export type Career = {
-    id: number;
     title: string;
-    description: string;
     heading: Heading;
     job: Job;
 };
@@ -20,3 +18,9 @@ export type Job = {
     noofopenings: string;
     jobtype: string;
 }
+
+export type CareerJoinInfo = {
+    id: string;
+    title: string;
+    description: string;
+};
