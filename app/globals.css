@@ -145,6 +145,10 @@ pre {
   border-color: #FF2E53 !important;
 }
 
+.buttoncolor-contactus-bg {
+  background-color: #FFFFFF !important;
+}
+
 
 .arrowLeft {
   @apply border-solid border-r-black border-r-8 border-y-transparent border-y-8 border-l-0
@@ -252,6 +256,10 @@ header {
 
 .contactDialogue {
   @apply  bg-[url(/images/about/contact_us_dialogue_bg.png)] bg-cover bg-no-repeat bg-right;
+}
+
+.contactBg {
+  @apply  bg-[url(/images/about/CSBG.png)] bg-cover bg-no-repeat;
 }
 
 .textJustify{

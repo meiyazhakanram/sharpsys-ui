@@ -80,9 +80,6 @@ return (
        >
          {name}
        </text>
-      {/* <div className={`w-1/2 h-1/2 translate-y-${markerOffset+1}`}>
-        <p>{name}</p>
-      </div>  */}
 
   <Tooltip anchorSelect=".locationPointer" >{name}</Tooltip>
            

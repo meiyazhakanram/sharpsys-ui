@@ -150,9 +150,6 @@ const HomeDashboard = () => {
                         </div>
                     </div>
 
-
-
-
                     <div className="relative mx-auto bg-[#0B0A0A] mt-5 max-w-[1207px] px-4 md:px-5 xl:mt-5 xl:px-0">
                         <div className="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5">
                             <div className="w-full max-w-sm dark:bg-gray-800 dark:border-gray-700">
@@ -187,17 +184,13 @@ const HomeDashboard = () => {
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
-
-
                 </div>
             </section >
 
             {/* User Stories */}
-            <UserStories />
+            <UserStories/>
 
             {/* Geo Location */}
             <HomeMap setTooltipContent={setContent}/>
