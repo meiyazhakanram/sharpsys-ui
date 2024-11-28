@@ -10,7 +10,7 @@ export default function StaffAugmentation() {
             <div className="col-span-2 p-1">
                 <div className="w-full p-2">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/SA resourcecapabilities.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                 Resource Capabilities
                 </div>
@@ -19,7 +19,7 @@ export default function StaffAugmentation() {
                 </div>
                 <div className="w-full p-2">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/SA industryverticals.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                 Industry Verticals
                 </div>

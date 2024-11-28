@@ -5,7 +5,7 @@ const ServicesCRM = () => {
       <>
       {/* CRM Section */}
       <section>
-        <div className="pt-2 bg-[url('/images/ourservices/services_bg1.jpg')] bg-cover bg-center">
+        <div className="py-2 px-6 bg-[url('/images/ourservices/services_bg1.jpg')] bg-cover bg-center">
           <div className="container mx-auto">
             <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
               <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-4">
@@ -14,7 +14,7 @@ const ServicesCRM = () => {
                   <h2 className="relative text-white mb-3 text-1xl font-bold text-black dark:text-white xl:text-hero">
                     Elevate Your Customer Relationships with All-in-One CRM Solutions
                   </h2>
-                  <p className="mb-25 text-white">
+                  <p className="mb-6 text-white">
                     Optimize sales, marketing, and customer service with Microsoft Dynamics 365's cloud-powered CRM solutions.
                   </p>
                 </div>
@@ -22,9 +22,9 @@ const ServicesCRM = () => {
             </div>
           </div>
         </div>
-        <div className="pb-10 pt-3">
+        <div className="pb-10 px-6 pt-3">
           <div className="container mx-auto">
-            <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
+            <div className="relative mx-auto bg-[#E6BD00] max-w-c-1390 px-4 md:px-8 xl:px-0">
               <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-20">
                 <div className="animate-left md:w-1/2 lg:w-1/2 mt-1">
                   <h2 className="relative text-white mb-3 text-1xl font-bold text-black dark:text-white xl:text-hero">

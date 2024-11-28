@@ -13,31 +13,36 @@ export const metadata: Metadata = {
 export default function ContactUsPage() {
   return (
     <>
-      <section className="pb-16 pt-30 bg-[#0B0A0A] rounded-3xl md:pb-40 md:pt-28 lg:pb-30 lg:pt-32">
-        <div className="container mx-auto">
+      <section className="pb-16 pt-30 contactBg md:pb-40 md:pt-28 lg:pb-30 lg:pt-32">
+        <div className="container mx-auto py-2">
           <h1 className="mx-auto mb-2 text-4xl font-bold text-white text-center xl:text-sectiontitle3">
             Let's connect!
           </h1>
           <p className="text-white text-center">Share your story with us, and let's explore the possibilities together.</p>
         </div>
+        <div className="flex flex-wrap gap-4 xl:justify-center ">
+                  <button aria-label="Contact US" className="inline-flex items-center gap-2.5 rounded-lg buttoncolor-contactus-bg px-2 py-1 text-black duration-300 ease-in-out hover:bg-blackho dark:bg-btndark">
+                    Contact us
+                  </button>
+                </div>
       </section>
 
-      <section className="py-11 mt-4 -mb-5">
+      <section className="py-4 mt-4 -mb-5">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex items-center gap-8 lg:gap-32.5">
+          <div className="flex items-center gap-8 lg:gap-8">
             <div className="animate_left relative mx-auto aspect-[588/526.5] md:block md:w-1/2">
-              <Image src="/images/contactus1.png" alt="About" className="" fill />
+              <img src="/images/contactus/contactus1.png" alt="About" className="py-12"/>
             </div>
-            <div className="animate_right md:w-1/2"            >
+            <div className="animate_right md:w-1/2 p-4"            >
               <span className="font-medium text-black dark:text-black">
                 <span className="mb-4 underline text-black ">
                   New User
                 </span>
               </span>
-              <h2 className="relative mb-3 text-2xl font-bold text-black dark:text-white xl:text-hero">
-                Partner with Us for <span className="textStartGradient">Tailored</span><span className="textLastGradient"> Tech Solutions Today</span>
+              <h2 className="relative mb-3 text-2xl font-bold text-blacktext dark:text-white xl:text-sectiontitle4">
+                Partner with Us for <span className="textLastGradient">Tailored</span><span className="textStartGradient"> Tech Solutions Today</span>
               </h2>
-              <p className="mb-25">
+              <p className="mb-4 text-normalGray">
                 Looking for solutions to transform your business digitally? Reach out to us, and let’s customize
                 the perfect solution for your business.
               </p>
@@ -50,27 +55,27 @@ export default function ContactUsPage() {
       </section>
 
 
-      <section className="bg-[#E6BD00] py-11 mt-4 -mb-5 text-black">
+      <section className="bg-[#E6BD00] -mb-5 text-blacktext">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex items-center text-black gap-8 lg:gap-32.5">
-            <div className="animate_right md:w-1/2">
-              <span className="font-medium text-black underline dark:text-black md:mt-5">
+          <div className="flex items-center text-blacktext gap-8 lg:gap-8">
+            <div className="animate_left md:w-1/2">
+              <span className="font-medium text-blacktext underline dark:text-black md:mt-5">
                 For Support
               </span>
-              <h2 className="relative mb-3 text-2xl font-bold xl:text-hero">
+              <h2 className="relative mb-3 text-2xl font-bold xl:text-sectiontitle4">
                 Need Assistance? We're Here for Your Tech Support
               </h2>
-              <p className="mb-25 text-black">
+              <p className="mb-25 text-normalGray">
                 If you are already using our solutions, discuss your technical setbacks with us. Connect with our
                 support team for quick solutions to your technical challenges.
               </p>
             </div>
             <div className="animate_left relative mx-auto aspect-[588/526.5] md:block md:w-1/2">
-              <Image src="/images/contactus1.png" alt="About" className="" fill />
+              <img src="/images/contactus/contactus2.png" alt="About" className="w-96 h-52" />
             </div>
           </div>
         </div>
-        <div className="relative mx-auto mt-5 max-w-c-1390 px-4 md:px-5 xl:mt-5 xl:px-0">
+        <div className="relative mx-auto max-w-c-1390 px-4 md:px-5 xl:px-0">
           <div className="flex flex-wrap justify-center gap-1 lg:flex-nowrap xl:gap-5.5">
             {/* <!-- Pricing Item --> */}
             <div className="w-full rounded-lg bg-white text-black dark:text-black">

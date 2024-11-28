@@ -10,7 +10,7 @@ export default function advancedAnalytics() {
             <div className=" p-2">
                 <div className="p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/services/consulting.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/AA consulting.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                  Consulting
                   <p className="menuSubContent !w-72">Expert advice to harness the full potential of your data</p>
@@ -20,7 +20,7 @@ export default function advancedAnalytics() {
                 </div>
                 <div className="w-9/12 p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/services/data analytics.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/AA Analytics.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                  Data Analytics
                   <p className="menuSubContent !w-72">Meaningful insights for data-driven decision making</p>
@@ -30,7 +30,7 @@ export default function advancedAnalytics() {
                 </div>
                 <div className="w-9/12 p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/AA etlmigration.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                  ETL Migration
                   <p className="menuSubContent !w-72">Move, transform, and load data with minimal disruption</p>
@@ -42,7 +42,7 @@ export default function advancedAnalytics() {
             <div className="p-2">
                 <div className="w-full p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/services/migration.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/AA datamigration.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                  Data Migration
                   <p className="menuSubContent !w-72">Risk-free migration strategies for your archiving and migration needs</p>
@@ -52,7 +52,7 @@ export default function advancedAnalytics() {
                 </div>
                 <div className="w-full p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/AA datawarehousing.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                  Data Warehousing
                   <p className="menuSubContent !w-72">Data warehousing services to manage, store and access large volume of data</p>
@@ -62,7 +62,7 @@ export default function advancedAnalytics() {
                 </div>
                 <div className="w-full p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/AA machinelearning.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                  Machine Learning
                   <p className="menuSubContent !w-72">Improve performances with machine learning algorithms</p>
@@ -73,56 +73,6 @@ export default function advancedAnalytics() {
             </div> 
             <div className='vertical-center !top-48 bg-green w-4 h-4 !translate-y-3/4'></div>          
         </div>
-{/* 
-<div className='bg-headerbg rounded-lg flex'>
-    <div className="">
-                <div className="">
-                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
-                <div className="mb-0.5 text-base text-white">
-                 Consulting
-                  <p className="menuSubContent">Expert advice to harness the full potential of your data</p>
-                </div>
-                
-              </a>
-                </div>
-                <div className="">
-                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
-                <div className="mb-0.5 text-base text-white">
-                 Data Analytics
-                  <p className="menuSubContent">Meaningful insights for data-driven decision making</p>
-                </div>
-                
-              </a>
-                </div>
-                <div className="">
-                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
-                <div className="mb-0.5 text-base text-white">
-                 ETL Migration
-                  <p className="menuSubContent">Move, transform, and load data with minimal disruption</p>
-                </div>
-                
-              </a>
-                </div>
-                
-            </div>
-            <div className="">
-                <div className="w-full p-2 rounded-lg hover:bg-headerbg group/menu">
-                <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/quotation.png" className="ml-5 mr-2" />
-                <div className="mb-0.5 text-segmenttitle text-black mt-3 group-hover/menu:text-white">
-                  Quote Engine
-                  <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>
-                </div>
-                
-              </a>
-                </div>
-                
-            </div>  
-                  
-        </div> */}
         </>
 
     )

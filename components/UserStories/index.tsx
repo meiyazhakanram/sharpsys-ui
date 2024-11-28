@@ -10,10 +10,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
 import UserStories from "./userStories";
 import { userStoriesData } from "./userStoriesData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const DashboardCarousel = () => {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
   return (
     <>
     <section>

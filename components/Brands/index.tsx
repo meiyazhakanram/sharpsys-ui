@@ -27,11 +27,7 @@ const Brands = () => {
             
             <Swiper
               spaceBetween={30}
-              slidesPerView={8}
-           
-              
-              
-              
+              slidesPerView={8}      
               loop={true}
               autoplay={{
                 delay: 2000,

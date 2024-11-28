@@ -12,8 +12,7 @@ import StaffAugmentation from '../StaffAugmentation';
 
 
 // export default function ServicesMenu() {
-const ServicesMenu = (props) => {
-    console.log(props);
+const ServicesMenu = () => {
     const [navigationOpen, setNavigationOpen] = useState(false);
     const [dropdownToggler, setDropdownToggler] = useState(false);
     const [stickyMenu, setStickyMenu] = useState(false);

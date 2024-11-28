@@ -10,7 +10,7 @@ export default function enterpriseSolution() {
             <div className="col-span-2 border-r border-grey-600">
                 <div className="w-full p-1">
                     <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/services/F&O.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/D365 F&O.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                 Microsoft Dynamics 365 Finance &amp; Operations
                   <p className="menuSubContent">Comprehensive ERP solution for supply chain, finance, operations, and production</p>
@@ -20,7 +20,7 @@ export default function enterpriseSolution() {
                 </div>
                 <div className="w-full p-1">
                     <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/services/business-central-logo.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/D365 BC.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                 Microsoft Dynamics 365 Business Central
                   <p className="menuSubContent">All-in-one business management solution designed to unify your financials, operations, sales, and customer service
@@ -31,7 +31,7 @@ export default function enterpriseSolution() {
                 </div>
                 <div className="w-full p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/services/Dynamics 365.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/services/D365 PP.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                 Microsoft Power Platform
                   <p className="menuSubContent">We deliver tailored, tech-driven solutions</p>

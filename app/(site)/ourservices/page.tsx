@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function OurServicePage() {
   return (
     <>
-      <section className="pb-20 pt-3 bg-[url('/images/ourservices/services_bg1.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
+      <section className="pb-20 px-6 pt-3 bg-[url('/images/ourservices/services_bg1.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
         <div className="container mx-auto">
           <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
             <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-20">
@@ -63,7 +63,7 @@ export default function OurServicePage() {
 
       <Brands />
 
-      <section className="pb-20 pt-3 bg-[#1A0C2F] md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
+      <section className="pb-20 px-6 pt-3 bg-[#1A0C2F] md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
         <div className="container mx-auto">
           <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
             <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-20">
@@ -89,12 +89,11 @@ export default function OurServicePage() {
                 Microsoft Power Platflorm
               </button>
             </div>
-
           </div>
         </div>
       </section>
 
-      <section className="pb-10 pt-3 md:pb-10 md:pt-2 lg:pb-10 lg:pt-20">
+      <section className="pb-10 px-6 pt-3 md:pb-10 md:pt-2 lg:pb-10 lg:pt-20">
         <div className="container mx-auto">
           <div className="animate_top mx-auto text-center">
             <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-black dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
@@ -148,7 +147,7 @@ export default function OurServicePage() {
         </div>
       </section>
 
-      <section className="pb-20 pt-3 md:pb-10 md:pt-2 lg:pb-20 lg:pt-20">
+      <section className="pb-20 px-6 pt-3 md:pb-10 md:pt-2 lg:pb-20 lg:pt-20">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
           <div className="animate_top mx-auto text-center">
             <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-black dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
@@ -217,7 +216,7 @@ export default function OurServicePage() {
       <ServicesBusinessIntelligence />
       <ServicesStaffAugmentation />
 
-      <section >
+      <section>
         <div className="min-h-64 w-full flex items-center justify-center bg-[url('/images/ourservices/email_bg.jpg')] bg-cover bg-center">
           <div className="max-w-6xl mx-auto py-8 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 space-x-16">
             <div className=" w-full md:w-1/2">
