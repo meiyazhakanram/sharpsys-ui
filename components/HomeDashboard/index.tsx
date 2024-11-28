@@ -193,7 +193,7 @@ const HomeDashboard = () => {
             <UserStories/>
 
             {/* Geo Location */}
-            <HomeMap setTooltipContent={setContent}/>
+            <HomeMap/>
             {/* <Tooltip>{content}</Tooltip> */}
 
             {/* Homescreen career */}
