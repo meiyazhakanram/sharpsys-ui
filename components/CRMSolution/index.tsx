@@ -10,7 +10,7 @@ export default function crmSolution() {
             <div className="col-span-2 border-r border-grey-600 mb-8">
                 <div className="w-full p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/CRM Engagement.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                  Microsoft 365 Customer Engagement
                   <p className="menuSubContent">Cloud Solution to boost customer retention</p>
@@ -20,7 +20,7 @@ export default function crmSolution() {
                 </div>
                 <div className="w-full p-1">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/CRM salesforce.png" className="mx-4" />
                 <div className="mb-0.5 text-base text-white">
                  Salesforce
                   <p className="menuSubContent">Centralized platform that integrates data from various departments for CRM

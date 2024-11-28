@@ -10,7 +10,7 @@ export default function enterpriseSolution() {
             <div className="col-span-2 p-1">
                 <div className="w-full p-2">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="52" height="52" src="/images/services/BI powerbi.png" className="mx-4 rounded-sm" />
                 <div className="mb-0.5 text-base text-white">
                 Power BI
                   <p className="menuSubContent">Comprehensive Power Bi solutions and services for data management and reporting</p>
@@ -20,7 +20,7 @@ export default function enterpriseSolution() {
                 </div>
                 <div className="w-full p-2">
                 <a href="#" className="flex flex-col items-center md:flex-row md:max-w-xl">
-                <img alt="title" width="36" height="36" src="/images/menu/menuIcons/menu_icon.png" className="ml-5 mr-2" />
+                <img alt="title" width="52" height="52" src="/images/services/BI tableau.png" className="mx-4 rounded-sm" />
                 <div className="mb-0.5 text-base text-white">
                 Tableau
                   <p className="menuSubContent">Intuitive cloud platform for actionable insights</p>

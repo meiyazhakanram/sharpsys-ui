@@ -141,7 +141,7 @@ const Header = () => {
                       {menuItem.submenu.map((item, key) => (
                         <li key={key} >
                           {
-                            item.title === 'ServicesMenu' ? <Servicesmenu dropDownState={navigationOpen} />               
+                            item.title === 'ServicesMenu' ? <Servicesmenu/>               
                            
                        : (item.title === 'ProductsMenu'? <ProductsMenu/> : item.title)}
                           

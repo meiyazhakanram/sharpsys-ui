@@ -18,7 +18,7 @@ const markers = [
 
 
 
-const HomeMap = ({ setTooltipContent }) => {
+const HomeMap = () => {
   const [showPopOver, setShowPopOver] = useState(false);
 
 const toggleState = (state : boolean) => {
@@ -42,12 +42,12 @@ return (
         {({ geographies }) =>
           geographies.map((geo) => (
             <Geography key={geo.rsmKey} geography={geo} fill="#E4E4E4"  stroke="#E4E4E4"
-            onMouseEnter={() => {
-              setTooltipContent(`${geo.properties.name}`);
-            }}
-            onMouseLeave={() => {
-              setTooltipContent("");
-            }}
+            // onMouseEnter={() => {
+            //   setTooltipContent(`${geo.properties.name}`);
+            // }}
+            // onMouseLeave={() => {
+            //   setTooltipContent("");
+            // }}
             style={{
               default: { outline: "none" },
               hover: { outline: "none" },
