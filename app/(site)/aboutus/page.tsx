@@ -259,7 +259,7 @@ export default function AboutUsPage() {
           <div className="px-4 mt-4 grid grid-cols-1 gap-5.5 md:grid-cols-4 lg:mt-15 lg:grid-cols-4 xl:mt-10 xl:gap-5 ">
             <div className="relative ml-0 border bg-white rounded-lg text-left">
               <img
-                src="/images/employees/JAVAGAL SRINATH NARAYANAN.jpeg"
+                src="/images/employees/JAVAGAL SRINATH NARAYANAN.jpg"
                 alt="Team working"
                 className="w-full h-full bg-contain rounded-lg"
               />
@@ -271,7 +271,7 @@ export default function AboutUsPage() {
 
             <div className="relative ml-0 border bg-white rounded-lg text-left">
               <img
-                src="/images/employees/HARIKRISHNAN INDRABABU.png"
+                src="/images/employees/HARIKRISHNAN INDRABABU.jpg"
                 alt="Team working"
                 className="w-full h-full bg-contain rounded-lg"
               />
@@ -282,9 +282,9 @@ export default function AboutUsPage() {
             </div>
             <div className="relative ml-0 border bg-white rounded-lg text-left">
               <img
-                src="/images/employees/HEMALATHA NARAYANAN.png"
+                src="/images/employees/HEMALATHA NARAYANAN.jpeg"
                 alt="Team working"
-                className="w-full h-full bg-contain rounded-lg" 
+                className="w-full h-full bg-cover rounded-lg" 
               />
               <div className="absolute bottom-0 w-full bg-darkBlack opacity-75 rounded-lg">
               <h2 className="text-white px-2 text-lg">Hemalatha Narayanan</h2>
@@ -318,7 +318,7 @@ export default function AboutUsPage() {
         </div>
       </section>
       {/* User Stories */}
-      <UserStories />
+      <UserStories pageRoot={"aboutus"}/>
 
     </>
   );

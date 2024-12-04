@@ -6,6 +6,7 @@ import HomeMap from "../HomeMap";
 import Blog from "../Blog";
 import Tooltip from "react-tooltip";
 import 'react-tooltip/dist/react-tooltip.css';
+import { motion } from "framer-motion";
 
 const HomeDashboard = () => {
     const [content, setContent] = useState("");
@@ -67,19 +68,20 @@ const HomeDashboard = () => {
                     <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                         <div className="flex md:flex-wrap xl:flex-row justify-center gap-8 lg:gap-42.5">
                             <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">100M</h3>
+                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">100+</h3>
                                 <p className="text-xs">Client Satisfaction</p></div>
                             <div className="animate_top text-center">
                                 <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">24Hrs</h3>
                                 <p className="text-xs">Expert Support Team</p></div>
                             <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">98K+</h3>
+                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">1000+</h3>
                                 <p className="text-xs">Sales Count</p></div>
                             <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">208+</h3>
+                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">40+</h3>
                                 <p className="text-xs">Client Worldwide</p></div>
                         </div>
                     </div>
+                    
                 </section>
             </section>
 
@@ -190,10 +192,10 @@ const HomeDashboard = () => {
             </section >
 
             {/* User Stories */}
-            <UserStories/>
+            <UserStories pageRoot={"home"}/>
 
             {/* Geo Location */}
-            <HomeMap setTooltipContent={setContent}/>
+            <HomeMap fromPage='home'/>
             {/* <Tooltip>{content}</Tooltip> */}
 
             {/* Homescreen career */}

@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex items-center gap-1 lg:gap-32.5">
             <div className="animate_left relative mx-auto hidden md:block md:w-1/2">
-              <h4 className="relative mb-6 text-lg font-bold text-black dark:text-white lg:text-2xl">
+              <h4 className="relative mb-6 text-sectiontitle4 font-bold text-blacktext dark:text-white lg:text-sectiontitle4">
               Get expert advice—fill out the <span className="textStartGradient"> form for your</span><span className="textLastGradient"> free consultation.</span>
               </h4>
             </div>

@@ -20,7 +20,7 @@ const ServicesMenu = () => {
 
     const pathUrl = usePathname();
     const [isHovered, setIsHovered] = useState(0);
-    const [active, setActive] = useState("Enterprise Solution");
+    const [active, setActive] = useState("");
 
     const handleMouseOver = (e) => {
         switch (e.target.getAttribute('data-key')) {
@@ -63,6 +63,7 @@ const ServicesMenu = () => {
                         {serviceMenuData.map((menuItem, key) => (
                             <div key={key} className='relative group/menu'>
                                 <Link href={`${menuItem.path}`}>
+                                
                             <li key={key} data-key={key} className={`px-2.5 py-4 menu cursor-pointer flex gap-2 hover:bg-headerbg hover:text-white rounded-lg`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
                                 
                                 <img src={menuItem.image} width={32} height={32}/>
@@ -70,6 +71,7 @@ const ServicesMenu = () => {
                                 <div key={key} className={`vertical-center w-4 h-4 right-0 group-hover/menu:bg-headerbg `}></div>
                                 
                             </li>
+                            
                             </Link>
                             </div>
                         ))}

@@ -8,24 +8,14 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { motion } from "framer-motion";
-import UserStories from "./userStories";
-import { userStoriesData } from "./userStoriesData";
+import EmployeeStories from "./employeeStories";
+import { employeeStories } from "./employeeStoriesData";
 import { useEffect, useState } from "react";
 
-const DashboardCarousel = (props) => {
-const slideRenderedPage = props.pageRoot;
-console.log("Prp svalue", slideRenderedPage)
+const employeeTestimonial = () => {
   return (
     <>
-    <section>
-    <h3 className="mx-auto mb-4 text-xl text-grey-400 text-center">
-            Discover user success stories
-          </h3>
-          <h4 className="mx-auto mb-4 text-3xl text-center font-bold text-black dark:text-white">
-            Hear <span className="textStartGradient">about us</span> from <span className="textLastGradient"> our happy clients</span>
-          </h4>
-    </section>
-      <section className="userStoriesBackground">
+      <section className="bg-purple">
         <motion.div
           variants={{
             hidden: {
@@ -44,7 +34,7 @@ console.log("Prp svalue", slideRenderedPage)
           viewport={{ once: true }}
           className="animate_top mx-auto mt-8 max-w-c-1235 px-4 md:px-8 xl:mt-16 xl:px-0"
         >
-          <div id="userStories" className="swiper testimonial-02 h-full mb-20 pb-22.5">
+          <div id="userStories" className="swiper empTestimonial h-full mb-20 pb-22.5">
             
             <Swiper
               spaceBetween={0}
@@ -75,17 +65,17 @@ console.log("Prp svalue", slideRenderedPage)
                 },
                 // when window width is >= 848px
                 848: {
-                  slidesPerView: slideRenderedPage === 'home' ? 2 : 1,
+                  slidesPerView: 1,
                 },
                 // when window width is >= 988px
                 988: {
-                  slidesPerView: slideRenderedPage === 'home' ? 2 : 1,
+                  slidesPerView: 1,
                 },
               }}
             >
-              {userStoriesData.map((review) => (
+              {employeeStories.map((review) => (
                 <SwiperSlide key={review?.id}>
-                  <UserStories review={review} customSlide={slideRenderedPage} />
+                  <EmployeeStories review={review} />
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -97,4 +87,4 @@ console.log("Prp svalue", slideRenderedPage)
   );
 };
 
-export default DashboardCarousel;
+export default employeeTestimonial;

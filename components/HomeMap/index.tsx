@@ -18,8 +18,9 @@ const markers = [
 
 
 
-const HomeMap = () => {
+const HomeMap = (prop) => {
   const [showPopOver, setShowPopOver] = useState(false);
+  const mapLoadedPage = prop.fromPage;
 
 const toggleState = (state : boolean) => {
   setShowPopOver(state);
@@ -27,15 +28,14 @@ const toggleState = (state : boolean) => {
 };
 return (
   <>
-  <div className="min-h-fit bg-[#0B0A0A] flex flex-col items-center p-6">
-    <h3 className="mx-auto mb-4 text-xl text-gray-300 text-center">
-      Digital Ecosystem
-    </h3>
-    <h4 className="mx-auto mb-4 text-3xl text-center text-wrap font-bold text-white dark:text-white">
-      Integrating <span className="bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400 bg-clip-text text-transparent" data-tooltip-id="locationPointer1">tech for seamless,</span> connected <span className="bg-gradient-to-r from-lime-600 via-emarald-500 to-teal-400 bg-clip-text text-transparent">digital environments</span> around the globe
-    </h4>
-    {/* <img src="/images/worldMap.svg" alt="world map" className="w-auto h-auto" /> */}
-    <Tooltip id="locationPointer1" place="top">Sample Tool Tip</Tooltip>
+  <div className="min-h-fit bg-[#0B0A0A] flex flex-col items-center p-6 rounded-xl">
+    {mapLoadedPage === 'home' ? 
+    <><><h3 className="mx-auto mb-4 text-xl text-gray-300 text-center">
+          Digital Ecosystem
+        </h3><h4 className="mx-auto mb-4 text-3xl text-center text-wrap font-bold text-white dark:text-white">
+            Integrating <span className="bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400 bg-clip-text text-transparent" data-tooltip-id="locationPointer1">tech for seamless,</span> connected <span className="bg-gradient-to-r from-lime-600 via-emarald-500 to-teal-400 bg-clip-text text-transparent">digital environments</span> around the globe
+          </h4></><Tooltip id="locationPointer1" place="top">Sample Tool Tip</Tooltip></>
+   : ''}
    <div className="w-10/12" data-tip="">
     <ComposableMap>
       <Geographies geography="/features.json">
@@ -76,7 +76,7 @@ return (
          <text
          textAnchor="middle"
          y={markerOffset}
-         style={{ fontFamily: "system-ui", fill: "#5D5A6D" }}
+         style={{ fontFamily: "system-ui", fill: "#5D5A6D"}}
        >
          {name}
        </text>

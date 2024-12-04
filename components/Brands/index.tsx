@@ -26,7 +26,7 @@ const Brands = () => {
             {/* <!-- Additional required wrapper --> */}
             
             <Swiper
-              spaceBetween={30}
+              spaceBetween={0}
               slidesPerView={8}      
               loop={true}
               autoplay={{
@@ -44,11 +44,11 @@ const Brands = () => {
                 },
                 // when window width is >= 848px
                 848: {
-                  slidesPerView: 6,
+                  slidesPerView: 2,
                 },
                 // when window width is >= 988px
                 988: {
-                  slidesPerView: 8,
+                  slidesPerView: 6,
                 },
               }}
             >

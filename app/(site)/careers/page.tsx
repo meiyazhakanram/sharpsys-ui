@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import CareerData from "./careerMapData"
 import CareerElements from "./CareerInfoData"
+import EmployeeStories from '@/components/employeeStories';
 
 
 // export const metadata: Metadata = {
@@ -192,6 +193,10 @@ export default function CareersPage() {
                     </div>
                 </section>
             ))}
+
+            <section>
+                <EmployeeStories/>
+            </section>
         </>
     );
 }

@@ -215,7 +215,6 @@ export default function OurServicePage() {
       <ServicesAnalytics />
       <ServicesBusinessIntelligence />
       <ServicesStaffAugmentation />
-
       <section>
         <div className="min-h-64 w-full flex items-center justify-center bg-[url('/images/ourservices/email_bg.jpg')] bg-cover bg-center">
           <div className="max-w-6xl mx-auto py-8 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 space-x-16">
