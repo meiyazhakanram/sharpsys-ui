@@ -4,6 +4,9 @@ import { useState } from 'react';
 import CareerData from "./careerMapData"
 import CareerElements from "./CareerInfoData"
 import EmployeeStories from '@/components/employeeStories';
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
+
 
 
 // export const metadata: Metadata = {
@@ -15,6 +18,7 @@ import EmployeeStories from '@/components/employeeStories';
 export default function CareersPage() {
 
     const [activeSection, setActiveSection] = useState(null);
+    const [startCountup, setStartCountup] = useState(false);
 
 
 
@@ -48,27 +52,39 @@ export default function CareersPage() {
 
 
             <section className="bg-white py-1 mb-8">
-                <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-                    <div className="flex flex-wrap justify-center gap-4 lg:gap-32.5">
-                        <div className="animate_top text-center">
-                            <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">50+</h3>
-                            <p className="text-lg lg:text-para2">Employees</p></div>
-                        <div className="animate_top text-center">
-                            <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">10+</h3>
-                            <p className="text-lg lg:text-para2">Locations</p></div>
-                        <div className="animate_top text-center">
-                            <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">15+</h3>
-                            <p className="text-lg lg:text-para2">Finished Projects</p></div>
-                        <div className="animate_top text-center">
-                            <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">100+</h3>
-                            <p className="text-lg lg:text-para2">Client across world</p>
-                        </div>
-                        <div className="animate_top text-center">
-                            <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">11+</h3>
-                            <p className="text-lg lg:text-para2">Domain Expert</p>
+                <VisibilitySensor onChange={(isVisible: boolean | ((prevState: boolean) => boolean)) => setStartCountup(isVisible)} partialVisibility={true}>
+                    <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+                        <div className="flex flex-wrap justify-center gap-4 lg:gap-32.5">
+                            <div className="animate_top text-center">
+                                <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+                                    {startCountup && <CountUp end={50} duration={3} />}+
+                                </h3>
+                                <p className="text-lg lg:text-para2">Employees</p></div>
+                            <div className="animate_top text-center">
+                                <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+                                    {startCountup && <CountUp end={10} duration={3} />}+
+                                </h3>
+                                <p className="text-lg lg:text-para2">Locations</p></div>
+                            <div className="animate_top text-center">
+                                <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+                                    {startCountup && <CountUp end={15} duration={3} />}+
+                                </h3>
+                                <p className="text-lg lg:text-para2">Finished Projects</p></div>
+                            <div className="animate_top text-center">
+                                <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+                                    {startCountup && <CountUp end={100} duration={3} />}+
+                                </h3>
+                                <p className="text-lg lg:text-para2">Client across world</p>
+                            </div>
+                            <div className="animate_top text-center">
+                                <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+                                    {startCountup && <CountUp end={11} duration={3} />}+
+                                </h3>
+                                <p className="text-lg lg:text-para2">Domain Expert</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </VisibilitySensor>
             </section>
 
             <section className="bg-white py-1 mb-8">
