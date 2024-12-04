@@ -4,8 +4,12 @@ import FAQ from "@/components/FAQ";
 import UserStories from "@/components/UserStories";
 import Image from "next/image";
 import milestones from "./milestoneData";
-import { Chrono } from 'react-chrono';
+import dynamic from 'next/dynamic';
 
+// Dynamically import react-chrono with ssr set to false
+const Chrono = dynamic(() => import('react-chrono').then(mod => mod.Chrono), {
+  ssr: false, // This disables SSR for this component
+});
 
 export default function AboutUsPage() {
   return (
