@@ -7,6 +7,7 @@ import Blog from "../Blog";
 import Tooltip from "react-tooltip";
 import 'react-tooltip/dist/react-tooltip.css';
 import { motion } from "framer-motion";
+import CountUp from 'react-countup';
 
 const HomeDashboard = () => {
     const [content, setContent] = useState("");
@@ -68,16 +69,16 @@ const HomeDashboard = () => {
                     <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                         <div className="flex md:flex-wrap xl:flex-row justify-center gap-8 lg:gap-42.5">
                             <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">100+</h3>
+                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4"><CountUp end={100} duration={5}/>+</h3>
                                 <p className="text-xs">Client Satisfaction</p></div>
                             <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">24Hrs</h3>
+                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4"><CountUp end={24} duration={5}/>Hrs</h3>
                                 <p className="text-xs">Expert Support Team</p></div>
                             <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">1000+</h3>
+                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4"><CountUp end={1000} duration={2}/>+</h3>
                                 <p className="text-xs">Sales Count</p></div>
                             <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">40+</h3>
+                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4"><CountUp end={40} duration={5}/>+</h3>
                                 <p className="text-xs">Client Worldwide</p></div>
                         </div>
                     </div>
@@ -98,7 +99,7 @@ const HomeDashboard = () => {
 
                 <div className="flex flex-col md:flex-row gap-1">
                     <div className="px-6 mx-12 rounded-lg border border-stroke bg-slate-50 p-1 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
-                        <div className="flex justify-center pt-2"><img width={256} height={256} src="/images/services/servicestab/F&O.png" alt="product image" /></div>
+                        <div className="flex justify-center pt-2"><img width={256} height={256} src="/images/services/F&O.png" alt="product image" /></div>
                         <div className="flex flex-col items-center md:flex-row md:max-w-xl">
 
                             <div className="flex flex-col justify-between p-4 leading-normal">
@@ -111,7 +112,7 @@ const HomeDashboard = () => {
                     <div className="xl:w-6/12 px-6 mx-6 xl:pr-8">
                         <div className="mb-8 rounded-lg border border-stroke bg-slate-50 px-2 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
                             <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
-                                <img alt="title" width="128" height="128" src="/images/services/servicestab/Business Central.png" className="pl-2" />
+                                <img alt="title" width="128" height="128" src="/images/services/Business Central.png" className="pl-2" />
                                 <h5 className="mb-2 px-2 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 Business Central: Your All-in-One Cloud Solution
                                 </h5>
                             </div>
@@ -121,7 +122,7 @@ const HomeDashboard = () => {
                         </div>
                         <div className="rounded-lg border border-stroke bg-slate-50 p-1 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
                             <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
-                                <img alt="title" width="128" height="128" src="/images/services/servicestab/Dynamics 365.png" className="pl-6 md:w-128 md:h-128" />
+                                <img alt="title" width="128" height="128" src="/images/services/Dynamics 365.png" className="pl-6 md:w-128 md:h-128" />
                                 <h5 className="mb-2 px-4 md:text-xl xl:text-lg font-bold tracking-tight text-gray-900">Microsoft Power Platform: Unlock Data-Driven Insights</h5>
                             </div>
                             <p className="mb-3 mx-6 xl:text-sm text-slate-400 dark:text-gray-400 text-justify">Harness the power of data with Microsoft Power Platform. Build apps, automate workflows, and gain insights to drive smarter, faster business decisions.
