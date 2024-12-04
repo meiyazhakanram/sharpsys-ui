@@ -3,11 +3,12 @@ import React from "react";
 import { useState } from 'react';
 import { useEffect } from "react";
 import { servicesDataMap } from "./serviceDataMap";
+import { Item } from "@/types/services";
 
 
 const Services = () => {
     const [activeTab, setActiveTab] = useState(Object.keys(servicesDataMap)[0]);
-    const [selectedItem, setSelectedItem] = useState(null);
+    const [selectedItem, setSelectedItem] = useState<Item | null>(null);
 
     useEffect(() => {
         const firstItem = servicesDataMap[activeTab]?.[0];
