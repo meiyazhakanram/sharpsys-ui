@@ -8,19 +8,19 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
 
   return (
     <>
-      <div className="animate_top mx-w-full relative block h-16 w-[98px]">
-        <Image
-          className="transition-all duration-300 hover:opacity-100 dark:hidden"
+      <div className="animate_top">
+        <img
+          className="w-28 h-16 transition-all duration-300 hover:opacity-100 dark:hidden"
           src={image}
           alt={name}
-          fill
+          
         />
-        <Image
+        {/* <Image
           className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
           src={imageLight}
           alt={name}
           fill
-        />
+        /> */}
         </div>
     </>
   );

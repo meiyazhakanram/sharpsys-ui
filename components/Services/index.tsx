@@ -57,7 +57,7 @@ const Services = () => {
                             <img
                                 src={selectedItem.img}
                                 alt={selectedItem.name}
-                                className="w-full h-full rounded-xl p-1"
+                                className="w-full h-full rounded-xl bg-cover"
                             />
                         ) : (
                             <p className="text-gray-500 text-center ">Select an item to view details</p>

@@ -1,5 +1,5 @@
-import image1 from "@/public/images/userstories/man_avatar.png";
-import image2 from "@/public/images/userstories/woman_avatar.png";
+import image1 from "@/public/images/userstories/unavailable client.png";
+import image2 from "@/public/images/userstories/unavailable client.png";
 
 
 import { Stories } from "@/types/stories";
