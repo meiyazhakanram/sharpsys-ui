@@ -3,11 +3,14 @@ import React, { useState } from "react";
 import Services from "../Services";
 import UserStories from "../UserStories";
 import HomeMap from "../HomeMap";
+
 import Blog from "../Blog";
-import Tooltip from "react-tooltip";
+import { Tooltip as ReactToolTip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
+
 import { motion } from "framer-motion";
 import CountUp from 'react-countup';
+import RenderMap from "../RenderMap";
 
 const HomeDashboard = () => {
     const [content, setContent] = useState("");
@@ -196,8 +199,12 @@ const HomeDashboard = () => {
             <UserStories pageRoot={"home"}/>
 
             {/* Geo Location */}
-            <HomeMap fromPage='home'/>
-            {/* <Tooltip>{content}</Tooltip> */}
+            {/* <HomeMap fromPage='home' setTooltipContent={setContent}/>
+            {console.log("Tooltip Value",content)}
+           <><ReactToolTip anchorSelect=".toolTipLocation">{content}</ReactToolTip> </> */}
+
+            <RenderMap renderFrom='home'/>
+            
 
             {/* Homescreen career */}
 
