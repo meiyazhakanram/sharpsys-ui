@@ -267,11 +267,7 @@ header {
   word-spacing:-2px;
 }
 
-.tooltip {
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  opacity: 0;
-  will-change: opacity;
+svg {
+  display: inline-block;
+  vertical-align: middle;
 }

@@ -1,8 +1,7 @@
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
-import HomeMap from "@/components/HomeMap";
+import RenderMap from "@/components/RenderMap";
 import { Metadata } from "next";
-import Image from "next/image";
 
 
 export const metadata: Metadata = {
@@ -187,7 +186,7 @@ export default function ContactUsPage() {
       </section>
       {/* Geo Location */}
       <section className="mx-10">
-      <HomeMap fromPage='contactus'/>
+      <RenderMap renderFrom='contactus'/>
       </section>
 
       <section className="pb-5 pt-10 md:pb-10 md:pt-18 lg:pb-14 lg:pt-12">
