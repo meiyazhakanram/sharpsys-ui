@@ -11,9 +11,12 @@ import 'react-tooltip/dist/react-tooltip.css';
 import { motion } from "framer-motion";
 import CountUp from 'react-countup';
 import RenderMap from "../RenderMap";
+import VisibilitySensor from 'react-visibility-sensor';
 
 const HomeDashboard = () => {
     const [content, setContent] = useState("");
+    const [startCountup, setStartCountup] = useState(false);
+
     return (
         <>
 
@@ -69,23 +72,32 @@ const HomeDashboard = () => {
                     </div>
                 </div>
                 <section className="py-4">
-                    <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-                        <div className="flex md:flex-wrap xl:flex-row justify-center gap-8 lg:gap-42.5">
-                            <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4"><CountUp end={100} duration={5}/>+</h3>
-                                <p className="text-xs">Client Satisfaction</p></div>
-                            <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4"><CountUp end={24} duration={5}/>Hrs</h3>
-                                <p className="text-xs">Expert Support Team</p></div>
-                            <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4"><CountUp end={1000} duration={2}/>+</h3>
-                                <p className="text-xs">Sales Count</p></div>
-                            <div className="animate_top text-center">
-                                <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4"><CountUp end={40} duration={5}/>+</h3>
-                                <p className="text-xs">Client Worldwide</p></div>
+                    <VisibilitySensor onChange={(isVisible: boolean | ((prevState: boolean) => boolean)) => setStartCountup(isVisible)} partialVisibility={true}>
+                        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+                            <div className="flex md:flex-wrap xl:flex-row justify-center gap-8 lg:gap-42.5">
+                                <div className="animate_top text-center">
+                                    <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">
+                                        {startCountup && <CountUp end={100} duration={3} />}+
+                                    </h3>
+                                    <p className="text-xs">Client Satisfaction</p></div>
+                                <div className="animate_top text-center">
+                                    <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">
+                                        {startCountup && <CountUp end={24} duration={3} />}Hrs
+                                    </h3>
+                                    <p className="text-xs">Expert Support Team</p></div>
+                                <div className="animate_top text-center">
+                                    <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">
+                                        {startCountup && <CountUp end={1000} duration={3} />}+
+                                    </h3>
+                                    <p className="text-xs">Sales Count</p></div>
+                                <div className="animate_top text-center">
+                                    <h3 className="mb-2.5 text-2xl font-bold text-black dark:text-white xl:text-sectiontitle4">
+                                        {startCountup && <CountUp end={40} duration={3} />}+
+                                    </h3>
+                                    <p className="text-xs">Client Worldwide</p></div>
+                            </div>
                         </div>
-                    </div>
-                    
+                    </VisibilitySensor>
                 </section>
             </section>
 
