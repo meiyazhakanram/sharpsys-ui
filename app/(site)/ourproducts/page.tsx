@@ -93,7 +93,7 @@ export default function OurProdcutsPage() {
                     <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
                         <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
                             <img
-                                src="/path/to/your-image.jpg"
+                                src="/images/ourProducts/draganddrop.png"
                                 alt="Team working"
                                 className="w-full h-auto object-cover"
                             />
