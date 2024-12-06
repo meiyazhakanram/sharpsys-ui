@@ -1,8 +1,6 @@
 import Brands from "@/components/Brands";
-import Contact from "@/components/Contact";
-import FAQ from "@/components/FAQ";
+import ServiceFAQ from "@/components/ServiceFAQ";
 import { Metadata } from "next";
-import Image from "next/image";
 import ServicesCRM from "@/components/OurServices/CRM";
 import ServicesAnalytics from "@/components/OurServices/AdvancedAnalytics";
 import ServicesBusinessIntelligence from "@/components/OurServices/BusinessIntelligence";
@@ -245,7 +243,7 @@ export default function OurServicePage() {
           </div>
         </div>
       </section>
-      <FAQ />
+      <ServiceFAQ />
     </>
   );
 }
