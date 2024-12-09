@@ -6,6 +6,7 @@ import CareerElements from "./CareerInfoData"
 import EmployeeStories from '@/components/employeeStories';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
+import CareersCarousel from '@/components/CareersCarousel';
 
 
 
@@ -54,7 +55,7 @@ export default function CareersPage() {
             <section className="bg-white py-1 mb-8">
                 <VisibilitySensor onChange={(isVisible: boolean | ((prevState: boolean) => boolean)) => setStartCountup(isVisible)} partialVisibility={true}>
                     <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-                        <div className="flex flex-wrap justify-center gap-4 lg:gap-32.5">
+                        <div className="flex flex-wrap justify-center gap-6 lg:gap-20">
                             <div className="animate_top text-center">
                                 <h3 className="text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                                     {startCountup && <CountUp end={50} duration={3} />}+
@@ -86,8 +87,13 @@ export default function CareersPage() {
                     </div>
                 </VisibilitySensor>
             </section>
+            
+            <section>
+                <CareersCarousel/>
+            </section>
 
-            <section className="bg-white py-1 mb-8">
+
+            <section className="bg-white pb-4 pt-8 mb-8">
                 <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
                     <div className="max-w-c-1390 max-w-6xl bg-white rounded-lg shadow-lg p-4 flex">
                         <div className="w-1/2 pr-2">
