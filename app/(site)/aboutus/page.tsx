@@ -27,7 +27,7 @@ export default function AboutUsPage() {
           </div>
           <div className="container mb-4">
             <img
-              src="/images/about/team.jpg"
+              src="/images/about/about_us.jpg"
               alt="Team working"
               className="object-cover rounded-xl w-full h-full"
             />
@@ -286,7 +286,7 @@ export default function AboutUsPage() {
             </div>
             <div className="relative ml-0 border bg-white rounded-lg text-left">
               <img
-                src="/images/employees/HEMALATHA NARAYANAN.jpeg"
+                src="/images/employees/HEMALATHA_NARAYANAN.jpg"
                 alt="Team working"
                 className="w-full h-full bg-cover rounded-lg" 
               />
