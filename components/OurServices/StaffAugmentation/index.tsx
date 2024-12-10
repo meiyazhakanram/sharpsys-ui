@@ -11,12 +11,9 @@ const ServicesStaffAugmentation = () => {
               <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-4">
                 <div className="animate-left md:w-1/2 lg:w-1/2 mt-1">
                   <p className="text-white text-xl">Staff Augmentation</p>
-                  <h2 className="relative text-white mb-3 text-1xl font-bold text-black dark:text-white xl:text-hero">
-                    Elevate Your Business with All-in-One BI Solutions
-                  </h2>
                   <p className="mb-25 text-white">
-                    Enhance decision-making and optimize operations with Microsoft Power BI and Tableau’s
-                    cloud-powered business intelligence solutions.
+                  Our Staff Augmentation services offer the agility to expand your team as your project demands
+                  evolve.
                   </p>
                 </div>
               </div>
