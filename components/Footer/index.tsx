@@ -100,7 +100,7 @@ const Footer = () => {
                   </div>
                 </motion.div>
               </div>
-              <div>
+              <div className="md:ml-10">
                 <motion.div
                   variants={{
                     hidden: {
@@ -153,7 +153,7 @@ const Footer = () => {
                 </motion.div>
               </div>
 
-              <div>
+              <div className="md:-ml-10">
                 <motion.div
                   variants={{
                     hidden: {
@@ -206,7 +206,7 @@ const Footer = () => {
                 </motion.div>
               </div>
 
-              <div>
+              <div className="md:-ml-20">
                 <motion.div
                   variants={{
                     hidden: {
@@ -249,7 +249,7 @@ const Footer = () => {
                 </motion.div>
               </div>
 
-              <div>
+              <div className="md:-ml-25">
                 <motion.div
                   variants={{
                     hidden: {
