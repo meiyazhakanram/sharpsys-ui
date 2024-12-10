@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function OurProdcutsPage() {
     return (
         <>
-            <section className="pb-20 pt-3 bg-[url('/images/ourProducts/ourProducts_bg.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
+            <section className="pb-20 px-8 pt-3 bg-[url('/images/ourProducts/ourProducts_bg.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
                 <div className="container mx-auto">
                     <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
                         <div className="flex flex-wrap gap-1 md:flex-nowrap md:gap-10 md:items-center mt-20">
@@ -54,9 +54,7 @@ export default function OurProdcutsPage() {
                 </div>
             </section>
 
-            <Brands />
-
-            <section className="pb-20 pt-3 bg-[url('/images/ourProducts/ourProducts_bg_2.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
+            <section className="pb-20 px-8 pt-3 bg-[url('/images/ourProducts/ourProducts_bg_2.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
                 <div className="container mx-auto">
                     <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
                         <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-20">
@@ -88,7 +86,7 @@ export default function OurProdcutsPage() {
                 </div>
             </section>
 
-            <section className="pb-10 pt-2 md:pb-10 lg:pb-5 lg:pt-5">
+            <section className="pb-10 px-8 pt-2 md:pb-10 lg:pb-5 lg:pt-5">
                 <div className="container mx-auto">
                     <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
                         <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
@@ -118,7 +116,7 @@ export default function OurProdcutsPage() {
             </section>
 
 
-            <section className="pb-20 pt-3 md:pb-10 md:pt-2 lg:pb-20 lg:pt-20">
+            <section className="pb-20 px-8 pt-3 md:pb-10 md:pt-2 lg:pb-20 lg:pt-20">
                 <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
                     <div className="animate_top mx-auto text-center">
                         <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-black dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
