@@ -27,7 +27,7 @@ export default function AboutUsPage() {
           </div>
           <div className="container mb-4">
             <img
-              src="/images/about/team.jpg"
+              src="/images/about/team.png"
               alt="Team working"
               className="object-cover rounded-xl w-full h-full"
             />
