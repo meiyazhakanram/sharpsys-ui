@@ -8,15 +8,15 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const images = [
+    "/images/career/team/team_1.jpg",
+    "/images/career/team/team_2.jpg",
     "/images/career/team/team_3.jpg",
     "/images/career/team/team_4.jpg",
     "/images/career/team/team_5.jpg",
     "/images/career/team/team_6.jpg",
     "/images/career/team/team_7.jpg",
     "/images/career/team/team_8.jpg",
-    "/images/career/team/team_9.jpg",
-    "/images/career/team/team_10.jpg",
-    "/images/career/team/team_11.jpg",
+
 ];
 
 const CareersCarousel = () => {
@@ -26,7 +26,7 @@ const CareersCarousel = () => {
             <section>
                 <div id="userStories" className="swiper h-full">
                     <Swiper
-                        spaceBetween={0}
+                        spaceBetween={20}
                         slidesPerView={3}
                         centeredSlides={true}
                         centeredSlidesBounds={true}
@@ -57,15 +57,27 @@ const CareersCarousel = () => {
                     >
                         {images.map((src, index) => (
                             <SwiperSlide key={index}>
-                                
-                                <div className="flex justify-center">
-                                    <img
-                                        src={src}
-                                        alt={"Sliders"}
-                                        className="h-45 w-auto object-cover rounded-lg"
-                                    />
+                            <div className={`flex flex-col ${index % 2 === 0 ? 'flex-col-reverse' : 'flex-col'}`}>
+                               
+                                    <div className="w-full h-full">
+                                        <img
+                                            src="/images/career/team/carousel_background.png"
+                                            alt="Background Image"
+                                            className="w-96 h-full object-cover object-center rounded-lg"
+                                        />
+                                    </div>
+                                    
+                                    <div className="w-full h-auto py-4">
+                                        <img
+                                            src={src}
+                                            alt="Image"
+                                            className="w-full h-auto object-cover rounded-lg"
+                                        />
+                                    </div>
                                 </div>
-                            </SwiperSlide>
+                            
+                        </SwiperSlide>
+                        
                         ))}
                     </Swiper>
                 </div>
