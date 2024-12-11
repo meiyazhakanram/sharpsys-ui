@@ -37,7 +37,7 @@ const ServicesAnalytics = () => {
     <>
     
       {/* Advanced Analytics */}
-      <section>
+      <section id="advanced-analytics">
         <div className="pt-2 bg-[url('/images/ourservices/services_bg1.jpg')] bg-cover bg-center">
           <div className="container mx-auto">
             <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">

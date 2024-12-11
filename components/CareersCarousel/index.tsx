@@ -15,7 +15,7 @@ const images = [
     "/images/career/team/team_5.jpg",
     "/images/career/team/team_6.jpg",
     "/images/career/team/team_7.jpg",
-    "/images/career/team/team_8.jpg",
+    "/images/career/team/team_9.jpeg",
 
 ];
 
@@ -33,13 +33,13 @@ const CareersCarousel = () => {
                         watchSlidesProgress
                         loop={true}
                         autoplay={{
-                            delay: 1500,
+                            delay: 1000,
                             disableOnInteraction: true,
                             // reverseDirection:true,
                             pauseOnMouseEnter: true
                         }}
-
-                        modules={[Autoplay, Pagination, Thumbs]}
+                        speed={1000}
+                        modules={[Autoplay]}
                         breakpoints={{
                             // when window width is >= 640px
                             0: {
@@ -63,7 +63,7 @@ const CareersCarousel = () => {
                                         <img
                                             src="/images/career/team/carousel_background.png"
                                             alt="Background Image"
-                                            className="w-96 h-full object-cover object-center rounded-lg"
+                                            className="w-96 h-full object-cover object-contain rounded-lg"
                                         />
                                     </div>
                                     
