@@ -4,7 +4,7 @@ const ServicesCRM = () => {
     return (
       <>
       {/* CRM Section */}
-      <section>
+      <section id="services-crm">
         <div className="py-2 px-6 bg-[url('/images/ourservices/services_bg1.jpg')] bg-cover bg-center">
           <div className="container mx-auto">
             <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">

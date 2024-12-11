@@ -451,7 +451,6 @@ svg {
   }
 }
 
-
 @media only screen and (min-width: 640px) and (max-width: 1024px) {
   .links {
     min-height: 47vh;
@@ -468,4 +467,8 @@ svg {
   .links {
     min-height: 82vh;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

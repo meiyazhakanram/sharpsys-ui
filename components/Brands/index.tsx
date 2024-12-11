@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Brands = () => {
   return (
     <>
-      <section className="bg-white py-4 mb-10 mt-4">
+      <section id='our-clients' className="bg-white py-4 mb-4 mt-4">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <h4 className="mx-auto mb-5 text-3xl text-center font-bold text-black dark:text-white">
             Our Esteemed <span className="textStartGradient">Partners</span><span className="textLastGradient"> and Stakeholders</span>
