@@ -16,25 +16,27 @@ const Brands = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <h4 className="mx-auto mb-5 text-3xl text-center font-bold text-black dark:text-white">
             Our Esteemed <span className="textStartGradient">Partners</span><span className="textLastGradient"> and Stakeholders</span>
-          </h4>
-          {/* <div className="grid grid-cols-3 items-center justify-center gap-7.5 md:grid-cols-6 lg:gap-12.5 xl:gap-29"> */}
-            {/* {brandData.map((brand, key) => (
-              <SingleBrand brand={brand} key={key} />
-            ))} */}
-            
+          </h4>        
 <div className="swipe mb-4 pb-4">
             {/* <!-- Additional required wrapper --> */}
             
             <Swiper
               spaceBetween={0}
               slidesPerView={8}      
-              loop={true}
-              autoplay={{
-                delay: 2000,
-                disableOnInteraction: false,
-                reverseDirection:true,
-                pauseOnMouseEnter:true
-              }}
+              // loop={true}
+              // autoplay={{
+              //   delay: 2000,
+              //   disableOnInteraction: false,
+              //   reverseDirection:true,
+              //   pauseOnMouseEnter:true
+              // }}
+              speed={3000}
+  autoplay={{
+    delay: -10,
+    disableOnInteraction: false,
+  }}
+ 
+  loop={true}
               
               modules={[Autoplay, Pagination]}
               breakpoints={{
@@ -48,7 +50,7 @@ const Brands = () => {
                 },
                 // when window width is >= 988px
                 988: {
-                  slidesPerView: 6,
+                  slidesPerView: 4,
                 },
               }}
             >

@@ -13,18 +13,7 @@ const ServicesAnalytics = () => {
     setActiveSection(activeSection === section ? null : section);
   };
 
-  const getSectionClassName = (section) => {
-    return activeSection === section
-      ? 'font-bold border-l-4 border-black shadow-lg ml-2'
-      : 'font-semibold text-gray-800';
-  };
-
-  function toggleMenu() {
-    setMenuOpen(!menuOpen);
-  }
-
-  const anchorDivClick = (elemnent) => {
-    
+  const anchorDivClick = (elemnent) => {  
     setActiveMenu(elemnent);
   }
 
@@ -80,23 +69,19 @@ const ServicesAnalytics = () => {
               <div className="flex flex-wrap lg:flex-nowrap">
                 <div id="sectionElement1" className="w-11/12 pl-8 space-y-4 m-auto">
                   {activeMenu === 1 ?
-                    <>
-                    
+                    <>               
                       <div className="animate_top text-center">
                         <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-black dark:text-black md:w-full xl:w-1/2 xl:text-sectiontitle2">
                           <span className="textStartGradient">Consulting</span>
                         </h2>
                       </div>
                       <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'consulting1' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4' }`}>
-                        <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'consulting1'? 'font-bold text-black': 'text-gray-800'}`} onClick={() => toggleSection('consulting1')}>
+                        <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center font-normal text-black ${activeSection === 'consulting1'? 'font-bold text-black': 'text-gray-800'}`} onClick={() => toggleSection('consulting1')}>
                           Data Analytics Consulting: Harness Your Data’s Full Potential
                         </h3>
-                        {/* {activeSection === 'consulting1' && (
-                          <p className="my-2 py-3 text-gray-600">Sharpsys offers expert data analytics consulting to help businesses maximize the value of their data. We design and implement strategic, data-driven solutions, providing actionable insights that drive growth, improve efficiency, and optimize operations.</p>
-                        )} */}
                       </div>
                       <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'consulting2' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4' } }`} onClick={() => toggleSection('consulting2')}>
-                        <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black  ${activeSection === 'consulting2'? 'font-bold text-black': 'text-gray-800'}`}>
+                        <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center font-semibold text-black  ${activeSection === 'consulting2'? 'font-bold text-black': 'text-gray-800'}`}>
                           Tailored Solutions for Every Sector
                         </h3>           
                       </div>
@@ -362,7 +347,7 @@ const ServicesAnalytics = () => {
                       </div>
                     </> : ''}
                 </div>
-                <div className="w-4/5 pl-8">
+                <div className="w-4/5 pl-8 m-auto">
                   {/* Circular Menu */}
                    <div className="links">
 <img src="/images/services/logo_img.png" className="cn-img" />
