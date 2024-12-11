@@ -1,26 +1,17 @@
-import React, { useRef, useEffect } from "react";
-import Image from "next/image";
+import React from "react";
 import { Brand } from "@/types/brand";
-import { motion } from "framer-motion";
 
 const SingleBrand = ({ brand }: { brand: Brand }) => {
-  const { image, href, name, imageLight, id } = brand;
+  const { image, name } = brand;
 
   return (
     <>
       <div className="animate_top">
         <img
-          className="w-28 h-16 transition-all duration-300 hover:opacity-100 dark:hidden"
+          className="w-48 h-24"
           src={image}
-          alt={name}
-          
+          alt={name}      
         />
-        {/* <Image
-          className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
-          src={imageLight}
-          alt={name}
-          fill
-        /> */}
         </div>
     </>
   );
