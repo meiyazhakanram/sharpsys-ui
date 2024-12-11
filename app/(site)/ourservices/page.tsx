@@ -91,7 +91,7 @@ export default function OurServicePage() {
         </div>
       </section>
 
-      <section className="pb-10 px-6 pt-3 md:pb-10 md:pt-2 lg:pb-10 lg:pt-20">
+      <section id="enterprise-solutions" className="pb-10 px-6 pt-3 md:pb-10 md:pt-2 lg:pb-10 lg:pt-20">
         <div className="container mx-auto">
           <div className="animate_top mx-auto text-center">
             <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-black dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">

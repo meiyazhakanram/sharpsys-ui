@@ -20,7 +20,7 @@ const HomeDashboard = () => {
     return (
         <>
 
-            <section className="commonBackground py-11 md:px-24">
+            <section id='why-sharpsys' className="commonBackground py-11 md:px-24">
                 <div className="mx-auto max-w-c-1390 px-4 mb-8 md:px-8 2xl:px-0">
                     <h3 className="mx-auto mb-4 text-xl text-grey-400 text-center">
                         Why Sharpsys?

@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -125,29 +126,29 @@ const Footer = () => {
 
                   <ul>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <Link href="/#our-clients" className="mb-3 text-sm inline-block hover:text-primary">
                         Our Clients
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <Link href="/#why-sharpsys" className="mb-3 text-sm inline-block hover:text-primary">
                         Why Sharpsys?
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <a href="/ourproducts" className="mb-3 text-sm inline-block hover:text-primary">
                         Our Products
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <a href="/ourservices" className="mb-3 text-sm inline-block hover:text-primary">
                         Our Services
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <Link href="/#testimonials" className="mb-3 text-sm inline-block hover:text-primary">
                         Testimonials
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </motion.div>
@@ -178,27 +179,27 @@ const Footer = () => {
 
                   <ul>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                    <Link href="/ourservices#enterprise-solutions" className="mb-3 text-sm inline-block hover:text-primary">
                         Enterprise Solutions
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <Link href="/ourservices#services-crm" className="mb-3 text-sm inline-block hover:text-primary">
                         CRM
+                      </Link>
+                    </li>
+                    <li>
+                      <a href="/ourservices#advanced-analytics" className="mb-3 text-sm inline-block hover:text-primary">
+                        Advanced Analytics
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
-                        Data Related
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <a href="/ourservices#business-intelligence" className="mb-3 text-sm inline-block hover:text-primary">
                         Business Intelligence
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <a href="/ourservices#staff-augmentation" className="mb-3 text-sm inline-block hover:text-primary">
                         Staff Augmenttion
                       </a>
                     </li>
@@ -231,19 +232,19 @@ const Footer = () => {
 
                   <ul>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <Link href="ourproducts#drag-drop" className="mb-3 text-sm inline-block hover:text-primary">
                         Drag & Drop
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <Link href="ourproducts#e-invoice" className="mb-3 text-sm inline-block hover:text-primary">
                         E-Invoice Integration
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <Link href="ourproducts#e-invoice" className="mb-3 text-sm inline-block hover:text-primary">
                         Quote Engine
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </motion.div>
@@ -274,18 +275,18 @@ const Footer = () => {
 
                   <ul>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
-                        Careers
+                      <a href="/aboutus" className="mb-3 text-sm inline-block hover:text-primary">
+                        About us
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
+                      <a href="/contactus" className="mb-3 text-sm inline-block hover:text-primary">
                         Contact us
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 text-sm inline-block hover:text-primary">
-                        Quote Engine
+                      <a href="/careers" className="mb-3 text-sm inline-block hover:text-primary">
+                        Career
                       </a>
                     </li>
                   </ul>
