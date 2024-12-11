@@ -1,5 +1,4 @@
-import Brands from "@/components/Brands";
-import FAQ from "@/components/FAQ";
+import ProductsFAQ from "@/components/ProductsFAQ";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -187,7 +186,7 @@ export default function OurProdcutsPage() {
                     </div>
                 </div>
             </section>
-            <FAQ />
+            <ProductsFAQ />
         </>
     );
 }
