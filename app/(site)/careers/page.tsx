@@ -8,20 +8,10 @@ import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import CareersCarousel from '@/components/CareersCarousel';
 
-
-
-// export const metadata: Metadata = {
-//     title: "Sharpsys",
-//     description: "Sharpsys - Elevate your Business Productivity"
-// };
-
-
 export default function CareersPage() {
 
     const [activeSection, setActiveSection] = useState(null);
     const [startCountup, setStartCountup] = useState(false);
-
-
 
     // Toggle the active section
     const toggleSection = (section) => {
@@ -87,9 +77,9 @@ export default function CareersPage() {
                     </div>
                 </VisibilitySensor>
             </section>
-            
+
             <section>
-                <CareersCarousel/>
+                <CareersCarousel />
             </section>
 
 
@@ -177,6 +167,9 @@ export default function CareersPage() {
                                             {c.heading.positiontitle}
                                         </th>
                                         <th scope="col" className="px-6 py-1 whitespace-nowrap">
+                                            {c.heading.exptitle}
+                                        </th>
+                                        <th scope="col" className="px-6 py-1 whitespace-nowrap">
                                             {c.heading.locationtitle}
                                         </th>
                                         <th scope="col" className="px-6 py-1">
@@ -192,6 +185,9 @@ export default function CareersPage() {
                                     <tr className="bg-white text-black dark:text-black">
                                         <td className="px-6 py-1 font-medium whitespace-nowrap w-96">
                                             {c.job.position}
+                                        </td>
+                                        <td className="px-6 py-1">
+                                            {c.job.exp}
                                         </td>
                                         <td className="px-6 py-1">
                                             {c.job.location}
@@ -217,7 +213,7 @@ export default function CareersPage() {
             ))}
 
             <section>
-                <EmployeeStories/>
+                <EmployeeStories />
             </section>
         </>
     );
