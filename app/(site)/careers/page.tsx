@@ -124,7 +124,7 @@ export default function CareersPage() {
                 </div>
             </section>
 
-            <section className="min-h-screen w-full flex flex-col items-center justify-center bg-[url('/images/about/perks.png')] bg-contain bg-no-repeat">
+            <section className="min-h-screen w-full flex  px-4 md:px-8 flex-col items-center justify-center bg-[url('/images/about/perks.png')] bg-contain bg-no-repeat">
                 <h2 className="text-center text-white text-2xl font-bold mb-8">Perks & Benefits at Sharpsys</h2>
                 <div className="bg-white rounded-lg shadow-lg p-4 grid md:grid-cols-2 gap-6 w-3/5 justify-items-center">
                     <div className='p-4 border-b-2 border-dashed'>
@@ -150,7 +150,7 @@ export default function CareersPage() {
                 </div>
             </section>
 
-            <section className="bg-white mt-24 mb-4">
+            <section className="bg-white mb-4">
                 <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-3">
                     <h3 className="mb-1 text-3xl font-bold tracking-tight text-black dark:text-black">Explore your <span className='bg-gradient-to-r from-orange-400 via-yellow-500 via-lime-500 via-green-500 to-teal-500 text-transparent bg-clip-text'>dream career opportunities</span></h3>
                 </div>
