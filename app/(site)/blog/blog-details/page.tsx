@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import blogData from "@/components/Blog/blogData";
 import parse from "html-react-parser";
+import Link from "next/link";
 
 const SingleBlogPage = () => {
   const search = useSearchParams();
@@ -14,6 +15,10 @@ const SingleBlogPage = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="lg:w-full">
             <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
+              <Link href="/#homeBlog"><button aria-label="send message" className="inline-flex items-center rounded-lg buttoncolor-bg mb-2 px-3 py-2 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark">
+                Back
+              </button>
+              </Link>
               {blogData.map((blog) => (
                 (blog._id == blogId ?
                   <><div className="mb-10 w-full overflow-hidden">
