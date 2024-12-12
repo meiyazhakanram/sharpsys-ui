@@ -11,19 +11,19 @@ export default function OurProdcutsPage() {
         <>
             <section className="pb-20 px-8 pt-3 bg-[url('/images/ourProducts/ourProducts_bg.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-20">
                 <div className="container mx-auto">
-                    <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
-                        <div className="flex flex-wrap gap-1 md:flex-nowrap md:gap-10 md:items-center mt-20">
-                            <div className="animate-left md:w-1/2 lg:w-1/2 mt-1">
+                    <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0 mt-20">
+                        <div className="flex flex-wrap gap-1 md:flex-nowrap md:gap-10 md:items-center md:mt-30 lg:mt-20">
+                            <div className="animate-left md:w-1/2 lg:w-1/2 mt-4">
                                 <p className="text-white text-xl">Drag and Drop</p>
                                 <h2 className="relative text-white mb-3 text-1xl font-bold text-black dark:text-white xl:text-hero">
                                     Simplify Your DMS with Intuitive Drag-and-Drop
                                 </h2>
-                                <p className="mb-25 text-white">
+                                <p className="mb-15 text-white">
                                     Enhance your DMS with a user-friendly drag-and-drop feature. Streamline file uploads, preview
                                     files before uploading, and reduce manual effort.
                                 </p>
                             </div>
-                            <div className="animate-right md:w-1/4 lg:w-2/5">
+                            <div className="animate-right md:w-1/2 lg:w-1/2">
                                 <div className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black">
                                     <h2 className="mb-7 text-2xl font-semibold text-black dark:text-white xl:text-3xl">Get Started with us</h2>
                                     <form action="https://formbold.com/s/unique_form_id" method="POST">
@@ -164,8 +164,8 @@ export default function OurProdcutsPage() {
 
             <section >
                 <div className="min-h-64 w-full flex items-center justify-center bg-[url('/images/ourProducts/ourProducts_bg_4.jpg')] bg-cover bg-center">
-                    <div className="max-w-6xl mx-auto py-8 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 space-x-16">
-                        <div className=" w-full md:w-1/2">
+                    <div className="max-w-6xl mx-auto py-8 px-8 flex flex-col md:flex-row items-center md:space-y-0">
+                        <div className=" w-full md:w-1/2 p-8">
                             <div>
                                 <img
                                     src="/images/ourProducts/email.jpg"
@@ -175,7 +175,7 @@ export default function OurProdcutsPage() {
                             </div>
                         </div>
                         <div className="text-white md:w-1/2">
-                            <h2 className="text-3xl font-bold mb-6">
+                            <h2 className="text-2xl font-bold mb-6">
                                 Interested in Enterprise solution for your company?
                             </h2>
                             <div className="relative mb-5">
