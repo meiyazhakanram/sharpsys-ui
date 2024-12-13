@@ -37,17 +37,17 @@ export default function AboutUsPage() {
             <div className="border p-6 rounded-xl bg-[#E6BD00C9] textJustify">
               <h3 className="text-3xl font-bold text-blacktext text-center">100%</h3>
               <h5 className="text-xl font-semibold text-blacktext text-center">Successful project implementaion track record</h5>
-              <p className="text-gray-600 mt-2 text-justify break-normal">At TechTill Innovations LLP, we pride ourselves on a flawless 100% project implementation success rate. Our expertise ensures your business objectives are achieved seamlessly, every time.</p>
+              <p className="text-gray-600 mt-2">At TechTill Innovations LLP, we pride ourselves on a flawless 100% project implementation success rate. Our expertise ensures your business objectives are achieved seamlessly, every time.</p>
             </div>
             <div className="border p-6 rounded-lg bg-[#E6BD00C9] textJustify">
               <h3 className="text-3xl font-bold text-blacktext text-center">24 Hrs</h3>
               <h5 className="text-xl font-bold text-blacktext text-center">Round-The-Clock Support</h5>
-              <p className="text-gray-600 mt-2 text-justify whitespace-pre-line">Our dedicated support team is available 24/7 to provide assistance whenever you need it. We are committed to keeping your operations running smoothly without downtime.</p>
+              <p className="text-gray-600 mt-2">Our dedicated support team is available 24/7 to provide assistance whenever you need it. We are committed to keeping your operations running smoothly without downtime.</p>
             </div>
             <div className="border p-6 rounded-lg bg-[#E6BD00C9] textJustify">
               <h3 className="text-3xl font-bold text-blacktext text-center">80+</h3>
               <h5 className="text-xl font-bold text-blacktext text-center">Challenging Projects Completed On-Time</h5>
-              <p className="text-gray-600 mt-2 text-justify">With over 80+ complex projects delivered on-time and on-budget, we bring unmatched reliability and excellence to every engagement.</p>
+              <p className="text-gray-600 mt-2">With over 80+ complex projects delivered on-time and on-budget, we bring unmatched reliability and excellence to every engagement.</p>
             </div>
           </div>
 
@@ -73,7 +73,7 @@ export default function AboutUsPage() {
                     className="w-40 h-40 p-4 object-cover"
                   />
                   <h2 className="text-2xl font-semibold text-blacktext">Innovative ERP Solutions</h2>
-                  <p className="text-sm text-normalGray text-justify">We deliver customized ERP solutions tailored to the unique needs of each client, helping
+                  <p className="text-sm text-normalGray">We deliver customized ERP solutions tailored to the unique needs of each client, helping
                     businesses improve operational efficiency, optimize workflows, and achieve long-term,
                     sustainable growth.
                   </p>
@@ -86,7 +86,7 @@ export default function AboutUsPage() {
                     className="w-40 h-40 p-4 object-cover"
                   />
                   <h2 className="text-2xl font-semibold text-blacktext">Data-Driven Decisions</h2>
-                  <p className="text-sm text-normalGray text-justify">Our mission is to empower companies with advanced data analytics, enabling them to make
+                  <p className="text-sm text-normalGray">Our mission is to empower companies with advanced data analytics, enabling them to make
                     informed decisions, identify opportunities, mitigate risks, and enhance overall business
                     performance and agility.
                   </p>
@@ -281,7 +281,7 @@ export default function AboutUsPage() {
               />
               <div className="absolute bottom-0 w-full bg-darkBlack opacity-75 rounded-lg">
                 <h2 className="text-white px-2 text-lg">Harikrishnan Indrababu</h2>
-                <p className="px-2 text-white text-sm">Cheif Administrative Officer</p>
+                <p className="px-2 text-white text-sm">Chief Administrative Officer</p>
               </div>
             </div>
             <div className="relative ml-0 border bg-white rounded-lg text-left">
@@ -303,7 +303,7 @@ export default function AboutUsPage() {
               />
               <div className="absolute bottom-0 w-full bg-darkBlack opacity-75 rounded-lg">
                 <h2 className="text-white px-2 text-lg">Jay Prasaand</h2>
-                <p className="px-2 text-white text-sm">Sales Head</p>
+                <p className="px-2 text-white text-sm">Vice President - Sales</p>
               </div>
             </div>
           </div>

@@ -5,8 +5,8 @@ const UserStories = ({ review, customSlide }: { review: Stories, customSlide: an
   const { id, header, designation, image, content } = review;
   return (
     <div className={`rounded-3xl h-full p-9 pt-7.5 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none ${customSlide === 'aboutus' ? 'flex w-3/4 m-auto' : 'w-full'}`}>
-    <div className={`flex ${customSlide === 'aboutus' ? 'flex-row w-full m-auto' : 'justify-center items-center'}`}><Image className={`rounded-full w-44 h-44 ${customSlide === 'aboutus' ? 'px-4' : ''} `} src={image} alt={header}/> </div>
-    <div className={`${customSlide === 'home' ? 'flex justify-between dark:border-strokedark' : ''}`}>
+    <div className={`flex ${customSlide === 'aboutus' ? 'flex-row w-2/5 m-auto' : 'justify-center items-center'}`}><Image className={`rounded-full h-48 ${customSlide === 'aboutus' ? 'px-4' : ''} `} src={image} alt={header}/> </div>
+    <div className={`${customSlide === 'home' ? 'flex justify-between dark:border-strokedark' : 'w-full'}`}>
       <div className="p-2">
         <h2 className="text-metatitle2 text-bold text-black text-center dark:text-white">
           {header}

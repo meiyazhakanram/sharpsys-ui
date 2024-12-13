@@ -200,6 +200,9 @@ header {
   @apply !scale-90 !opacity-50
 }
 
+.swiper-slide {
+  @apply m-auto
+}
 
 .gradient-border {
   border: 2px solid transparent;

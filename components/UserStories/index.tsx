@@ -53,13 +53,13 @@ console.log("Prp svalue", slideRenderedPage)
               centeredSlidesBounds={true}
               
           watchSlidesProgress
-          loop={true}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: true,
-            // reverseDirection:true,
-            pauseOnMouseEnter:true
-          }}
+          // loop={true}
+          // autoplay={{
+          //   delay: 3000,
+          //   disableOnInteraction: true,
+          //   // reverseDirection:true,
+          //   pauseOnMouseEnter:true
+          // }}
               
            
 

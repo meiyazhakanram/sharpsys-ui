@@ -50,21 +50,18 @@ export default function OurProdcutsPage() {
                         </div>
                     </div>
                 </div>
-                <div className="pt-8 pl-4 ">
+                {/* <div className="pt-8 pl-4 ">
                 <img
                     src="/images/ourProducts/product_header.png"
                     alt="Team working"
                     className="w-full h-auto"
                 />
-                </div>    
+                </div>     */}
             </section>
-            <section>
-                
-            </section>
-            <section className="pb-20 px-8 pt-3 bg-[url('/images/ourProducts/ourProducts_bg_2.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-20 lg:pt-2">
+            <section className="pb-4 px-8 pt-3 bg-[url('/images/ourProducts/ourProducts_bg_2.jpg')] bg-cover bg-center md:pb-20 md:pt-2 lg:pb-4 lg:pt-2">
                 <div className="container mx-auto">
                     <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
-                        <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-20">
+                        <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center py-4">
                             <div className="animate-left md:w-1/2 lg:w-1/2 mt-1">
                                 <h2 className="relative text-white mb-3 text-3xl font-bold text-black dark:text-white xl:text-hero">
                                     Elevate Your<span className="textStartGradient"> DMS To </span><span className="textLastGradient">Optimize Productivity</span>
@@ -77,7 +74,7 @@ export default function OurProdcutsPage() {
                             <div className="animate-right md:w-1/4 lg:w-2/5">
                             </div>
                         </div>
-                        <div className="flex flex-wrap gap-1 md:gap-20">
+                        {/* <div className="flex flex-wrap gap-1 md:gap-20">
                             <button aria-label="send message" className="inline-flex items-center rounded-2xl px-6 border py-3 text-white duration-300 ease-in-out hover:bg-white hover:text-black dark:bg-btndark">
                                 Drag and Drop
                             </button>
@@ -87,27 +84,27 @@ export default function OurProdcutsPage() {
                             <button aria-label="send message" className="inline-flex items-center rounded-2xl px-6 border py-3 text-white duration-300 ease-in-out hover:bg-white hover:text-black dark:bg-btndark">
                                 Quote Engine
                             </button>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>
             </section>
 
-            <section id="drag-drop" className="pb-10 px-8 pt-2 md:pb-10 lg:pb-5 lg:pt-5">
+            <section id="drag-drop" className="pb-4 pr-2 pt-2 md:pb-5 lg:pb-5 lg:pt-5">
                 <div className="container mx-auto">
-                    <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
+                    <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center">
                         <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
                             <img
                                 src="/images/ourProducts/draganddrop.png"
-                                alt="Team working"
-                                className="w-full h-auto object-cover"
+                                alt="Drag and Drop"
+                                className="w-full h-80 p-10 rounded-lg object-cover"
                             />
                         </div>
                         <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
-                            <h2 className="relative text-black mb-3 text-xl font-bold text-black dark:text-black xl:text-hero">
+                            <h2 className="relative text-black mb-3 text-xl font-bold text-blacktext dark:text-black xl:text-3xl">
                                 Boost DMS Efficiency with User Friendly Drag-and-Drop Solution
                             </h2>
-                            <p className="text-black mb-4">
+                            <p className="text-normalGray mb-4">
                                 Synchronize your document management with our intuitive drag-and-drop feature. Easily drag
                                 and drop multiple files from your desktop into your DMS, preview them before uploading, and
                                 receive clear error messages for unsupported files. This user-friendly interface significantly
@@ -121,13 +118,13 @@ export default function OurProdcutsPage() {
             </section>
 
 
-            <section id="e-invoice" className="pb-20 px-8 pt-3 md:pb-10 md:pt-2 lg:pb-20 lg:pt-20">
+            <section id="e-invoice" className="pb-4 px-8 pt-3 md:pb-10 md:pt-2 lg:pb-4 lg:pt-4">
                 <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
                     <div className="animate_top mx-auto text-center">
-                        <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-black dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
+                        <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-blacktext dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
                             Other products<span className="textStartGradient"> that could be a perfect </span><span className="textLastGradient">fit for your business</span>
                         </h2>
-                        <p className="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%] text-center text-gray-500">
+                        <p className="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%] text-center text-normalGray">
                             Explore our products that can help you create and manage simplified document management
                             systems for your business.
                         </p>
@@ -143,7 +140,7 @@ export default function OurProdcutsPage() {
                             <img
                                 src="/images/ourproducts/e-invoice.png"
                                 alt="E Invoice"
-                                className="w-full h-52 object-cover mt-8"
+                                className="w-full h-52 object-cover mt-10"
                             />
                         </div>
 
@@ -155,7 +152,7 @@ export default function OurProdcutsPage() {
                             <img
                                 src="/images/ourproducts/quote-engine.png"
                                 alt="Quote Engine"
-                                className="w-full h-auto object-cover"
+                                className="w-full h-auto object-cover mt-2"
                             />
                         </div>
                     </div>

@@ -11,7 +11,7 @@ const EmployeeStories = ({ review }: { review: Stories }) => {
       <img className={`w-9 h-9 ml-6`} src={'/images/employeeStories/quote.png'} alt={header}/>
         <div className="flex lg:flex-row flex-col items-center">
         <p className="text-base text-justify text-white m-auto px-4">{content}</p>
-        <Image className={`rounded-full w-36 h-40`} src={image} alt={header}/> </div>  
+        <Image className={`rounded-full h-24`} src={image} alt={header}/> </div>  
         <h2 className="text-metatitle2 text-bold text-white lg:text-right text-center">
           {header}
         </h2>

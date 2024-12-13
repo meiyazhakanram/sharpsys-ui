@@ -150,7 +150,7 @@ export default function CareersPage() {
                 </div>
             </section>
 
-            <section className="bg-white mb-4">
+            <section id="careers-open" className="bg-white mb-4">
                 <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-3">
                     <h3 className="mb-1 text-3xl font-bold tracking-tight text-black dark:text-black">Explore your <span className='bg-gradient-to-r from-orange-400 via-yellow-500 via-lime-500 via-green-500 to-teal-500 text-transparent bg-clip-text'>dream career opportunities</span></h3>
                 </div>
