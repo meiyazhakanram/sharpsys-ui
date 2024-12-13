@@ -21,7 +21,7 @@ export default function OurServicePage() {
             <div className="flex flex-wrap xl:flex-nowrap items-center mt-20">
               <div className="animate-left md:w-1/2 lg:w-1/2 mt-1">
                 <p className="text-white text-xl">Enterprise Solutions</p>
-                <h2 className="relative text-white mb-3 text-1xl font-bold text-blacktext dark:text-white xl:text-hero">
+                <h2 className="relative text-white mb-3 text-3xl font-bold text-blacktext dark:text-white xl:text-hero">
                   Transform Your Business with All-in-One ERP Solutions
                 </h2>
                 <p className="mb-25 text-white">
@@ -66,7 +66,7 @@ export default function OurServicePage() {
           <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
             <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-8">
               <div className="animate-left md:w-1/2 lg:w-1/2 mt-1">
-                <h2 className="relative text-white mb-3 text-1xl font-bold text-blacktext dark:text-white xl:text-hero">
+                <h2 className="relative text-white mb-3 text-3xl font-bold text-blacktext dark:text-white xl:text-hero">
                   Integrate<span className="textStartGradient"> ERP To </span><span className="textLastGradient">Maximize Efficiency</span>
                 </h2>
                 <p className="text-white mb-4">
@@ -93,13 +93,13 @@ export default function OurServicePage() {
       <section id="enterprise-solutions" className="pb-8 pt-3 md:pb-8 md:pt-2 lg:pb-8 lg:pt-8">
         <div className="container mx-auto">
           <div className="animate_top mx-auto text-center">
-            <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-blacktext md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
+            <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-blacktext md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
               <span className="textStartGradient">Microsoft </span><span className="textLastGradient">Dynamics 365</span>  for Finance and operations
             </h2>
           </div>
 
           <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-12">
-            <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
+            <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0 m-auto">
               <img
                 src="/images/services/servicestab/Microsoft Dynamics Business Central_Manufacturing.jpg"
                 alt="Microsoft Dynamics Business"
@@ -121,7 +121,7 @@ export default function OurServicePage() {
 
           <div className="flex flex-wrap gap-10 md:flex-nowrap md:items-center mt-20">
 
-            <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3">
+            <div className="animate-right md:w-3/4 lg:w-3/5 bg-white pl-3 m-auto">
               <h2 className="relative text-blacktext mb-3 text-xl font-bold text-blacktext xl:text-3xl">
                 Business Central is your all-in-one Business Management Solution
               </h2>
@@ -133,7 +133,7 @@ export default function OurServicePage() {
                 it provides everything you need to optimize business efficiency.
               </p>
             </div>
-            <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0">
+            <div className="animate-left md:w-1/4 lg:w-2/5 bg-[#F4F1F8] rounded-lg mt-0 m-auto">
               <img
                 src="/images/ourservices/business_central.jpg"
                 alt="Business Central"
@@ -147,8 +147,8 @@ export default function OurServicePage() {
       <section className="pb-8 bg-[#E6BD00] px-6 pt-3 md:pb-5 md:pt-2 lg:pb-8 lg:pt-8">
         
           <div className="animate_top mx-auto text-center">
-            <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-blacktext dark:text-blacktext md:w-4/5 xl:w-10/12 xl:text-sectiontitle3">
-              Discover more ways of how<span className="textStartGradient"> we can help your </span><span className="textLastGradient">business thrive</span>
+            <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-blacktext dark:text-blacktext md:w-4/5 xl:w-10/12 xl:text-sectiontitle3">
+              Discover more ways of how  we can help your business thrive
             </h2>
             <p className="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%] text-center text-normalGray">
               Explore our other given services that can help you enhance efficiency and streamline your
@@ -217,14 +217,12 @@ export default function OurServicePage() {
       <section>
         <div className="min-h-64 w-full flex items-center justify-center bg-[url('/images/ourservices/email_bg.jpg')] bg-cover bg-center">
           <div className="max-w-6xl mx-auto py-8 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 space-x-16">
-            <div className=" w-full md:w-1/2">
-              <div>
+            <div className=" w-full md:w-1/2 rounded-lg">
                 <img
                   src="/images/ourProducts/email.jpg"
                   alt="Email"
-                  className="rounded-lg"
+                  className="w-full h-80 p-10 rounded-lg object-cover"
                 />
-              </div>
             </div>
             <div className="text-white md:w-1/2">
               <h2 className="text-3xl font-bold mb-6">

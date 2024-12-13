@@ -15,7 +15,7 @@ export default function OurProdcutsPage() {
                         <div className="flex flex-wrap gap-1 md:flex-nowrap md:gap-10 md:items-center md:mt-30 lg:mt-20">
                             <div className="animate-left md:w-1/2 lg:w-1/2 mt-4">
                                 <p className="text-white text-xl">Drag and Drop</p>
-                                <h2 className="relative text-white mb-3 text-1xl font-bold text-black dark:text-white xl:text-hero">
+                                <h2 className="relative text-white mb-3 text-3xl font-bold text-black dark:text-white xl:text-hero">
                                     Simplify Your DMS with Intuitive Drag-and-Drop
                                 </h2>
                                 <p className="mb-15 text-white">
@@ -66,7 +66,7 @@ export default function OurProdcutsPage() {
                     <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
                         <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-20">
                             <div className="animate-left md:w-1/2 lg:w-1/2 mt-1">
-                                <h2 className="relative text-white mb-3 text-1xl font-bold text-black dark:text-white xl:text-hero">
+                                <h2 className="relative text-white mb-3 text-3xl font-bold text-black dark:text-white xl:text-hero">
                                     Elevate Your<span className="textStartGradient"> DMS To </span><span className="textLastGradient">Optimize Productivity</span>
                                 </h2>
                                 <p className="text-white mb-4">
@@ -124,7 +124,7 @@ export default function OurProdcutsPage() {
             <section id="e-invoice" className="pb-20 px-8 pt-3 md:pb-10 md:pt-2 lg:pb-20 lg:pt-20">
                 <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
                     <div className="animate_top mx-auto text-center">
-                        <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-black dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
+                        <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-black dark:text-black md:w-4/5 xl:w-1/2 xl:text-sectiontitle2">
                             Other products<span className="textStartGradient"> that could be a perfect </span><span className="textLastGradient">fit for your business</span>
                         </h2>
                         <p className="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%] text-center text-gray-500">
@@ -141,9 +141,9 @@ export default function OurProdcutsPage() {
                                 while saving you time.
                             </p>
                             <img
-                                src="/path/to/your-image.jpg"
-                                alt="Team working"
-                                className="w-full h-auto object-cover"
+                                src="/images/ourproducts/e-invoice.png"
+                                alt="E Invoice"
+                                className="w-full h-52 object-cover mt-8"
                             />
                         </div>
 
@@ -153,8 +153,8 @@ export default function OurProdcutsPage() {
                                 calculate pricing, and send quotes effortlessly
                             </p>
                             <img
-                                src="/path/to/your-image.jpg"
-                                alt="Team working"
+                                src="/images/ourproducts/quote-engine.png"
+                                alt="Quote Engine"
                                 className="w-full h-auto object-cover"
                             />
                         </div>

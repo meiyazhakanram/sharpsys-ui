@@ -34,6 +34,7 @@ const Brands = () => {
   autoplay={{
     delay: -10,
     disableOnInteraction: false,
+    pauseOnMouseEnter:true
   }}
  
   loop={true}
