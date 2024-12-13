@@ -73,7 +73,7 @@ export default function ContactUsPage() {
             </div>
           </div>
 
-          <div className="mt-4 grid grid-cols-1 gap-5 md:grid-cols-1 lg:mt-15 lg:grid-cols-3 xl:mt-10 xl:gap-10">
+          <div className="mt-4 grid grid-cols-1 gap-5 md:grid-cols-2 lg:mt-15 lg:grid-cols-3 xl:mt-10 xl:gap-10">
             <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
               <img
                 src="/images/contactus/inquiry.png"
@@ -83,21 +83,21 @@ export default function ContactUsPage() {
               <h2 className="text-lg font-semibold text-blacktext">For General Inquiries</h2>
               <div className="border border-2 border-yellow-400 w-24 mb-4"></div>
               <p className="text-sm text-normalGray text-justify">We’re here to sort your queries about the digital evolution of your business. Reach out, and we’ll
-              provide the details you need.
+                provide the details you need.
               </p>
-              <div className="flex mt-4">
-                <div className="flex flex-row w-1/2">
-              <img
-                src="/images/contactus/phone.png"
-                alt="Phone"
-                className="w-6 h-6 mr-2"
-              /><p className="text-xs mt-1">+91 8220933382</p></div>
-              <div className="flex flex-row break-all">
-              <img
-                src="/images/contactus/message.png"
-                alt="Phone"
-                className="w-6 h-6 mr-2"
-              /><p className="text-xs">contactus@sharpsyssoft.com</p></div>
+              <div className="flex flex-col mt-4">
+                <div className="flex flex-row mb-2">
+                  <img
+                    src="/images/contactus/phone.png"
+                    alt="Phone"
+                    className="w-6 h-6 mr-2"
+                  /><p className="text-xs mt-1">+91 8220933382</p></div>
+                <div className="flex flex-row break-all">
+                  <img
+                    src="/images/contactus/message.png"
+                    alt="Email"
+                    className="w-6 h-6 mr-2"
+                  /><p className="text-xs">contactus@sharpsyssoft.com</p></div>
               </div>
             </div>
 
@@ -110,21 +110,21 @@ export default function ContactUsPage() {
               <h2 className="text-lg font-semibold text-blacktext">For Demo Requests</h2>
               <div className="border border-2 border-green-700 w-24 mb-4"></div>
               <p className="text-sm text-normalGray text-justify">Explore our solutions in action. Contact our team and we'll schedule a personalized walkthrough
-              for you.
+                for you.
               </p>
-              <div className="flex mt-4">
-                <div className="flex flex-row w-1/2">
-              <img
-                src="/images/contactus/phone.png"
-                alt="Phone"
-                className="w-6 h-6 mr-2"
-              /><p className="text-xs mt-1">+91 8220933384</p></div>
-              <div className="flex flex-row break-all">
-              <img
-                src="/images/contactus/message.png"
-                alt="Phone"
-                className="w-6 h-6 mr-2"
-              /><p className="text-xs">jay.p@sharpsyssoft.com</p></div>
+              <div className="flex flex-col mt-4">
+                <div className="flex flex-row mb-2">
+                  <img
+                    src="/images/contactus/phone.png"
+                    alt="Phone"
+                    className="w-6 h-6 mr-2"
+                  /><p className="text-xs mt-1">+91 8220933384</p></div>
+                <div className="flex flex-row break-all">
+                  <img
+                    src="/images/contactus/message.png"
+                    alt="Email"
+                    className="w-6 h-6 mr-2"
+                  /><p className="text-xs">jay.p@sharpsyssoft.com</p></div>
               </div>
             </div>
             <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
@@ -136,21 +136,21 @@ export default function ContactUsPage() {
               <h2 className="text-lg font-semibold text-blacktext">For Sales Inquiry</h2>
               <div className="border border-2 border-pink-700 w-24 mb-4"></div>
               <p className="text-sm text-normalGray text-justify">We will help you choose the right solution and pricing for your business. Connect with us for
-              your automation requirements.
+                your automation requirements.
               </p>
-              <div className="flex mt-4">
-                <div className="flex flex-row w-1/2">
-              <img
-                src="/images/contactus/phone.png"
-                alt="Phone"
-                className="w-6 h-6 mr-2"
-              /><p className="text-xs mt-1">+91 8220933384</p></div>
-              <div className="flex flex-row break-all">
-              <img
-                src="/images/contactus/message.png"
-                alt="Phone"
-                className="w-6 h-6 mr-2"
-              /><p className="text-xs">jay.p@sharpsyssoft.com</p></div>
+              <div className="flex flex-col mt-4">
+                <div className="flex flex-row mb-2">
+                  <img
+                    src="/images/contactus/phone.png"
+                    alt="Phone"
+                    className="w-6 h-6 mr-2"
+                  /><p className="text-xs mt-1">+91 8220933384</p></div>
+                <div className="flex flex-row break-all">
+                  <img
+                    src="/images/contactus/message.png"
+                    alt="Email"
+                    className="w-6 h-6 mr-2"
+                  /><p className="text-xs">jay.p@sharpsyssoft.com</p></div>
               </div>
             </div>
 
