@@ -25,7 +25,6 @@ const HomeMap = ({fromPage, setTooltipContent}) => {
 
 const toggleState = (state : boolean) => {
   setShowPopOver(state);
-  console.log(showPopOver);
 };
 return (
   <>

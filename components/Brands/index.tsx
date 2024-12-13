@@ -56,7 +56,7 @@ const Brands = () => {
               }}
             >
               {brandData.map((brand, key) => (
-                <SwiperSlide key={brand?.id}>
+                <SwiperSlide className="homeUserSlide" key={brand?.id}>
                   <SingleBrand brand={brand} key={key}/>
                 </SwiperSlide>
             ))}

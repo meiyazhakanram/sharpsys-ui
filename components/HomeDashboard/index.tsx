@@ -211,11 +211,6 @@ const HomeDashboard = () => {
             {/* User Stories */}
             <UserStories pageRoot={"home"}/>
 
-            {/* Geo Location */}
-            {/* <HomeMap fromPage='home' setTooltipContent={setContent}/>
-            {console.log("Tooltip Value",content)}
-           <><ReactToolTip anchorSelect=".toolTipLocation">{content}</ReactToolTip> </> */}
-
             <RenderMap renderFrom='home'/>
             
 

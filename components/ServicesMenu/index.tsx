@@ -12,16 +12,10 @@ import StaffAugmentation from '../StaffAugmentation';
 
 
 // export default function ServicesMenu() {
-const ServicesMenu = () => {
-    const [navigationOpen, setNavigationOpen] = useState(false);
-    const [dropdownToggler, setDropdownToggler] = useState(false);
-    const [stickyMenu, setStickyMenu] = useState(false);
-
-
-    const pathUrl = usePathname();
+const ServicesMenu = (props) => {
     const [isHovered, setIsHovered] = useState(0);
     const [active, setActive] = useState("");
-
+    const isOpen = props.menuOpen;
     const handleMouseOver = (e) => {
         switch (e.target.getAttribute('data-key')) {
             case "0":
@@ -47,11 +41,15 @@ const ServicesMenu = () => {
         }
     }
 
-    const handleMouseOut = () => {
-        setIsHovered(0); 
+    const handleMouseOut = (key) => {
+        // setIsHovered(0); 
         // setActive("Enterprise Solution")
     }
     
+    useEffect (() => {
+!isOpen ? 
+setIsHovered(0) : ''
+    })
 
     return (
         <>
@@ -64,7 +62,7 @@ const ServicesMenu = () => {
                             <div key={key} className='relative group/menu'>
                                 <Link href={`${menuItem.path}`}>
                                 
-                            <li key={key} data-key={key} className={`px-2.5 py-4 menu cursor-pointer flex gap-2 hover:bg-headerbg hover:text-white rounded-lg`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+                            <li key={key} data-key={key} className={`px-2.5 py-4 menu cursor-pointer flex gap-2 hover:bg-headerbg hover:text-white rounded-lg ${active === menuItem.title ? 'headerbg' : ''}`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
                                 
                                 <img src={menuItem.image} width={32} height={32}/>
                                 {menuItem.title}
