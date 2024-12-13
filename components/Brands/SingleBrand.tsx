@@ -2,13 +2,13 @@ import React from "react";
 import { Brand } from "@/types/brand";
 
 const SingleBrand = ({ brand }: { brand: Brand }) => {
-  const { image, name } = brand;
+  const { image, name, imageLight } = brand;
 
   return (
     <>
-      <div className="animate_top">
+      <div className="animate_top m-auto">
         <img
-          className="w-48 h-24"
+          className={imageLight}
           src={image}
           alt={name}      
         />

@@ -1,8 +1,8 @@
 import React from "react";
 
 const ServicesCRM = () => {
-    return (
-      <>
+  return (
+    <>
       {/* CRM Section */}
       <section id="services-crm">
         <div className="py-2 px-6 bg-[url('/images/ourservices/services_bg1.jpg')] bg-cover bg-center">
@@ -11,7 +11,7 @@ const ServicesCRM = () => {
               <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-4">
                 <div className="animate-left md:w-1/2 lg:w-1/2 mt-1">
                   <p className="text-white text-xl">CRM</p>
-                  <h2 className="relative text-white mb-3 text-1xl font-bold text-black dark:text-white xl:text-hero">
+                  <h2 className="relative text-white mb-3 text-3xl font-bold text-black dark:text-white xl:text-hero">
                     Elevate Your Customer Relationships with All-in-One CRM Solutions
                   </h2>
                   <p className="mb-6 text-white">
@@ -22,28 +22,22 @@ const ServicesCRM = () => {
             </div>
           </div>
         </div>
-        </section>
-        <section>
-        <div className="pb-4">
-          <div className="container mx-auto">
-            <div className="relative mx-auto bg-[#1A0C2F] max-w-c-1390 p-4 md:px-8 xl:px-8">
-              <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center">
-                <div className="animate-top mx-auto text-center md:w-1/2 lg:w-9/12 mt-1">
-                  <h2 className="relative text-white mb-3 text-1xl font-bold text-black dark:text-white xl:text-hero">
-                    Integrate<span className="textStartGradient"> CRM to </span><span className="textLastGradient">Maximize Customer Relationships</span>
-                  </h2>
-                  <p className="text-white mb-4">
-                    Transform your business into a customer-centric powerhouse with Microsoft Dynamics 365.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+      </section>
+      <section className="pb-8 bg-[#1A0C2F] px-6 pt-3 md:pb-5 md:pt-2 lg:pb-8 lg:pt-8">
+        <div className="animate_top mx-auto text-center">
+          <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-white md:w-4/5 xl:w-10/12 xl:text-sectiontitle3">
+            Integrate<span className="textStartGradient"> CRM to </span><span className="textLastGradient">Maximize Customer Relationships</span>
+          </h2>
+          <p className="text-white mb-4">
+            Transform your business into a customer-centric powerhouse with Microsoft Dynamics 365.
+          </p>
         </div>
+      </section>
+      <section>
         <div className="pb-8 pt-3 md:pb-5 md:pt-2 lg:pb-8 lg:pt-8">
           <div className="container mx-auto">
             <div className="animate_top mx-auto text-center">
-              <h2 className="mx-auto mb-2 text-1xl text-center font-bold text-blacktext md:w-4/5 xl:w-9/12 xl:text-sectiontitle2">
+              <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-blacktext md:w-4/5 xl:w-9/12 xl:text-sectiontitle2">
                 Microsoft Dynamics 365 for <span className="textStartGradient">Customer Relationship Management </span><span className="textLastGradient">and Salesforce</span>
               </h2>
             </div>
@@ -91,8 +85,8 @@ const ServicesCRM = () => {
           </div>
         </div>
       </section>
-    {/* CRM Section Ends */}
-      </>
+      {/* CRM Section Ends */}
+    </>
   );
 };
 
