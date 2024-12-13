@@ -18,8 +18,8 @@ const Services = () => {
     }, [activeTab]);
 
     return (
-        <section className="commonBackground">
-            <div className="min-h-screen w-full bg-gray-50 flex flex-col items-center p-6">
+        <section className="commonBackground min-h-64">
+            <div className="w-full bg-gray-50 flex flex-col items-center p-6">
                 <h3 className="mx-auto mb-4 text-xl text-gray-400  text-center">
                     Our Services
                 </h3>

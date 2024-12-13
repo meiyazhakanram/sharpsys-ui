@@ -14,7 +14,6 @@ import { useEffect, useState } from "react";
 
 const DashboardCarousel = (props) => {
 const slideRenderedPage = props.pageRoot;
-console.log("Prp svalue", slideRenderedPage)
   return (
     <>
     <section id="testimonials">

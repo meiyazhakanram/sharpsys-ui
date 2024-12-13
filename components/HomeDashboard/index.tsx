@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 import CountUp from 'react-countup';
 import RenderMap from "../RenderMap";
 import VisibilitySensor from 'react-visibility-sensor';
+import Link from "next/link";
 
 const HomeDashboard = () => {
     const [content, setContent] = useState("");
@@ -20,7 +21,7 @@ const HomeDashboard = () => {
     return (
         <>
 
-            <section id='why-sharpsys' className="commonBackground py-11 md:px-24">
+            <section id='why-sharpsys' className="commonBackground py-4 md:px-24">
                 <div className="mx-auto max-w-c-1390 px-4 mb-8 md:px-8 2xl:px-0">
                     <h3 className="mx-auto mb-4 text-xl text-grey-400 text-center">
                         Why Sharpsys?
@@ -120,7 +121,7 @@ const HomeDashboard = () => {
                             <div className="flex flex-col justify-between p-4 leading-normal">
                                 <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Microsoft Dynamics 365 F&O: Comprehensive Financial Management</h5>
                                 <p className="mb-3 font-normal text-slate-400 dark:text-gray-400 text-justify">Optimize budgeting, project management, and financial operations with Microsoft Dynamics 365 Finance & Operations, tailored for large international companies.</p>
-                                <a href="#" className="underline text-black">Know More</a>
+                                <Link className="underline text-black" href={"/ourservices#enterprise-solutions"}>Know More</Link>
                             </div>
                         </div>
                     </div>
@@ -133,7 +134,7 @@ const HomeDashboard = () => {
                             </div>
                             <p className="mb-3 mx-6 xl:text-sm text-slate-400 dark:text-gray-400 text-justify">Empower your small to medium-sized business with Microsoft Dynamics 365 Business Central, a comprehensive cloud-based platform for seamless management and growth.
                             </p>
-                            <a href="#" className="ml-6 underline text-black">Know More</a>
+                            <Link className="ml-6 underline text-black" href={"/ourservices#enterprise-solutions"}>Know More</Link>
                         </div>
                         <div className="rounded-lg border border-stroke bg-slate-50 p-1 py-3 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark">
                             <div className="flex flex-col items-center md:flex-row md:max-w-xl cursor-text">
@@ -142,7 +143,7 @@ const HomeDashboard = () => {
                             </div>
                             <p className="mb-3 mx-6 xl:text-sm text-slate-400 dark:text-gray-400 text-justify">Harness the power of data with Microsoft Power Platform. Build apps, automate workflows, and gain insights to drive smarter, faster business decisions.
                             </p>
-                            <a href="#" className="ml-6 underline text-black">Know More</a>
+                            <Link className="ml-6 underline text-black" href={"/ourservices#enterprise-solutions"} >Know More</Link>
                         </div>
 
                     </div>
@@ -161,7 +162,7 @@ const HomeDashboard = () => {
                             </h4>
                         </div>
                         <div className="animate_right relative mx-auto md:block md:w-1/2">
-                            <p className="relative mb-3 text-sm p-0 text-white dark:text-white sm:text-sm text-justify">
+                            <p className="relative mb-3 text-sm p-0 text-white dark:text-white sm:text-sm">
                                 Our approach blends traditional waterfall, Microsoft's Sure Step, and agile methods to ensure
                                 precise, timely, and flexible project delivery.
                             </p>
@@ -174,7 +175,7 @@ const HomeDashboard = () => {
                                 <img className="p-8 rounded-t-lg mb-4" src="/images/imple1.png" alt="product image" />
                                 <div className="px-5 pb-5">
                                     <h5 className="text-xl font-semibold text-white dark:text-white">Classic Implementation</h5>
-                                    <div className="flex justify-between text-justify">
+                                    <div className="flex justify-between">
                                         A structured, step-by-step approach using the traditional waterfall model, ensuring thorough,
                                         sequential project completion.
                                     </div>
@@ -185,7 +186,7 @@ const HomeDashboard = () => {
                                 <img className="p-8 rounded-t-lg" src="/images/imple2.png" alt="product image" />
                                 <div className="px-5 pb-5">
                                     <h5 className="text-xl font-semibold text-white dark:text-white">Standard Methodology</h5>
-                                    <div className="flex justify-between text-justify">
+                                    <div className="flex justify-between">
                                         Microsoft's Sure Step Methodology guarantees precise scoping and timelines, offering clarity at
                                         every stage of implementation.
                                     </div>
@@ -196,7 +197,7 @@ const HomeDashboard = () => {
                                 <img className="p-8 rounded-t-lg mb-7" src="/images/imple3.png" alt="product image" />
                                 <div className="px-5 pb-5">
                                     <h5 className="text-xl font-semibold text-white dark:text-white">Modern Methodology</h5>
-                                    <div className="flex justify-between text-justify">
+                                    <div className="flex justify-between">
                                         Agile/Rapid Implementation enables faster go-live with iterative development, enhancing
                                         flexibility and quicker business outcomes.
                                     </div>
@@ -209,11 +210,6 @@ const HomeDashboard = () => {
 
             {/* User Stories */}
             <UserStories pageRoot={"home"}/>
-
-            {/* Geo Location */}
-            {/* <HomeMap fromPage='home' setTooltipContent={setContent}/>
-            {console.log("Tooltip Value",content)}
-           <><ReactToolTip anchorSelect=".toolTipLocation">{content}</ReactToolTip> </> */}
 
             <RenderMap renderFrom='home'/>
             
@@ -235,9 +231,10 @@ const HomeDashboard = () => {
                             <p className="font-normal text-sm text-slate-700 text-justify mb-12">
                                 Join Sharpsys and thrive in a dynamic, collaborative environment where innovation and growth are at the forefront. Build your career with us, embrace new challenges, and be part of a team that values creativity, dedication, and success.
                             </p>
+                            <Link href={"/careers/#careers-open"}>
                             <button type="button" className="focus:outline-none text-white buttoncolor-bg font-small rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
                                 Career at Sharpsys
-                            </button>
+                            </button></Link>
                         </section>
                     </div>
                 </div>

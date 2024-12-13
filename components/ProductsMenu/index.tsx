@@ -13,35 +13,7 @@ import productsMenuData from './productMenuData';
 
 
 // export default function ServicesMenu() {
-const ProductsMenu = (props) => {
-    console.log(props);
-    const [navigationOpen, setNavigationOpen] = useState(false);
-    const [dropdownToggler, setDropdownToggler] = useState(false);
-    const [stickyMenu, setStickyMenu] = useState(false);
-
-
-    const pathUrl = usePathname();
-    const [isHovered, setIsHovered] = useState(0);
-
-    const handleMouseOver = (e) => {
-        switch (e.target.getAttribute('data-key')) {
-            case "0":
-                setIsHovered(1)
-                break
-            case "1":
-                setIsHovered(2)
-                break
-            case "2":
-                setIsHovered(3)
-                break
-            case "3":
-                setIsHovered(4)
-                break
-            case "4":
-                setIsHovered(5)
-                break
-        }
-    }
+const ProductsMenu = () => {
 
     return (
         <>

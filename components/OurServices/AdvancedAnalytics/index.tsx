@@ -24,7 +24,7 @@ const ServicesAnalytics = () => {
               <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center mt-4">
                 <div className="animate-left md:w-1/2 lg:w-1/2 mt-1">
                   <p className="text-white text-xl">Advanced Analytics</p>
-                  <h2 className="relative text-white mb-3 text-3xl font-bold text-black dark:text-white xl:text-hero">
+                  <h2 className="relative text-white mb-3 text-3xl font-bold text-blacktext dark:text-white xl:text-hero">
                     Revamp Your Operations with Advanced Analytics Solutions
                   </h2>
                   <p className="mb-6 text-white">
@@ -58,37 +58,37 @@ const ServicesAnalytics = () => {
                 {activeMenu === 1 ?
                   <>
                     <div className="animate_top text-center">
-                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-black dark:text-black md:w-full xl:w-1/2 xl:text-sectiontitle2">
+                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-blacktext dark:text-blacktext md:w-full xl:w-1/2 xl:text-sectiontitle2">
                         <span className="textStartGradient">Consulting</span>
                       </h2>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'consulting1' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'}`}>
-                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center font-normal text-black ${activeSection === 'consulting1' ? 'font-bold text-black' : 'text-gray-800'}`} onClick={() => toggleSection('consulting1')}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center font-normal text-blacktext ${activeSection === 'consulting1' ? 'text-blacktext' : 'text-gray-800'}`} onClick={() => toggleSection('consulting1')}>
                         Data Analytics Consulting: Harness Your Data’s Full Potential
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'consulting2' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('consulting2')}>
-                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center font-semibold text-black  ${activeSection === 'consulting2' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center text-blacktext  ${activeSection === 'consulting2' ? 'text-blacktext' : 'text-gray-800'}`}>
                         Tailored Solutions for Every Sector
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'consulting3' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('consulting3')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'consulting3' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center text-blacktext ${activeSection === 'consulting3' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Personalize Your Data Strategy
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'consulting4' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('consulting4')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black  ${activeSection === 'consulting4' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center text-blacktext  ${activeSection === 'consulting4' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Move from Reactive to Proactive Decision Making
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'consulting5' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('consulting5')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black  ${activeSection === 'consulting5' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`cursor-pointer flex p-1 justify-between items-center  text-blacktext  ${activeSection === 'consulting5' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Comprehensive Data Analytics Consulting
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'consulting6' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('consulting6')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black  ${activeSection === 'consulting6' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext  ${activeSection === 'consulting6' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Best Practices for Reliable Results
                       </h3>
                     </div>
@@ -96,53 +96,53 @@ const ServicesAnalytics = () => {
                 {activeMenu === 2 ?
                   <>
                     <div className="animate_top mx-auto text-center">
-                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-black dark:text-black xl:text-sectiontitle2">
+                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-blacktext dark:text-blacktext xl:text-sectiontitle2">
                         <span className="textStartGradient">Data Analytics</span>
                       </h2>
                     </div>
 
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'analytics1' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'analytics1' ? 'font-bold text-black' : 'text-gray-800'}`} onClick={() => toggleSection('analytics1')}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'analytics1' ? ' text-blacktext' : 'text-gray-800'}`} onClick={() => toggleSection('analytics1')}>
                         Powerful Insights for Strategic Decisions
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'analytics2' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('analytics2')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'analytics2' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'analytics2' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Descriptive Analytics: Understanding Past Performance
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'analytics3' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('analytics3')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'analytics3' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'analytics3' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Predictive Analytics: Forecast Future Trends and Behaviors
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'analytics4' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('analytics4')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'analytics4' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'analytics4' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Prescriptive Analytics: Actionable Recommendations for Success
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'analytics5' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('analytics5')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'analytics5' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'analytics5' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Real-Time Analytics: React Instantly to Changing Conditions
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'analytics6' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('analytics6')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'analytics6' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'analytics6' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Business Intelligence (BI): Custom Dashboards for Performance Tracking
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'analytics7' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('analytics7')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'analytics7' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'analytics7' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Data Warehousing: Scalable Storage for Easy Access
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'analytics8' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('analytics8')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'analytics8' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'analytics8' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Big Data Solutions: Harness the Power of Large Datasets
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'analytics9' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('analytics9')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'analytics9' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'analytics9' ? ' text-blacktext' : 'text-gray-800'}`}>
                         ETL Integration: Seamless Data Preparation for Analytics
                       </h3>
                     </div>
@@ -150,38 +150,38 @@ const ServicesAnalytics = () => {
                 {activeMenu === 3 ?
                   <>
                     <div className="animate_top mx-auto text-center">
-                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-black dark:text-black xl:text-sectiontitle2">
+                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-blacktext dark:text-blacktext xl:text-sectiontitle2">
                         <span className="textStartGradient">ETL Migration</span>
                       </h2>
                     </div>
 
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'etl1' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'etl1' ? 'font-bold text-black' : 'text-gray-800'}`} onClick={() => toggleSection('etl1')}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'etl1' ? ' text-blacktext' : 'text-gray-800'}`} onClick={() => toggleSection('etl1')}>
                         Seamless Data Transfers to Modern Platforms with ETL Migration
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'etl2' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('etl2')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'etl2' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'etl2' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Tailored ETL Migration Strategies
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'etl3' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('etl3')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'etl3' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'etl3' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Secure and Reliable Data Transfer
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'etl4' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('etl4')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'etl4' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'etl4' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Clean, Standardize, and Optimize
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'etl5' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('etl5')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'etl5' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'etl5' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Optimized for Performance and Scalability
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'etl6' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('etl6')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'etl6' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'etl6' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Ensuring Data Accuracy Post-Migration
                       </h3>
                     </div>
@@ -189,48 +189,48 @@ const ServicesAnalytics = () => {
                 {activeMenu === 4 ?
                   <>
                     <div className="animate_top mx-auto text-center">
-                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-black dark:text-black xl:text-sectiontitle2">
+                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-blacktext dark:text-blacktext xl:text-sectiontitle2">
                         <span className="textStartGradient">Data Migration</span>
                       </h2>
                     </div>
 
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dm1' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dm1' ? 'font-bold text-black' : 'text-gray-800'}`} onClick={() => toggleSection('dm1')}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dm1' ? ' text-blacktext' : 'text-gray-800'}`} onClick={() => toggleSection('dm1')}>
                         Effortless Database Migration with ETL Expertise
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dm2' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dm2')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dm2' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dm2' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Seamless Enterprise Platform Migration: CRM, ERP, CMS & More
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dm3' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dm3')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dm3' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dm3' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Personalize Your Data Strategy
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dm4' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dm4')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dm4' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dm4' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Strategic Cloud Migration Across Leading Platforms
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dm5' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dm5')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dm5' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dm5' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Expert Application Migration to Cloud-Based Solutions
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dm6' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dm6')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dm6' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dm6' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Fast, Scalable, and Disruption-Free Storage Migration
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dm7' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dm7')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dm7' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dm7' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Streamline Complex Data Workflows With ETL Migration
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dm8' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dm8')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dm8' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dm8' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Efficient and Scalable On-Premises to Cloud Migration
                       </h3>
                     </div>
@@ -238,48 +238,48 @@ const ServicesAnalytics = () => {
                 {activeMenu === 5 ?
                   <>
                     <div className="animate_top mx-auto text-center">
-                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-black dark:text-black xl:text-sectiontitle2">
+                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-blacktext dark:text-blacktext xl:text-sectiontitle2">
                         <span className="textStartGradient">Data Warehosuing</span>
                       </h2>
                     </div>
 
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dw1' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'}}`}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dw1' ? 'font-bold text-black' : 'text-gray-800'}`} onClick={() => toggleSection('dw1')}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dw1' ? ' text-blacktext' : 'text-gray-800'}`} onClick={() => toggleSection('dw1')}>
                         Centralised Data for Smarter Decisions
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dw2' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dw2')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dw2' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dw2' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Data Warehouse Design and Development Tailored for Performance
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dw3' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dw3')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dw3' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dw3' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Data Integration: Unified View of Business Operations
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dw4' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dw4')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dw4' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dw4' ? ' text-blacktext' : 'text-gray-800'}`}>
                         ETL Services: Accurate Data Extraction and Loading
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dw5' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dw5')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dw5' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dw5' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Data Modelling and Optimization: Enhanced Query Performance
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dw6' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dw6')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dw6' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dw6' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Cloud Data Warehousing: Scalable and Cost-Efficient Solutions
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dw7' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dw7')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dw7' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dw7' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Data Governance and Security: Protecting Your Data
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'dw8' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('dw8')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'dw8' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'dw8' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Data Warehouse Migration: Seamless Transition with Minimal Disruption
                       </h3>
                     </div>
@@ -287,48 +287,48 @@ const ServicesAnalytics = () => {
                 {activeMenu === 6 ?
                   <>
                     <div className="animate_top mx-auto text-center">
-                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-black dark:text-black xl:text-sectiontitle2">
+                      <h2 className="mx-auto mb-2 text-3xl text-center font-bold text-blacktext dark:text-blacktext xl:text-sectiontitle2">
                         <span className="textStartGradient">Machine Learning</span>
                       </h2>
                     </div>
 
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'ml1' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'ml1' ? 'font-bold text-black' : 'text-gray-800'}`} onClick={() => toggleSection('ml1')}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'ml1' ? ' text-blacktext' : 'text-gray-800'}`} onClick={() => toggleSection('ml1')}>
                         Machine Learning Services: Transform Your Business with AI
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'ml2' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('ml2')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'ml2' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'ml2' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Predictive Modeling: Make Data-Driven Decisions
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'ml3' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('ml3')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'ml3' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'ml3' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Natural Language Processing (NLP): Extract Insights from Text
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'ml4' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('ml4')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'ml4' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'ml4' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Recommendation Engines: Personalized Customer Experiences
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'ml5' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('ml5')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'ml5' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'ml5' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Anomaly Detection: Spot Irregularities Early
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'ml6' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('ml6')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'ml6' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'ml6' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Automation of Business Processes: Streamline Operations
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'ml7' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('ml7')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'ml7' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'ml7' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Image and Video Analysis: Unlock Visual Data Insights
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'ml8' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('ml8')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center font-bold text-black ${activeSection === 'ml8' ? 'font-bold text-black' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext ${activeSection === 'ml8' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Deep Learning Solutions: Solving Complex Challenges
                       </h3>
                     </div>

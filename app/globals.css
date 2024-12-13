@@ -200,6 +200,9 @@ header {
   @apply !scale-90 !opacity-50
 }
 
+.homeUserSlide {
+  @apply !m-auto px-12
+}
 
 .gradient-border {
   border: 2px solid transparent;
