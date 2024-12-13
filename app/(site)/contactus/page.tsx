@@ -73,7 +73,7 @@ export default function ContactUsPage() {
             </div>
           </div>
 
-          <div className="mt-4 grid grid-cols-1 gap-5.5 md:grid-cols-3 lg:mt-15 lg:grid-cols-3 xl:mt-10 xl:gap-10">
+          <div className="mt-4 grid grid-cols-1 gap-5 md:grid-cols-1 lg:mt-15 lg:grid-cols-3 xl:mt-10 xl:gap-10">
             <div className="ml-0 border bg-white rounded-lg p-3 pt-3">
               <img
                 src="/images/contactus/inquiry.png"
