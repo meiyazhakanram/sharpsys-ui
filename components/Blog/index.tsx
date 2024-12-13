@@ -1,5 +1,4 @@
 import React from "react";
-import SectionHeader from "../Common/SectionHeader";
 import BlogItem from "./BlogItem";
 import BlogData from "./blogData";
 import { motion } from "framer-motion";
@@ -12,7 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Blog = () => {
   return (
     <>
-      <section>
+      <section id="homeBlog">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           <div className="animate_top mx-auto text-center">
             <header>Blogs & Posts</header>

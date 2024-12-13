@@ -9,7 +9,7 @@ export type Heading = {
     locationtitle: string;
     noofopeningstitle: string;
     jobtypetitle: string;
-
+    exptitle: string;
 };
 
 export type Job = {
@@ -17,6 +17,7 @@ export type Job = {
     location: string;
     noofopenings: string;
     jobtype: string;
+    exp: string;
 }
 
 export type CareerJoinInfo = {
