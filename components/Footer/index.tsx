@@ -200,7 +200,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a href="/ourservices#staff-augmentation" className="mb-3 text-sm inline-block hover:text-primary">
-                        Staff Augmenttion
+                        Staff Augmentation
                       </a>
                     </li>
                   </ul>

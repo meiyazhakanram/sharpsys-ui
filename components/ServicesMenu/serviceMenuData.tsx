@@ -6,21 +6,21 @@ const serviceMenuData: Menu[] = [
     title: "Enterprise Solution",
     newTab: false,
     path: "/ourservices",
-    image:"/images/menu/menuicons/ES.png",
+    image:"/images/menu/menuIcons/ES.png",
   },
   {
     id: 2,
     title: "CRM",
     newTab: false,
     path: "/ourservices",
-    image:"/images/menu/menuicons/CRM.png",
+    image:"/images/menu/menuIcons/CRM.png",
 },
   {
     id: 3,
     title: "Advanced Analytics",
     newTab: false,
     path: "/ourservices",
-    image:"/images/menu/menuicons/AA.png",
+    image:"/images/menu/menuIcons/AA.png",
   },
 
   {
@@ -28,14 +28,14 @@ const serviceMenuData: Menu[] = [
     title: "Business Intelligence",
     newTab: false,
     path: "/ourservices",
-    image:"/images/menu/menuicons/BI.png",
+    image:"/images/menu/menuIcons/BI.png",
   },
   {
     id: 5,
     title: "Staff Augumentation",
     newTab: false,
     path: "/ourservices",
-    image:"/images/menu/menuicons/SA.png",
+    image:"/images/menu/menuIcons/SA.png",
   },
 ];
 
