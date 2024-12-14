@@ -150,7 +150,7 @@ export default function OurProdcutsPage() {
                                 calculate pricing, and send quotes effortlessly
                             </p>
                             <img
-                                src="/images/ourProducts/quote-engine.png"
+                                src="/images/ourProducts/quoteengine.png"
                                 alt="Quote Engine"
                                 className="w-full h-auto object-cover mt-2"
                             />
