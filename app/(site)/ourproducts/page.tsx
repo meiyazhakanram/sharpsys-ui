@@ -138,7 +138,7 @@ export default function OurProdcutsPage() {
                                 while saving you time.
                             </p>
                             <img
-                                src="/images/ourproducts/e-invoice.png"
+                                src="/images/ourproducts/einvoice.png"
                                 alt="E Invoice"
                                 className="w-full h-52 object-cover mt-10"
                             />
@@ -150,7 +150,7 @@ export default function OurProdcutsPage() {
                                 calculate pricing, and send quotes effortlessly
                             </p>
                             <img
-                                src="/images/ourproducts/quote-engine.png"
+                                src="/images/ourproducts/quoteengine.png"
                                 alt="Quote Engine"
                                 className="w-full h-auto object-cover mt-2"
                             />
