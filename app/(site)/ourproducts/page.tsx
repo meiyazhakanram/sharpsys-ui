@@ -132,7 +132,7 @@ export default function OurProdcutsPage() {
 
 
                     <div className="mt-4 grid grid-cols-1 gap-5.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-2 xl:mt-10 xl:gap-10">
-                        <div className="ml-0 border bg-[url('/images/ourProducts/ourProducts_bg_3.jpg')] bg-cover bg-center rounded-lg p-5 pt-5">
+                        <div className="ml-0 border bg-[url('/images/ourproducts/ourProducts_bg_3.jpg')] bg-cover bg-center rounded-lg p-5 pt-5">
                             <h2 className="text-2xl font-semibold text-white">E-Invoicing</h2>
                             <p className="text-white">Our E-Invoicing solution simplifies your invoicing process, ensuring accuracy and compliance
                                 while saving you time.
@@ -144,7 +144,7 @@ export default function OurProdcutsPage() {
                             />
                         </div>
 
-                        <div className="ml-0 border bg-[url('/images/ourProducts/ourProducts_bg_2.jpg')] bg-cover bg-center rounded-lg p-5 pt-5">
+                        <div className="ml-0 border bg-[url('/images/ourproducts/ourProducts_bg_2.jpg')] bg-cover bg-center rounded-lg p-5 pt-5">
                             <h2 className="text-2xl font-semibold text-white">Quote Engine</h2>
                             <p className="text-white">Generate professional quotes in seconds with our Quote Engine. Customize templates,
                                 calculate pricing, and send quotes effortlessly
