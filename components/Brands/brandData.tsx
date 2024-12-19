@@ -110,7 +110,7 @@ const brandData: Brand[] = [
     id: 16,
     name: "Client",
     href: "#",
-    image: "/images/brand/Infosight consulting.png",
+    image: "/images/brand/infosight consulting.png",
     imageLight: "h-16",
   },
   {
