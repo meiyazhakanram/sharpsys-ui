@@ -52,7 +52,7 @@ const ServicesBusinessIntelligence = () => {
                     </div>
                     <div >
                       <img
-                        src="images/ourservices/business_intelligence\Tableau.jfif"
+                        src="images/ourservices/business_intelligence/Tableau.jpg"
                         alt="Tableau"
                         className="w-full h-64 pl-6 object-contain"
                       />
@@ -141,7 +141,7 @@ const ServicesBusinessIntelligence = () => {
                     </div>
                     <div >
                       <img
-                        src="images/ourservices/business_intelligence\Power_BI.jfif"
+                        src="images/ourservices/business_intelligence/Power_BI.png"
                         alt="Power BI"
                         className="w-full h-64 pl-6 object-contain"
                       />

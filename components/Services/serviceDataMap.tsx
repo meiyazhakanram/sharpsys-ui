@@ -1,8 +1,8 @@
 export const servicesDataMap = {
     "Enterprise Solution": [
         { id: 101, order:"01", name: "Microsoft Dynamics 365 F&O", description:"Streamline finance and operations for global businesses.", img: "/images/services/servicestab/F&O.jpg" },
-        { id: 102, order:"02", name: "Microsoft Dynamics 365 Business Central", description:"A cloud-based solution for SMBs to manage and grow.", img: "/images/services/servicestab/Business Central.jpg" },
-        { id: 103, order:"03", name: "Microsoft Power Platform", description:"Empower data-driven decisions through automation and insights.", img: "/images/services/servicestab/Dynamics 365.jpg" },
+        { id: 102, order:"02", name: "Microsoft Dynamics 365 Business Central", description:"A cloud-based solution for SMBs to manage and grow.", img: "/images/services/servicestab/Business_Central.png" },
+        { id: 103, order:"03", name: "Microsoft Power Platform", description:"Empower data-driven decisions through automation and insights.", img: "/images/services/servicestab/Dynamics_365.png" },
     ],
     "CRM": [
         { id: 201, order:"01", name: "Microsoft 365 Customer Engagement", description:"Enhance customer relationships with integrated solutions.", img: "/images/services/servicestab/Customer Engagement.jfif" },
@@ -17,11 +17,11 @@ export const servicesDataMap = {
         { id: 306, order:"06", name: "Machine Learning", description:"Leverage AI for predictive analytics and automation.", img: "/images/services/servicestab/Machine Learning.jpg" },
     ],
     "Business Intelligence": [
-        { id: 401, order:"01", name: "Power BI", description:"Visualize data insights with interactive dashboards.", img: "/images/services/servicestab/Power BI.jpg" },
+        { id: 401, order:"01", name: "Power BI", description:"Visualize data insights with interactive dashboards.", img: "/images/services/servicestab/Power_BI.png" },
         { id: 402, order:"02", name: "Tableau", description:"Turn complex data into impactful visual stories.", img: "/images/services/servicestab/Tableau.jpg" },
     ],
     "Staff Augmentation": [
-        { id: 501, order:"01", name: "Industry Verticals", description:"", img: "/images/services/servicestab/industry vertical.jfif" },
+        { id: 501, order:"01", name: "Industry Verticals", description:"", img: "/images/services/servicestab/industry_vertical.png" },
         { id: 502, order:"02", name: "Resource Capabilities", description:"", img: "/images/services/servicestab/Resource capability.jfif" },
     ],
 };
