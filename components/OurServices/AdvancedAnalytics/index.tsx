@@ -83,7 +83,7 @@ const ServicesAnalytics = () => {
                       </h3>
                     </div>
                     <div className={`pl-6 border-l-4 border-[#ccbf5a] rounded-e-lg transition ease-in-out shadow-lg ${activeSection === 'consulting5' ? 'shadow-lg bg-[#fff8db]' : 'border-l-4'} }`} onClick={() => toggleSection('consulting5')}>
-                      <h3 className={`cursor-pointer flex p-1 justify-between items-center  text-blacktext  ${activeSection === 'consulting5' ? ' text-blacktext' : 'text-gray-800'}`}>
+                      <h3 className={`text-sm cursor-pointer flex p-1 justify-between items-center  text-blacktext  ${activeSection === 'consulting5' ? ' text-blacktext' : 'text-gray-800'}`}>
                         Comprehensive Data Analytics Consulting
                       </h3>
                     </div>
