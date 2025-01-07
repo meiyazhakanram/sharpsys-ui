@@ -1,6 +1,6 @@
-import image1 from "@/public/images/dashboard/Dashboard_img_01.svg";
-import image2 from "@/public/images/dashboard/Dashboard_img_02.svg";
-import image3 from "@/public/images/dashboard/Dashboard_img_03.svg";
+import image1 from "@/public/images/dashboard/Dashboard_img_01.png";
+import image2 from "@/public/images/dashboard/Dashboard_img_02.png";
+import image3 from "@/public/images/dashboard/Dashboard_img_03.png";
 import { Details } from "@/types/details";
 
 export const detailsData: Details[] = [

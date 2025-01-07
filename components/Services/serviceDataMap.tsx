@@ -21,7 +21,7 @@ export const servicesDataMap = {
         { id: 402, order:"02", name: "Tableau", description:"Turn complex data into impactful visual stories.", img: "/images/services/servicestab/Tableau.jpg" },
     ],
     "Staff Augmentation": [
-        { id: 501, order:"01", name: "Industry Verticals", description:"", img: "/images/services/servicestab/industry_vertical.png" },
+        { id: 501, order:"01", name: "Industry Verticals", description:"", img: "/images/services/servicestab/Industry_vertical.png" },
         { id: 502, order:"02", name: "Resource Capabilities", description:"", img: "/images/services/servicestab/Resource capability.jfif" },
     ],
 };
