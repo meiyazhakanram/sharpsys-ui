@@ -97,7 +97,7 @@ setIsHovered(0) : ''
                         Talk to Sales
                         </button>
                     </span>
-                    {/* <p className='ml-4 menuSubContent text-black'>Ut ultricies lacus non fermentum ultrices.</p> */}
+                    <p className='ml-4 menuSubContent text-black'>Please contact our sales team.</p>
                 </section> 
                  
                 </main>
