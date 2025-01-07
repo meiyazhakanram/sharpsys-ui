@@ -14,7 +14,7 @@ export const servicesDataMap = {
         { id: 303, order:"03", name: "ETL Mitigation", description:"Streamline data integration and minimize ETL issues.", img: "/images/services/servicestab/ETL Migration.jpg" },
         { id: 304, order:"04", name: "Data Migration", description:"Ensure seamless, secure transfer of critical data.", img: "/images/services/servicestab/Data Migration.png" },
         { id: 305, order:"05", name: "Data Warehousing", description:"Centralize and optimize data storage for easy access.", img: "/images/services/servicestab/Data Warehousing.png" },
-        { id: 306, order:"06", name: "Machine Learning", description:"Leverage AI for predictive analytics and automation.", img: "/images/services/servicestab/Machine Learning.jpg" },
+        { id: 306, order:"06", name: "Machine Learning", description:"Leverage AI for predictive analytics and automation.", img: "/images/services/servicestab/Machine learning.jpg" },
     ],
     "Business Intelligence": [
         { id: 401, order:"01", name: "Power BI", description:"Visualize data insights with interactive dashboards.", img: "/images/services/servicestab/Power_BI.png" },
