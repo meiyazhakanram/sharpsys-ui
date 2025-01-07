@@ -96,7 +96,7 @@ export default function CareersPage() {
                             </button>
                         </div>
 
-                        <div className="md:w-1/2 pl-8 space-y-4 mt-6">
+                        <div className="md:w-1/2 pl-0 md:pl-8 space-y-4 mt-6">
                             {CareerElements.map((element) => (
                                 <div
                                     key={element.id}
@@ -126,7 +126,7 @@ export default function CareersPage() {
 
             <section className="min-h-screen w-full flex  px-4 md:px-8 flex-col items-center justify-center bg-[url('/images/about/perks.png')] bg-contain bg-no-repeat">
                 <h2 className="text-center text-white text-2xl font-bold mb-8">Perks & Benefits at Sharpsys</h2>
-                <div className="bg-white rounded-lg shadow-lg p-4 grid grid-cols-1 gap-5 md:grid-cols-2 gap-6 md:w-3/5 justify-items-center">
+                <div className="bg-white rounded-lg shadow-lg p-4 grid grid-cols-1 md:grid-cols-2 gap-6 md:w-3/5 justify-items-center">
                     <div className='p-4 border-b-2 border-dashed'>
                         <h3 className="font-semibold text-black text-lg mb-2">Professional & Personal Growth:</h3>
                         <p className="text-gray-600">Invest in your growth with training and education opportunities.</p>
