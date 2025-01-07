@@ -30,7 +30,7 @@ export default function ContactUsPage() {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-12">
           <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center">
             <div className="animate-right mb-2 md:w-3/4 lg:w-3/5 text-white">
-              <img src="/images/contactus/contactus1.png" alt="About" className="py-12" />
+              <img src="/images/contactus/Contactus1.png" alt="About" className="py-12" />
             </div>
             <div className="animate-left md:w-1/4 lg:w-2/5 mt-0"            >
               <span className="font-medium text-black dark:text-black">
@@ -69,7 +69,7 @@ export default function ContactUsPage() {
               </p>
             </div>
             <div className="animate-right mb-2 md:w-3/4 lg:w-3/5 text-white">
-              <img src="/images/contactus/contactus2.png" alt="About" className="w-full h-full" />
+              <img src="/images/contactus/Contactus2.png" alt="About" className="w-full h-full" />
             </div>
           </div>
 
