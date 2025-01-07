@@ -32,7 +32,7 @@ const employeeTestimonial = () => {
           whileInView="visible"
           transition={{ duration: 1, delay: 0.1 }}
           viewport={{ once: true }}
-          className="animate_top mx-auto mt-8 max-w-c-1235 px-4 md:px-8 xl:mt-16 xl:px-0"
+          className="animate_top mx-auto max-w-c-1390"
         >
           <div id="userStories" className="swiper empTestimonial h-full mb-20 pb-22.5">
             

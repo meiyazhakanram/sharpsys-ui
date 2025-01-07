@@ -84,9 +84,9 @@ export default function CareersPage() {
 
 
             <section className="bg-white pb-4 pt-8 mb-8">
-                <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-                    <div className="max-w-c-1390 max-w-6xl bg-white rounded-lg shadow-lg p-4 flex">
-                        <div className="w-1/2 pr-2">
+                <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-12">
+                    <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center">
+                        <div className="md:w-1/2 pr-2">
                             <h2 className="text-3xl font-bold text-black mb-4">Why <span className="bg-gradient-to-r from-orange-400 via-lime-500 via-green-500 to-teal-500 text-transparent bg-clip-text">Join Us</span></h2>
                             <p className="text-gray-600 mb-6">
                                 We are committed to delivering exceptional results. We value actions and our prime focus is on quality work. Join us and be part of a team that prioritizes results and makes an impact.
@@ -96,7 +96,7 @@ export default function CareersPage() {
                             </button>
                         </div>
 
-                        <div className="w-1/2 pl-8 space-y-4">
+                        <div className="md:w-1/2 pl-0 md:pl-8 space-y-4 mt-6">
                             {CareerElements.map((element) => (
                                 <div
                                     key={element.id}
@@ -126,7 +126,7 @@ export default function CareersPage() {
 
             <section className="min-h-screen w-full flex  px-4 md:px-8 flex-col items-center justify-center bg-[url('/images/about/perks.png')] bg-contain bg-no-repeat">
                 <h2 className="text-center text-white text-2xl font-bold mb-8">Perks & Benefits at Sharpsys</h2>
-                <div className="bg-white rounded-lg shadow-lg p-4 grid md:grid-cols-2 gap-6 w-3/5 justify-items-center">
+                <div className="bg-white rounded-lg shadow-lg p-4 grid grid-cols-1 md:grid-cols-2 gap-6 md:w-3/5 justify-items-center">
                     <div className='p-4 border-b-2 border-dashed'>
                         <h3 className="font-semibold text-black text-lg mb-2">Professional & Personal Growth:</h3>
                         <p className="text-gray-600">Invest in your growth with training and education opportunities.</p>
@@ -150,7 +150,7 @@ export default function CareersPage() {
                 </div>
             </section>
 
-            <section id="careers-open" className="bg-white mb-4">
+            <section id="careers-open" className="bg-white mb-4 mt-3">
                 <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-3">
                     <h3 className="mb-1 text-3xl font-bold tracking-tight text-black dark:text-black">Explore your <span className='bg-gradient-to-r from-orange-400 via-yellow-500 via-lime-500 via-green-500 to-teal-500 text-transparent bg-clip-text'>dream career opportunities</span></h3>
                 </div>
