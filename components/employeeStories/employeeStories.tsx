@@ -8,10 +8,10 @@ const EmployeeStories = ({ review }: { review: Stories }) => {
     <div className={`flex justify-center items-center'`}>
     <div className={`flex justify-between dark:border-strokedark`}>
       <div className="p-2">
-      <img className={`w-9 h-9 ml-6`} src={'/images/employeeStories/quote.png'} alt={header}/>
+      <img className={`w-9 h-9 -m1-1 md:ml-0`} src={'/images/employeeStories/quote.png'} alt={header}/>
         <div className="flex lg:flex-row flex-col items-center">
-        <p className="text-base text-justify text-white m-auto px-4">{content}</p>
-        <Image className={`rounded-full w-36 h-40`} src={image} alt={header}/> </div>  
+        <p className="text-base text-justify text-white m-auto md:px-0">{content}</p>
+        <Image className={`rounded-full w-36 h-40 md:ml-3`} src={image} alt={header}/> </div>  
         <h2 className="text-metatitle2 text-bold text-white lg:text-right text-center">
           {header}
         </h2>

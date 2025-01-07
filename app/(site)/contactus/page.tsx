@@ -19,20 +19,20 @@ export default function ContactUsPage() {
           </h1>
           <p className="text-white text-center">Share your story with us, and let's explore the possibilities together.</p>
         </div>
-        <div className="flex flex-wrap gap-4 xl:justify-center ">
-                  <button aria-label="Contact US" className="inline-flex items-center gap-2.5 rounded-lg buttoncolor-contactus-bg px-2 py-1 text-black duration-300 ease-in-out hover:bg-blackho dark:bg-btndark">
-                    Contact us
-                  </button>
-                </div>
+        <div className="gap-4 xl:justify-center text-center">
+          <button aria-label="Contact US" className="inline-flex items-center gap-2.5 rounded-lg buttoncolor-contactus-bg px-2 py-1 text-black duration-300 ease-in-out hover:bg-blackho dark:bg-btndark">
+            Contact us
+          </button>
+        </div>
       </section>
 
-      <section>
-        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex items-center gap-8 lg:gap-8">
-            <div className="animate_left relative mx-auto aspect-[588/526.5] md:block md:w-1/2">
-              <img src="/images/contactus/contactus1.png" alt="About" className="py-12"/>
+      <section className="pb-1 pt-4 bg-white md:pb-2 md:pt-4 lg:pb-4 lg:pt-2">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-12">
+          <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center">
+            <div className="animate-right mb-2 md:w-3/4 lg:w-3/5 text-white">
+              <img src="/images/contactus/contactus1.png" alt="About" className="py-12" />
             </div>
-            <div className="animate_right md:w-1/2 p-4"            >
+            <div className="animate-left md:w-1/4 lg:w-2/5 mt-0"            >
               <span className="font-medium text-black dark:text-black">
                 <span className="mb-4 underline text-black ">
                   New User
@@ -53,15 +53,15 @@ export default function ContactUsPage() {
         </div>
       </section>
 
-      <section className="pb-16 pt-15 rounded-lg bg-[#E6BD00] md:pb-15 md:pt-15 lg:pb-15 lg:pt-15">
+      <section className="pb-1 pt-5 rounded-lg bg-[#E6BD00] md:pb-2 md:pt-5 lg:pb-4 lg:pt-2">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-12">
           <div className="flex flex-wrap gap-1 md:flex-nowrap md:items-center">
             <div className="animate-left md:w-1/4 lg:w-2/5 mt-0">
-            <span className="font-medium text-blacktext underline dark:text-black md:mt-5">
+              <span className="font-medium text-blacktext underline dark:text-black md:mt-5">
                 For Support
               </span>
               <h1 className="mx-auto mb-2 text-3xl font-bold text-blacktext 2xl:text-sectiontitle1">
-              Need Assistance? We're Here for Your Tech Support
+                Need Assistance? We're Here for Your Tech Support
               </h1>
               <p className="mb-4 text-normalGray">
                 If you are already using our solutions, discuss your technical setbacks with us. Connect with our
@@ -69,7 +69,7 @@ export default function ContactUsPage() {
               </p>
             </div>
             <div className="animate-right mb-2 md:w-3/4 lg:w-3/5 text-white">
-            <img src="/images/contactus/contactus2.png" alt="About" className="w-full h-full" />
+              <img src="/images/contactus/contactus2.png" alt="About" className="w-full h-full" />
             </div>
           </div>
 
@@ -186,7 +186,7 @@ export default function ContactUsPage() {
       </section>
       {/* Geo Location */}
       <section className="mx-10">
-      <RenderMap renderFrom='contactus'/>
+        <RenderMap renderFrom='contactus' />
       </section>
 
       <section className="pb-5 pt-10 md:pb-10 md:pt-18 lg:pb-14 lg:pt-12">
