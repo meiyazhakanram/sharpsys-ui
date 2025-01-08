@@ -33,18 +33,18 @@ export default function AboutUsPage() {
             />
           </div>
 
-          <div className="grid grid-cols-1 gap-12 mb-5 md:grid-cols-1 lg:mt-15 lg:grid-cols-3 xl:mt-20 xl:gap-12">
-            <div className="border p-6 rounded-xl bg-[#E6BD00C9] textJustify">
+          <div className="grid grid-cols-1 gap-8 mb-5 md:grid-cols-1 lg:mt-10 lg:grid-cols-3 xl:mt-20 xl:gap-12">
+            <div className="border p-3 rounded-xl bg-[#E6BD00C9] textJustify">
               <h3 className="text-2xl font-bold text-blacktext text-center">100%</h3>
               <h5 className="text-lg font-semibold text-blacktext text-center">Successful Project Implementaion Track Record</h5>
               <p className="text-gray-600 mt-2 text-sm">At TechTill Innovations LLP, we pride ourselves on a flawless 100% project implementation success rate. Our expertise ensures your business objectives are achieved seamlessly, every time.</p>
             </div>
-            <div className="border p-6 rounded-lg bg-[#E6BD00C9] textJustify">
+            <div className="border p-3 rounded-lg bg-[#E6BD00C9] textJustify">
               <h3 className="text-2xl font-bold text-blacktext text-center">24 Hrs</h3>
-              <h5 className="text-lg font-bold text-blacktext text-center">Round-The-Clock Support<br/><br/></h5>
+              <h5 className="text-lg font-bold text-blacktext text-center">Round-The-Clock Support</h5>
               <p className="text-gray-600 mt-2 text-sm">Our dedicated support team is available 24/7 to provide assistance whenever you need it. We are committed to keeping your operations running smoothly without downtime.</p>
             </div>
-            <div className="border p-6 rounded-lg bg-[#E6BD00C9] textJustify">
+            <div className="border p-3 rounded-lg bg-[#E6BD00C9] textJustify">
               <h3 className="text-2xl font-bold text-blacktext text-center">80+</h3>
               <h5 className="text-lg font-bold text-blacktext text-center">Challenging Projects Completed On-Time</h5>
               <p className="text-gray-600 mt-2 text-sm">With over 80+ complex projects delivered on-time and on-budget, we bring unmatched reliability and excellence to every engagement.</p>

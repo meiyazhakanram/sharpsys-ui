@@ -44,21 +44,23 @@ const Footer = () => {
                   </h1>
 
                   <form action="#">
-                    <div className="relative mb-5">
+                    <div className="relative mb-1">
                       <input
                         type="text"
-                        placeholder="Email your email id"
+                        placeholder="Email"
                         className="w-full rounded-lg border text-black border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                       />
-
-                      <button type="button" className="absolute right-0 p-2 mt-1 mr-1 text-white buttoncolor-bg rounded-lg">
+                    </div>
+                    <div className="relative mb-5">
+                      <button type="button" className="absolute right-0 p-2 text-white buttoncolor-bg rounded-lg">
                         Subscribe
                       </button>
+
                     </div>
                   </form>
 
 
-                  <div className="w-full h-auto py-2 flex  gap-2 flex-wrap">
+                  <div className="w-full h-auto pt-8 flex gap-2 flex-wrap">
                     <a href="https://x.com/sharpsys38391" target="_blank"
                       className="bg-white p-2 rounded-3xl flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 72 72" fill="none">
@@ -179,7 +181,7 @@ const Footer = () => {
 
                   <ul>
                     <li>
-                    <Link href="/ourservices#enterprise-solutions" className="mb-3 text-sm inline-block hover:text-primary">
+                      <Link href="/ourservices#enterprise-solutions" className="mb-3 text-sm inline-block hover:text-primary">
                         Enterprise Solutions
                       </Link>
                     </li>
@@ -298,7 +300,7 @@ const Footer = () => {
           {/* <!-- Footer Top --> */}
 
           {/* <!-- Footer Bottom --> */}
-          <div className="flex flex-col text-right flex-wrap border-t border-stroke py-7 dark:border-strokedark">
+          <div className="flex flex-col text-right flex-wrap border-t border-stroke pt-2 pb-3 dark:border-strokedark">
             <motion.div
               variants={{
                 hidden: {
