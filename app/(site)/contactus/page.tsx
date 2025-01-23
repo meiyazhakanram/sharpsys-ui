@@ -3,7 +3,6 @@ import FAQ from "@/components/FAQ";
 import RenderMap from "@/components/RenderMap";
 import { Metadata } from "next";
 
-
 export const metadata: Metadata = {
   title: "Sharpsys",
   description: "Sharpsys - Elevate your Business Productivity"
