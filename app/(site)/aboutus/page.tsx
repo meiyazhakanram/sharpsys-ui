@@ -33,8 +33,8 @@ export default function AboutUsPage() {
             />
           </div>
 
-          <div className="grid grid-cols-1 gap-8 mb-5 md:grid-cols-1 lg:mt-10 lg:grid-cols-3 xl:mt-20 xl:gap-10">
-            <div className="border p-4 rounded-xl bg-[#E6BD00C9] textJustify">
+          <div className="grid grid-cols-1 gap-8 mb-5 md:grid-cols-1 lg:mt-10 lg:grid-cols-3 xl:mt-20 xl:gap-12">
+            <div className="border p-6 rounded-xl bg-[#E6BD00C9] textJustify">
               <h3 className="text-2xl font-bold text-blacktext text-center">100%</h3>
               <h5 className="text-lg font-semibold text-blacktext text-center">Successful Project Implementaion Track Record</h5>
               <p className="text-gray-600 mt-2 text-sm">We pride ourselves on a flawless 100% project implementation success rate. Our expertise ensures your business objectives are achieved seamlessly, every time.</p>
