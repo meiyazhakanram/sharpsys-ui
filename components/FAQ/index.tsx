@@ -15,7 +15,7 @@ const FAQ = () => {
       {/* <!-- ===== FAQ Start ===== --> */}
       <section className="py-11 bg-[#0B0A0A] mb-15">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <h3 className="mx-auto mb-2 text-xl text-gray-600 text-center">
+          <h3 className="mx-auto mb-2 text-xl text-white text-center">
             FAQ'S
           </h3>
           <h4 className="mx-auto mb-4 text-3xl text-center text-white font-bold dark:text-white">
