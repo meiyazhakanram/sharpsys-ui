@@ -172,7 +172,7 @@ export default function ContactUsPage() {
               <img alt="title" loading="lazy" width="36" height="36" src="/images/icon/indiaflag.png" />
               <h3 className="text-sm font-semibold text-blacktext mt-2">Sharpsys Software Solutions [l] Pvt. Ltd.,</h3>
               <p className="text-sm font-medium text-normalGray">No.14,Venu's Building,
-                Mahalakshmi Nagar Ext III,<br />
+                Ext III,<br />
                 Mahalakshmi Nagar Main Road, Nandivaram,<br />
                 Guduvanchery-603 202.<br />Tamil Nadu, India.</p>
             </div>
